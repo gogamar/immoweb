@@ -1,0 +1,12 @@
+class StaticController < ApplicationController
+  skip_before_action :authenticate_user!, only: :home
+
+  def home
+  end
+
+  def about_us
+  end
+
+  def terms
+  end
+end

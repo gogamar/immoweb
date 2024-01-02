@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *default
+  database: immoweb_development
+
+test:
+  <<: *default
+  database: immoweb_test
+
+production:
+  <<: *default
+  database: immoweb_production
+  username: immoweb
+  password: <%= ENV["IMMOWEB_DATABASE_PASSWORD"] %>
