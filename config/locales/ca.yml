@@ -1,0 +1,28 @@
+ca:
+  already_member: Ja estàs registrat?
+  home: Inici
+  about_us: Sobre nosaltres
+  listings: Immobles
+  contact: Contacte
+  open_main_menu: Obrir menú principal
+  add_your_listing: Afegir el teu immoble
+  open_user_menu: Obrir menú d'usuari
+  your_profile: El teu perfil
+  settings: Configuració
+  sign_out: Tancar sessió
+  phone: Telèfon
+  email: Email
+  ca: Català
+  es: Castellà
+  en: Anglès
+  fr: Francès
+  routes:
+    admin: admin
+    new: nou
+    edit: editar
+    delete: esborrar
+    show: mostrar
+    index: llistar
+    create: crear
+    static: general
+    all_listings: apartaments-i-cases

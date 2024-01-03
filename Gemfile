@@ -48,8 +48,24 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # added gems
+gem 'font_awesome5_rails'
+gem "simple_form"
 gem 'devise'
 gem 'administrate'
+gem 'route_translator'
+gem 'rails-i18n'
+gem 'devise-i18n'
+gem "pundit"
+gem 'net-ftp'
+gem "geocoder"
+gem 'pagy', '~> 6.0' # omit patch digit
+gem 'flag-icons-rails'
+# fixme these 4 need to be configured:
+gem "cloudinary"
+gem "sidekiq"
+gem "sidekiq-failures", "~> 1.0"
+gem "sidekiq-cron"
+gem "dotenv-rails"
 
 # Use Sass to process CSS
 # gem "sassc-rails"

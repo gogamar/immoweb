@@ -14,6 +14,7 @@ eagerLoadControllersFrom("controllers", application);
 // Controller files must be named *_controller.js.
 
 import {
+  Alert,
   Dropdown,
   Modal,
   Tabs,
@@ -21,6 +22,7 @@ import {
   Toggle,
   Slideover,
 } from "tailwindcss-stimulus-components";
+application.register("alert", Alert);
 application.register("dropdown", Dropdown);
 application.register("modal", Modal);
 application.register("tabs", Tabs);
