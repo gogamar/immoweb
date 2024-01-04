@@ -12,6 +12,71 @@ ca:
   sign_out: Tancar sessió
   phone: Telèfon
   email: Email
+  price: Preu
+  apartment: Pis
+  on_sale: En venda
+  for_rent: En lloguer
+  sold: Venut
+  rented: Llogat
+  available: Disponible
+  reserved: Reservat
+  earnest_deposit: Arres
+  contract: Contracte
+  transaction_completed: Operació realitzada
+  rented_with_option_to_buy: Llogat amb opció a compra
+  off_market: Baixa
+  housing: Pis
+  house: Casa
+  parking: Aparcament
+  shop: Local
+  office: Oficina
+  land: Sòl
+  building: Edifici
+  warehouse: Industrial
+  hotel: Hotel
+  regular: Regular
+  good: Bona
+  excellent: Excel·lent
+  very_good: Molt bona
+  needs_renovation: Necessita reforma
+  new: Nou
+  renovated: Reformada
+  newly_renovated: Reformada a estrenar
+  penthouse: Àtic
+  ground_floor_with_garden: Baixos amb jardí
+  townhouse: Casa de poble
+  duplex: Dúplex
+  studio: Estudi
+  loft: Loft
+  triplex: Tríplex
+  bungalow: Bungaló
+  country_house: Casa rural
+  chalet: Xalet / Torre
+  farmhouse: Masia
+  terraced: Unifamiliar adossada
+  detached: Unifamiliar aïllada
+  urban_land: Sòl urbà
+  parking_space: Plaça d'aparcament
+  parking_interior: Plaça d'aparcament interior
+  other: Altres
+  penthouse: Àtic
+  ground_floor_with_garden: Baixos amb jardí
+  townhouse: Casa de poble
+  duplex: Dúplex
+  studio: Estudi
+  loft: Loft
+  triplex: Tríplex
+  bungalow: Bungaló
+  country_house: Casa rural
+  chalet: Xalet / Torre
+  farmhouse: Masoveria
+  terraced: Unifamiliar adossada
+  detached: Unifamiliar aïllada
+  urban_land: Sòl urbà
+  parking_space: Plaça d'aparcament
+  interior: Interior
+  other: Altres
+  in: a
   ca: Català
   es: Castellà
   en: Anglès

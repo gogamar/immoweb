@@ -1,15 +1,12 @@
-<div class="mx-auto md:w-2/3 w-full flex">
-  <div class="mx-auto">
-    <% if notice.present? %>
-      <p class="py-2 px-3 bg-green-50 mb-5 text-green-500 font-medium rounded-lg inline-block" id="notice"><%= notice %></p>
-    <% end %>
-
-    <%= render @listing %>
-
-    <%= link_to "Edit this listing", edit_listing_path(@listing), class: "mt-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-    <div class="inline-block ml-2">
-      <%= button_to "Destroy this listing", listing_path(@listing), method: :delete, class: "mt-2 rounded-lg py-3 px-5 bg-gray-100 font-medium" %>
+<div class="mx-auto w-full max-w-7xl grow lg:flex xl:px-2">
+  <div class="flex-1 xl:flex">
+    <div class="px-4 py-6 sm:px-6 lg:pl-8 xl:flex-1 xl:pl-6 bg-slate-100">
+      <%= render @listing %>
     </div>
-    <%= link_to "Back to listings", listings_path, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+  </div>
+  <div class="shrink-0 border-t border-gray-200 px-4 py-6 sm:px-6 lg:w-96 lg:border-l lg:border-t-0 lg:pr-8 xl:pr-6">
+    <%# render "vertical_search_form" %>
+    contact form
+    fixme add featured rentals or similar rentals
   </div>
 </div>

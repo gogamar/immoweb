@@ -1,4 +1,6 @@
 class ListingsController < ApplicationController
+  skip_before_action :authenticate_user!, only: %i[ index show ]
+  before_action :skip_authorization, only: %i[ index show ]
   before_action :set_listing, only: %i[ show edit update destroy ]
 
   # GET /listings or /listings.json
@@ -65,6 +67,6 @@ class ListingsController < ApplicationController
   end
 
   def listing_params
-    params.require(:listing).permit(:status, :ref_number, :idfile, :idagency, :listing_type, :latitude, :longitude, :address, :typestreet, :namestreet, :numberstreet, :postcode, :speclocation, :region, :province, :country, :usable_area, :built_area, :operation, :salesprice, :rentprice, :title_ca, :title_es, :title_en, :title_fr, :description_ca, :description_es, :description_en, :description_fr, :bedrooms, :terrace, :lift, :featured, :town_id, :user_id)
+    params.require(:listing).permit(:status, :ref_number, :idfile, :idagency, :listing_type, :latitude, :longitude, :address, :typestreet, :namestreet, :numberstreet, :postcode, :speclocation, :region, :province, :country, :usable_area, :built_area, :operation, :salesprice, :rentprice, :title_ca, :title_es, :title_en, :title_fr, :description_ca, :description_es, :description_en, :description_fr, :bedrooms, :terrace, :lift, :featured, :town_name, :mark, :local_status, :listing_subtype, :new_build, :bank_owned, :town_area, :loc_precision, :preservation, :year_built, :energy_cert, :bedrooms, :double_bedrooms, :single_bedrooms, :bathrooms, :town_id, :user_id, photos: [])
   end
 end

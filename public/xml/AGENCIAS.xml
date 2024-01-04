@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Agencias xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Agencia>
+    <IdAgencia>inmo_02814</IdAgencia>
+    <Nombre>FINQUES SISTACH</Nombre>
+    <DNI>39357949G</DNI>
+    <CodigoColegiado>1009-GI</CodigoColegiado>
+    <Provincia>Girona</Provincia>
+    <Localidad>Estartit</Localidad>
+    <TipoVia/>
+    <NombreVia>Carrer de l'Església, 34, bxs</NombreVia>
+    <NumeroVia>1</NumeroVia>
+    <CodigoPostal>17258</CodigoPostal>
+    <PersonaContacto/>
+    <Telefono>608514199</Telefono>
+    <Fax/>
+    <Email>info@sistachfinques.com</Email>
+    <PaginaWeb>www.sistachfinques.com</PaginaWeb>
+  </Agencia>
+</Agencias>

@@ -1,0 +1,22 @@
+<div id="<%= dom_id image_url %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Caption:</strong>
+    <%= image_url.caption %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Url:</strong>
+    <%= image_url.url %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Listing:</strong>
+    <%= image_url.listing_id %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this image url", image_url, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to "Edit this image url", edit_image_url_path(image_url), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
+</div>

@@ -20,3 +20,13 @@
 /*
  *= require flag-icon
  */
+
+.slick-prev {
+  left: 10px;
+  z-index: 999;
+}
+
+.slick-next {
+  right: 10px;
+  z-index: 999;
+}

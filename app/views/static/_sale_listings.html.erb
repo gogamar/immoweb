@@ -1,0 +1,16 @@
+<div class="bg-slate-100">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="sm:flex sm:items-baseline sm:justify-between">
+      <h3 class="text-2xl font-bold tracking-tight text-gray-700">New Properties</h3>
+      <a href="#" class="hidden text-sm font-semibold text-sky-600 hover:text-sky-500 sm:block">
+        Browse all
+        <span aria-hidden="true"> &rarr;</span>
+      </a>
+    </div>
+    <ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+      <% @sale_listings.each do |listing| %>
+        <%= render "listing_card", listing: listing %>
+      <% end %>
+    </ul>
+  </div>
+</div>

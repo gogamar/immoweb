@@ -1,0 +1,5 @@
+import_listings:
+  cron: "0 6 * * *"
+  class: "ImportListingsJob"
+  active_job: true
+  description: "Imports listings from ghestia every morning at 6 am"

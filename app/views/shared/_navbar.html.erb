@@ -24,7 +24,8 @@
             <% desktop_default = "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" %>
             <!-- Current: "border-sky-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
             <%= link_to t('home'), root_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium #{ current_page?(root_path) ? desktop_current : desktop_default }" %>
-            <%= link_to t('listings'), all_listings_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium #{ current_page?(all_listings_path) ? desktop_current : desktop_default }" %>
+            <%= link_to t('on_sale'), sale_listings_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium #{ current_page?(sale_listings_path) ? desktop_current : desktop_default }" %>
+            <%= link_to t('for_rent'), rental_listings_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium #{ current_page?(rental_listings_path) ? desktop_current : desktop_default }" %>
             <%= link_to t('about_us'), about_us_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium #{ current_page?(about_us_path) ? desktop_current : desktop_default }" %>
             <%= link_to t('contact'), contact_us_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium #{ current_page?(contact_us_path) ? desktop_current : desktop_default }" %>
           </div>
@@ -74,7 +75,8 @@
       <% mobile_current = "bg-cyan-50 border-sky-500 text-sky-700" %>
       <% mobile_default = "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" %>
       <%= link_to t('home'), root_path, class: "block border-l-4 py-2 pl-3 pr-4 text-base font-medium sm:pl-5 sm:pr-6 #{ current_page?(root_path) ? mobile_current : mobile_default }" %>
-      <%= link_to t('listings'), all_listings_path, class: "block border-l-4 py-2 pl-3 pr-4 text-base font-medium sm:pl-5 sm:pr-6 #{ current_page?(all_listings_path) ? mobile_current : mobile_default }" %>
+      <%= link_to t('on_sale'), sale_listings_path, class: "block border-l-4 py-2 pl-3 pr-4 text-base font-medium sm:pl-5 sm:pr-6 #{ current_page?(sale_listings_path) ? mobile_current : mobile_default }" %>
+      <%= link_to t('for_rent'), rental_listings_path, class: "block border-l-4 py-2 pl-3 pr-4 text-base font-medium sm:pl-5 sm:pr-6 #{ current_page?(rental_listings_path) ? mobile_current : mobile_default }" %>
       <%= link_to t('about_us'), about_us_path, class: "block border-l-4 py-2 pl-3 pr-4 text-base font-medium sm:pl-5 sm:pr-6 #{ current_page?(about_us_path) ? mobile_current : mobile_default }" %>
       <%= link_to t('contact'), contact_us_path, class: "block border-l-4 py-2 pl-3 pr-4 text-base font-medium sm:pl-5 sm:pr-6 #{ current_page?(contact_us_path) ? mobile_current : mobile_default }" %>
       <%= link_to t('add_your_listing'), new_listing_path, class: "block border-l-4 py-2 pl-3 pr-4 text-base font-medium sm:pl-5 sm:pr-6 #{ current_page?(new_listing_path) ? mobile_current : mobile_default }" %>

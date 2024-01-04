@@ -1,11 +1,29 @@
 Rails.application.routes.draw do
+  namespace :admin do
+      resources :features
+      resources :image_urls
+      resources :listings
+      resources :towns
+      resources :users
+
+      root to: "features#index"
+    end
   localized do
+    # Sidekiq Web UI, only for admins.
+    require "sidekiq/web"
+    require 'sidekiq/cron/web'
+    authenticate :user, ->(user) { user.admin? } do
+      mount Sidekiq::Web => '/sidekiq'
+    end
+    resources :features
+    resources :image_urls
     resources :towns
     resources :listings
     get 'static/about_us', to: 'static#about_us', as: :about_us
     get 'static/terms'
     get 'static/contact', to: 'static#contact_us', as: :contact_us
-    get 'static/all_listings', to: 'static#all_listings', as: :all_listings
+    get 'static/sale_listings', to: 'static#sale_listings', as: :sale_listings
+    get 'static/rental_listings', to: 'static#rental_listings', as: :rental_listings
     devise_for :users
     root to: "static#home"
   end

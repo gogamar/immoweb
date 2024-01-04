@@ -66,6 +66,6 @@ class TownsController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def town_params
-    params.require(:town).permit(:name_ca, :name_es, :name_en, :name_fr, :description_ca, :description_es, :description_en, :description_fr)
+    params.require(:town).permit(:name_ca, :name_es, :name_en, :name_fr, :description_ca, :description_es, :description_en, :description_fr, photos: [])
   end
 end
