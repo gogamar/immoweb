@@ -2,10 +2,21 @@ class Listing < ApplicationRecord
   belongs_to :user
   belongs_to :town, optional: true
   has_many :image_urls, dependent: :destroy
-  has_and_belongs_to_many :features
+  has_and_belongs_to_many :features, join_table: "listings_features"
   # geocoded_by :address
   # after_validation :geocode, if: :will_save_change_to_address?
   has_many_attached :photos
+
+  scope :filter_by_reference, -> (ref) { self.where("reference ilike ?", ref) }
+  scope :filter_by_sale, -> { self.where(operation: "sale")}
+  scope :filter_by_rent, -> { self.where(operation: "rent")}
+  scope :filter_by_town, -> (param_values) { includes(:town).where('town.name' => param_values) }
+  scope :filter_by_type, -> (listing_type) { where(listing_type: listing_type) }
+  scope :filter_by_min, -> (min) { where('salesprice >= ?', min.to_i) }
+  scope :filter_by_max, -> (max) { where('salesprice <= ?', max.to_i) }
+  scope :filter_by_bedrooms, -> (num_bedrooms) { where(bedrooms: num_bedrooms.to_i)}
+
+  OPERATIONS = [ "buy", "rent", "holidays" ]
 
   LISTING_STATUS = {
     "Disponible" => "available",
@@ -62,6 +73,24 @@ class Listing < ApplicationRecord
     "Necesita reforma" => "needs_renovation",
     "Nuevo" => "new",
     "Reformado" => "renovated",
+    "reformado" => "renovated",
     "Reformado a estrenar" => "newly_renovated"
   }
+
+  # fixme: add more types of streets from Ghestia
+
+  TYPESTREET = {
+    "Calle" => "street",
+    "Avenida" => "avenue",
+    "Paseo" => "promenade",
+    "Plaza" => "square",
+    "Carretera" => "road",
+    "Bulevar" => "boulevard",
+    "Callejón" => "alley",
+    "Pasaje" => "passage"
+  }
+
+  def has_feature?(feature_name)
+    features.exists?(name: feature_name)
+  end
 end

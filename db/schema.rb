@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2024_01_03_211748) do
+ActiveRecord::Schema[7.0].define(version: 2024_05_11_080611) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -40,6 +40,66 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_03_211748) do
     t.bigint "blob_id", null: false
     t.string "variation_digest", null: false
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
+  end
+
+  create_table "contacts", force: :cascade do |t|
+    t.string "name"
+    t.string "phone"
+    t.string "email"
+    t.text "message"
+    t.string "budget"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "contents", force: :cascade do |t|
+    t.string "header_background"
+    t.string "header_title_ca"
+    t.string "header_title_es"
+    t.string "header_title_en"
+    t.string "header_title_fr"
+    t.string "action_phrase_ca"
+    t.string "action_phrase_es"
+    t.string "action_phrase_en"
+    t.string "action_phrase_fr"
+    t.string "action_button_ca"
+    t.string "action_button_es"
+    t.string "action_button_en"
+    t.string "action_button_fr"
+    t.string "reviews_title_ca"
+    t.string "reviews_title_es"
+    t.string "reviews_title_en"
+    t.string "reviews_title_fr"
+    t.string "reviews_subtitle_ca"
+    t.string "reviews_subtitle_es"
+    t.string "reviews_subtitle_en"
+    t.string "reviews_subtitle_fr"
+    t.string "add_property_title_ca"
+    t.string "add_property_title_es"
+    t.string "add_property_title_en"
+    t.string "add_property_title_fr"
+    t.string "add_property_subtitle_ca"
+    t.string "add_property_subtitle_es"
+    t.string "add_property_subtitle_en"
+    t.string "add_property_subtitle_fr"
+    t.string "posts_title_ca"
+    t.string "posts_title_es"
+    t.string "posts_title_en"
+    t.string "posts_title_fr"
+    t.string "posts_subtitle_ca"
+    t.string "posts_subtitle_es"
+    t.string "posts_subtitle_en"
+    t.string "posts_subtitle_fr"
+    t.string "contact_title_ca"
+    t.string "contact_title_es"
+    t.string "contact_title_en"
+    t.string "contact_title_fr"
+    t.string "contact_subtitle_ca"
+    t.string "contact_subtitle_es"
+    t.string "contact_subtitle_en"
+    t.string "contact_subtitle_fr"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "features", force: :cascade do |t|
@@ -109,6 +169,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_03_211748) do
     t.string "town_name"
     t.string "local_status"
     t.string "mark"
+    t.date "published_on"
     t.index ["town_id"], name: "index_listings_on_town_id"
     t.index ["user_id"], name: "index_listings_on_user_id"
   end
@@ -119,6 +180,37 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_03_211748) do
     t.index ["feature_id"], name: "index_listings_features_on_feature_id"
     t.index ["listing_id", "feature_id"], name: "index_listings_features_on_listing_id_and_feature_id", unique: true
     t.index ["listing_id"], name: "index_listings_features_on_listing_id"
+  end
+
+  create_table "offices", force: :cascade do |t|
+    t.string "name"
+    t.string "address"
+    t.string "phone_number"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.float "latitude"
+    t.float "longitude"
+  end
+
+  create_table "services", force: :cascade do |t|
+    t.string "summary_title_ca"
+    t.string "summary_title_es"
+    t.string "summary_title_en"
+    t.string "summary_title_fr"
+    t.text "summary_ca"
+    t.text "summary_es"
+    t.text "summary_en"
+    t.text "summary_fr"
+    t.string "description_title_ca"
+    t.string "description_title_es"
+    t.string "description_title_en"
+    t.string "description_title_fr"
+    t.text "description_ca"
+    t.text "description_es"
+    t.text "description_en"
+    t.text "description_fr"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "towns", force: :cascade do |t|

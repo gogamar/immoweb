@@ -1,0 +1,7 @@
+<% operations.each do |operation| %>
+  <div class="flex items-center gap-x-3">
+    <% checked = (operation == params["ot"] || @operations.count == 1) ? "checked" : "" %>
+    <input <%= checked %> id="operation_<%= operation %>" name="ot" type="radio" value="<%= operation %>" class="h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" data-action="change->filter#submitForm">
+    <label for="operation_<%= operation %>" class="block text-sm font-medium leading-6 text-gray-900"><%= t(operation) %></label>
+  </div>
+<% end %>

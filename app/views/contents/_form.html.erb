@@ -1,0 +1,237 @@
+<%= form_with(model: content, class: "contents") do |form| %>
+  <% if content.errors.any? %>
+    <div id="error_explanation" class="bg-red-50 text-red-500 px-3 py-2 font-medium rounded-lg mt-3">
+      <h2><%= pluralize(content.errors.count, "error") %> prohibited this content from being saved:</h2>
+      <ul>
+        <% content.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="my-5">
+    <%= form.label :header_title_ca %>
+    <%= form.text_field :header_title_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :header_title_es %>
+    <%= form.text_field :header_title_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :header_title_en %>
+    <%= form.text_field :header_title_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :header_title_fr %>
+    <%= form.text_field :header_title_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :action_phrase_ca %>
+    <%= form.text_field :action_phrase_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :action_phrase_es %>
+    <%= form.text_field :action_phrase_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :action_phrase_en %>
+    <%= form.text_field :action_phrase_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :action_phrase_fr %>
+    <%= form.text_field :action_phrase_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :action_button_ca %>
+    <%= form.text_field :action_button_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :action_button_es %>
+    <%= form.text_field :action_button_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :action_button_en %>
+    <%= form.text_field :action_button_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :action_button_fr %>
+    <%= form.text_field :action_button_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :add_property_title_ca %>
+    <%= form.text_field :add_property_title_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :add_property_title_es %>
+    <%= form.text_field :add_property_title_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :add_property_title_en %>
+    <%= form.text_field :add_property_title_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :add_property_title_fr %>
+    <%= form.text_field :add_property_title_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :add_property_subtitle_ca %>
+    <%= form.text_field :add_property_subtitle_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :add_property_subtitle_es %>
+    <%= form.text_field :add_property_subtitle_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :add_property_subtitle_en %>
+    <%= form.text_field :add_property_subtitle_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :add_property_subtitle_fr %>
+    <%= form.text_field :add_property_subtitle_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :reviews_title_ca %>
+    <%= form.text_field :reviews_title_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :reviews_title_es %>
+    <%= form.text_field :reviews_title_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :reviews_title_en %>
+    <%= form.text_field :reviews_title_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :reviews_title_fr %>
+    <%= form.text_field :reviews_title_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :reviews_subtitle_ca %>
+    <%= form.text_field :reviews_subtitle_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :reviews_subtitle_es %>
+    <%= form.text_field :reviews_subtitle_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :reviews_subtitle_en %>
+    <%= form.text_field :reviews_subtitle_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :reviews_subtitle_fr %>
+    <%= form.text_field :reviews_subtitle_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :contact_title_ca %>
+    <%= form.text_field :contact_title_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :contact_title_es %>
+    <%= form.text_field :contact_title_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :contact_title_en %>
+    <%= form.text_field :contact_title_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :contact_title_fr %>
+    <%= form.text_field :contact_title_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :contact_subtitle_ca %>
+    <%= form.text_field :contact_subtitle_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :contact_subtitle_es %>
+    <%= form.text_field :contact_subtitle_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :contact_subtitle_en %>
+    <%= form.text_field :contact_subtitle_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :contact_subtitle_fr %>
+    <%= form.text_field :contact_subtitle_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :posts_title_ca %>
+    <%= form.text_field :posts_title_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :posts_title_es %>
+    <%= form.text_field :posts_title_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :posts_title_en %>
+    <%= form.text_field :posts_title_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :posts_title_fr %>
+    <%= form.text_field :posts_title_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :posts_subtitle_ca %>
+    <%= form.text_field :posts_subtitle_ca, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :posts_subtitle_es %>
+    <%= form.text_field :posts_subtitle_es, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :posts_subtitle_en %>
+    <%= form.text_field :posts_subtitle_en, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="my-5">
+    <%= form.label :posts_subtitle_fr %>
+    <%= form.text_field :posts_subtitle_fr, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="col-span-full">
+    <label for="cover-photo" class="block text-sm font-medium leading-6 text-gray-900"><%= t('header_background_image') %></label>
+    <div class="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10">
+      <div class="text-center">
+        <svg class="mx-auto h-12 w-12 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.97a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z" clip-rule="evenodd" />
+        </svg>
+        <div class="mt-4 flex text-sm leading-6 text-gray-600">
+          <!-- Replace custom file upload elements with Rails form field -->
+          <%= form.file_field :image, class: "sr-only" %>
+          <label for="file-upload" class="relative cursor-pointer rounded-md bg-white font-semibold text-sky-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-sky-600 focus-within:ring-offset-2 hover:text-sky-500">
+            <span><%= t('upload_image') %></span>
+            <!-- Hide the original file input -->
+            <%= form.file_field :image, id: "file-upload", class: "hidden" %>
+          </label>
+          <p class="pl-1"><%= t('or_drag_and_drop') %></p>
+        </div>
+        <p class="text-xs leading-5 text-gray-600"><%= t('image_formats') %></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-span-full">
+    <label for="cover-photo" class="block text-sm font-medium leading-6 text-gray-900"><%= t('header_background_video') %></label>
+    <div class="mt-2 flex justify-center rounded-lg border border-dashed border-gray-900/25 px-6 py-10">
+      <div class="text-center">
+        <svg class="mx-auto h-12 w-12 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path fill-rule="evenodd" d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.97a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z" clip-rule="evenodd" />
+        </svg>
+        <div class="mt-4 flex text-sm leading-6 text-gray-600">
+          <!-- Replace custom file upload elements with Rails form field -->
+          <%= form.file_field :image, class: "sr-only" %>
+          <label for="file-upload" class="relative cursor-pointer rounded-md bg-white font-semibold text-sky-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-sky-600 focus-within:ring-offset-2 hover:text-sky-500">
+            <span><%= t('upload_video') %></span>
+            <!-- Hide the original file input -->
+            <%= form.file_field :video, id: "file-upload", class: "hidden" %>
+          </label>
+          <p class="pl-1"><%= t('or_drag_and_drop') %></p>
+        </div>
+        <p class="text-xs leading-5 text-gray-600"><%= t('video_formats') %></p>
+      </div>
+    </div>
+  </div>
+  <div class="my-5">
+    <%= form.label :header_background %>
+    <%= form.select :header_background, options_for_select([[t('video'), 'video'], [t('image'), 'image']], selected: @content.header_background), {}, class: "block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full" %>
+  </div>
+  <div class="inline">
+    <%= form.submit t('save'), class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer" %>
+  </div>
+<% end %>

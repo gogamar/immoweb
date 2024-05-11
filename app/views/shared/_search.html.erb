@@ -1,0 +1,27 @@
+<%= form_with(url: listings_path, method: "get", class: "flex flex-col sm:flex-row items-center gap-2") do %>
+  <!-- Buy or Sell Radio Group -->
+  <div class="flex-1">
+    <div class="space-y-4 sm:flex sm:items-center sm:space-x-10 sm:space-y-0">
+      <div class="flex items-center">
+        <%= radio_button_tag "ot", "buy", true, class: "h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" %>
+        <%= label_tag "email", t('buy'), class: "ml-3 block text-base font-medium leading-6 text-gray-900" %>
+      </div>
+      <div class="flex items-center">
+        <%= radio_button_tag "ot", "sell", false, class: "h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" %>
+        <%= label_tag "sms", t('sell'), class: "ml-3 block text-base font-medium leading-6 text-gray-900" %>
+      </div>
+    </div>
+  </div>
+  <!-- Select Town -->
+  <div class="flex-1 me-6 w-auto">
+    <%= render(FancySelectComponent.new(
+        label: t('select_town'),
+        form_name: :town_id,
+        items: @towns
+      )) %>
+  </div>
+  <!-- Search Button -->
+  <div class="flex-1">
+    <%= submit_tag t('search'), name: "", class: "text-base w-full px-6 py-2 bg-sky-800 text-white rounded-md hover:bg-sky-900 focus:outline-none focus:ring-2 focus:ring-sky-900 focus:ring-opacity-50" %>
+  </div>
+<% end %>

@@ -1,0 +1,12 @@
+<%= form_with url: listings_path, method: :get do |form| %>
+  <%= form.text_field :ref,
+                      class: "form-control",
+                      # value: params[:ref],
+                      placeholder: "Buscar per referència"
+                    %>
+  <div class="input-group-append">
+    <%= form.button class: "input-group-text index-button", value: t('search') do %>
+      <i class="fas fa-search fa-sm"></i>
+    <% end %>
+  </div>
+<% end %>

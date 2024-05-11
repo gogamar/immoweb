@@ -1,0 +1,58 @@
+<div class="py-5" data-controller="filter">
+  <%= form_with(url: listings_path, method: :get) do |form| %>
+    <div class="max-w-2xl space-y-10 md:col-span-2">
+      <div>
+        <label for="town" class="text-sm font-semibold leading-6 text-gray-900"><%= t('town') %></label>
+        <select data-action="change->filter#fetchOperationsAndListingTypes" id="town" name="town_id" class="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-sky-600 sm:text-sm sm:leading-6">
+          <option value="" disabled hidden><%= t('select_town') %></option>
+          <% @towns.each do |town| %>
+            <% selected = town.id == params["town_id"].to_i ? "selected" : "" %>
+            <option value="<%= town.id %>" <%= selected %>><%= town.name_es %></option>
+            <% end %>
+          </select>
+        </div>
+        <fieldset>
+          <legend class="text-sm font-semibold leading-6 text-gray-900"><%= t('operation_type') %></legend>
+          <div class="mt-6 space-y-3" data-filter-target="operations">
+            <%= render 'listings/operations', operations: @operations %>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="text-sm font-semibold leading-6 text-gray-900"><%= t('property_type') %></legend>
+          <div class="mt-6 space-y-3" data-filter-target="listingTypes">
+            <%= render 'listings/listing_types', listing_types: @listing_types %>
+          </div>
+        </fieldset>
+        <!--
+      <fieldset>
+        <div class="grid max-w-2xl grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-3">
+            <label for="minprice" class="block text-sm font-medium leading-6 text-gray-900">Min.</label>
+            <div class="mt-2">
+              <select name="min" id="minprice" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6">
+                <option value="">&nbsp;</option>
+                <% @salesprices_array.each do |sp| %>
+                  <option value="<%= sp %>" <%= "selected" if params[:min] == sp.to_s %> ><%= sp %></option>
+                <% end %>
+              </select>
+            </div>
+          </div>
+          <div class="sm:col-span-3">
+            <label for="maxprice" class="block text-sm font-medium leading-6 text-gray-900">Max.</label>
+            <div class="mt-2">
+              <select name="max" id="maxprice" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6">
+                <option value="">&nbsp;</option>
+                <% @salesprices_array.each do |sp| %>
+                  <option value="<%= sp %>" <%= "selected" if params[:max] == sp.to_s %> ><%= sp %></option>
+                <% end %>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+        -->
+        <div class="flex-1">
+          <%= submit_tag t('filter'), name: "", class: "w-full px-6 py-2 bg-sky-800 text-white rounded-md hover:bg-sky-900 focus:outline-none focus:ring-2 focus:ring-sky-900 focus:ring-opacity-50" %>
+        </div>
+      </div>
+    <% end %>
+  </div>

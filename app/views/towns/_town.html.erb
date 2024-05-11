@@ -1,7 +1,31 @@
 <div id="<%= dom_id town %>">
-  <% if action_name != "show" %>
-    <%= link_to "Show this town", town, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-    <%= link_to "Edit this town", edit_town_path(town), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
-    <hr class="mt-6">
-  <% end %>
+  <tr>
+    <td class="whitespace-nowrap py-5 pl-4 pr-3 text-sm sm:pl-0">
+      <div class="flex items-center">
+        <div class="h-11 w-11 flex-shrink-0">
+          <% if town.photos.attached? %>
+            <img class="h-11 w-11 rounded-full" src="<%= town.photos.first.url %>" alt="">
+          <% end %>
+        </div>
+        <div class="ml-4">
+          <div class="font-medium text-gray-900"><%= town.name_es %></div>
+          <div class="mt-1 text-gray-500">lindsay.walton@example.com</div>
+        </div>
+      </div>
+    </td>
+    <td class="whitespace-nowrap px-3 py-5 text-sm text-gray-500">
+      <div class="text-gray-900">Front-end Developer</div>
+      <div class="mt-1 text-gray-500">Optimization</div>
+    </td>
+    <td class="whitespace-nowrap px-3 py-5 text-sm text-gray-500">
+      <span class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">Active</span>
+    </td>
+    <td class="whitespace-nowrap px-3 py-5 text-sm text-gray-500">Member</td>
+    <td class="relative whitespace-nowrap py-5 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
+      <% if action_name != "show" %>
+        <%= link_to "Show this town", town, class: "text-sky-600 hover:text-sky-900" %>
+        <%= link_to "Edit this town", edit_town_path(town), class: "text-sky-600 hover:text-sky-900" %>
+      <% end %>
+    </td>
+  </tr>
 </div>

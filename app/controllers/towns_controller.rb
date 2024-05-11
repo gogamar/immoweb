@@ -1,18 +1,17 @@
 class TownsController < ApplicationController
   before_action :set_town, only: %i[ show edit update destroy ]
 
-  # GET /towns or /towns.json
   def index
-    @towns = Town.all
+    @towns = policy_scope(Town)
   end
 
-  # GET /towns/1 or /towns/1.json
   def show
   end
 
   # GET /towns/new
   def new
     @town = Town.new
+    authorize @town
   end
 
   # GET /towns/1/edit
@@ -22,6 +21,7 @@ class TownsController < ApplicationController
   # POST /towns or /towns.json
   def create
     @town = Town.new(town_params)
+    authorize @town
 
     respond_to do |format|
       if @town.save
@@ -62,6 +62,7 @@ class TownsController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_town
     @town = Town.find(params[:id])
+    authorize @town
   end
 
   # Only allow a list of trusted parameters through.

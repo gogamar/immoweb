@@ -3,7 +3,29 @@ require "active_support/core_ext/integer/time"
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  config.action_mailer.default_url_options = { host: 'sistachfinques.com', port: 3000 }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options ={:host => 'sistachfinques.com', :protocol => 'https'}
+
+  # # SMTP settings for gmail
+  # config.action_mailer.smtp_settings = {
+  #   address: "smtp.gmail.com",
+  #   port: 587,
+  #   user_name: ENV["GMAIL_USERNAME"],
+  #   password: ENV["GMAIL_PASSWORD"],
+  #   authentication: "plain",
+  #   enable_starttls_auto: true
+  # }
+
+  # fixme: change this to the correct email settings
+
+  config.action_mailer.smtp_settings = {
+    address: "mail.privateemail.com",
+    port: 587,
+    user_name: ENV["EMAIL_USERNAME"],
+    password: ENV["EMAIL_PASSWORD"],
+    authentication: "plain",
+    enable_starttls_auto: true
+  }
 
   # Code is not reloaded between requests.
   config.cache_classes = true
@@ -41,6 +63,7 @@ Rails.application.configure do
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :cloudinary
+  config.active_storage.replace_on_assign_to_many = false
 
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil

@@ -1,76 +1,70 @@
 <div class="lg:col-span-4 lg:row-end-1">
-  <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
-    <% if @listing.image_urls.present? %>
+  <div class="aspect-h-2 aspect-w-4 overflow-hidden rounded-lg bg-gray-100">
+    <% if listing.image_urls.present? %>
       <div class="click">
-        <% @listing.image_urls.each do |image| %>
+        <% listing.image_urls.each do |image| %>
           <%= link_to image.url, class: "mfp-gallery" do %>
-            <%= image_tag image.url, alt:"#{@listing.listing_subtype} #{@listing.town_name}", quality: "auto" %>
+            <%= image_tag image.url, alt:"#{listing.listing_subtype} #{listing.town_name}", quality: "auto" %>
           <% end %>
         <% end %>
       </div>
     <% end %>
   </div>
 </div>
-<%# here %>
-<h2 class="mt-2 text-xl font-bold leading-7 text-sky-800 sm:truncate sm:text-3xl sm:tracking-tight"><%= @listing.send("title_#{locale}").capitalize %></h2>
+<h2 class="mt-2 text-xl font-bold leading-7 text-sky-800 sm:truncate sm:text-3xl sm:tracking-tight"><%= listing.send("title_#{locale}").capitalize %></h2>
 <div class="mt-2 flex items-center text-sm text-gray-500">
   <svg class="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
     <path fill-rule="evenodd" d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clip-rule="evenodd" />
   </svg>
-  <%= @listing.town_name %>
+  <%= listing.town_name %>
 </div>
-<% price = @listing.salesprice || @listing.rentprice %>
+<% price = listing.salesprice || listing.rentprice %>
 <h3 class="mt-2 font-bold leading-7 text-gray-700 sm:truncate sm:text-2xl sm:tracking-tight"><%= number_to_currency(price, locale: locale, precision: 0) %></h3>
 <div class="mt-1 flex flex-col sm:mt-0 sm:flex-row sm:flex-wrap sm:space-x-6">
   <div class="mt-2 flex items-center text-sm text-gray-500">
-    <%= "#{@listing.built_area.round} m²" if @listing.built_area %>
+    <%= "#{listing.built_area.round} m²" if listing.built_area %>
   </div>
   <div class="mt-2 flex items-center text-sm text-gray-500">
-    <% price = @listing.salesprice || @listing.rentprice %>
-    <%= number_to_currency(price, locale: locale, precision: 0) %>
+    <%= "#{listing.bedrooms} #{t('bedrooms')}" if listing.bedrooms %>
   </div>
-  <div class="mt-2 flex items-center text-sm text-gray-500">
-    Closing on January 9, 2020
-  </div>
+  <% Feature::FEATURE_NAMES.values.each do |f_value| %>
+    <div class="mt-2 flex items-center text-sm text-gray-500">
+      <%= t(f_value) if listing.has_feature?(f_value) %>
+    </div>
+  <% end %>
 </div>
-<%# here %>
-<p class="mt-6 text-gray-500"><%= @listing.send("description_#{locale}") %></p>
-<div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2">
-  <button type="button" class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50">Pay $220</button>
-  <button type="button" class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-50 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50">Preview</button>
-</div>
+<p class="mt-6 text-gray-500"><%= listing.send("description_#{locale}") %></p>
 <div class="mt-10 border-t border-gray-200 pt-10">
-  <h3 class="text-sm font-medium text-gray-900">Highlights</h3>
+  <h3 class="text-sm font-medium text-gray-900"><%= t('details') %></h3>
   <div class="prose prose-sm mt-4 text-gray-500">
     <ul role="list">
-      <li>200+ SVG icons in 3 unique styles</li>
-      <li>Compatible with Figma, Sketch, and Adobe XD</li>
-      <li>Drawn on 24 x 24 pixel grid</li>
+      <% if listing.bedrooms.present? %>
+        <li><%= t('number_bedrooms') %>: <%= t(listing.bedrooms) %></li>
+      <% end %>
+      <% if listing.bathrooms.present? %>
+        <li><%= t('number_bathrooms') %>: <%= t(listing.bathrooms) %></li>
+      <% end %>
+      <% if listing.preservation.present? %>
+        <li><%= t('preservation') %>: <%= t(listing.preservation) %></li>
+      <% end %>
+      <% if listing.energy_cert.present? %>
+        <li><%= t('energy_certification') %>: <%= t(listing.energy_cert) %></li>
+      <% end %>
     </ul>
   </div>
 </div>
-<div class="prose prose-sm max-w-none text-gray-500">
-  <h4>Overview</h4>
-  <p>For personal and professional use. You cannot resell or redistribute these icons in their original or modified state.</p>
+<div class="mt-10 prose prose-sm max-w-none text-gray-500">
+  <h4><%= t('features') %></h4>
   <ul role="list">
-    <li>You're allowed to use the icons in unlimited projects.</li>
-    <li>Attribution is not required to use the icons.</li>
-  </ul>
-  <h4>What you can do with it</h4>
-  <ul role="list">
-    <li>Use them freely in your personal and professional work.</li>
-    <li>Make them your own. Change the colors to suit your project or brand.</li>
-  </ul>
-  <h4>What you can't do with it</h4>
-  <ul role="list">
-    <li>Don't be greedy. Selling or distributing these icons in their original or modified state is prohibited.</li>
-    <li>Don't be evil. These icons cannot be used on websites or applications that promote illegal or immoral beliefs or activities.</li>
+    <% listing.features.each do |feature| %>
+      <li><%= t(feature.name) %></li>
+    <% end %>
   </ul>
 </div>
-<ul role="list" class="grid grid-cols-2 gap-x-2 gap-y-6 sm:grid-cols-3 sm:gap-x-4 lg:grid-cols-3 xl:gap-x-6">
-  <% @listing.image_urls.each do |image| %>
+<ul role="list" class="mt-10 grid grid-cols-2 gap-x-2 gap-y-6 sm:grid-cols-3 sm:gap-x-4 lg:grid-cols-3 xl:gap-x-6">
+  <% listing.image_urls.each do |image| %>
     <li class="relative">
-      <div class="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+      <div class="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-sky-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
         <%= link_to image.url, class: "mfp-gallery" do %>
           <img src="<%= image.url %>" alt="" class="pointer-events-none object-cover group-hover:opacity-75">
         <% end %>

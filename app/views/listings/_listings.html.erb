@@ -1,0 +1,22 @@
+<div class="flex-1 xl:flex">
+  <div class="px-4 py-6 sm:px-6 lg:pl-8 xl:flex-1 xl:pl-6 bg-slate-100">
+    <div class="bg-slate-100">
+      <% if @listings.present? %>
+        <ul role="list" class="grid grid-cols-1 gap-6">
+          <% @listings.each do |listing| %>
+            <%= render "shared/horiz_listing_card", listing: listing %>
+          <% end %>
+        </ul>
+      <% else %>
+        <% town_name = Town.find_by(id: params["town_id"])&.name_es %>
+        <p class="text-center text-gray-500"><%= t('no_listings_found', operation: t(params['ot'])&.downcase, town: town_name) %></p>
+        <h3 class="text-2xl font-bold tracking-tight text-gray-700 mt-10"><%= t('listings_in_other_towns') %></h3>
+        <ul role="list" class="grid grid-cols-1 gap-6">
+          <% @all_listings.each do |listing| %>
+            <%= render "shared/horiz_listing_card", listing: listing %>
+          <% end %>
+        </ul>
+      <% end %>
+    </div>
+  </div>
+</div>

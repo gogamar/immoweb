@@ -1,6 +1,195 @@
 es:
-  already_member: "¿Ya estás registrado?"
-  ca: "Catalán"
-  es: "Castellano"
-  en: "Inglés"
-  fr: "Francés"
+  activerecord:
+    attributes:
+      content:
+        header_background: Elegir tipo de fondo de cabecera
+        header_title_ca: Título de cabecera en catalán
+        header_title_es: Título de cabecera en español
+        header_title_en: Título de cabecera en inglés
+        header_title_fr: Título de cabecera en francés
+        action_phrase_ca: Frase de acción en catalán
+        action_phrase_es: Frase de acción en español
+        action_phrase_en: Frase de acción en inglés
+        action_phrase_fr: Frase de acción en francés
+        action_button_ca: Botón de acción en catalán
+        action_button_es: Botón de acción en español
+        action_button_en: Botón de acción en inglés
+        action_button_fr: Botón de acción en francés
+        reviews_title_ca: Título de reseñas en catalán
+        reviews_title_es: Título de reseñas en español
+        reviews_title_en: Título de reseñas en inglés
+        reviews_title_fr: Título de reseñas en francés
+        reviews_subtitle_ca: Subtítulo de reseñas en catalán
+        reviews_subtitle_es: Subtítulo de reseñas en español
+        reviews_subtitle_en: Subtítulo de reseñas en inglés
+        reviews_subtitle_fr: Subtítulo de reseñas en francés
+        contact_title_ca: Título de contacto en catalán
+        contact_title_es: Título de contacto en español
+        contact_title_en: Título de contacto en inglés
+        contact_title_fr: Título de contacto en francés
+        contact_subtitle_ca: Subtítulo de contacto en catalán
+        contact_subtitle_es: Subtítulo de contacto en español
+        contact_subtitle_en: Subtítulo de contacto en inglés
+        contact_subtitle_fr: Subtítulo de contacto en francés
+        add_property_title_ca: Título de agregar propiedad en catalán
+        add_property_title_es: Título de agregar propiedad en español
+        add_property_title_en: Título de agregar propiedad en inglés
+        add_property_title_fr: Título de agregar propiedad en francés
+        add_property_subtitle_ca: Subtítulo de agregar propiedad en catalán
+        add_property_subtitle_es: Subtítulo de agregar propiedad en español
+        add_property_subtitle_en: Subtítulo de agregar propiedad en inglés
+        add_property_subtitle_fr: Subtítulo de agregar propiedad en francés
+        posts_title_ca: Título de noticias en catalán
+        posts_title_es: Título de noticias en español
+        posts_title_en: Título de noticias en inglés
+        posts_title_fr: Título de noticias en francés
+        posts_subtitle_ca: Subtítulo de noticias en catalán
+        posts_subtitle_es: Subtítulo de noticias en español
+        posts_subtitle_en: Subtítulo de noticias en inglés
+        posts_subtitle_fr: Subtítulo de noticias en francés
+      service:
+        summary_title_ca: Título de resumen en catalán
+        summary_title_es: Título de resumen en español
+        summary_title_en: Título de resumen en inglés
+        summary_title_fr: Título de resumen en francés
+        summary_ca: Resumen en catalán
+        summary_es: Resumen en español
+        summary_en: Resumen en inglés
+        summary_fr: Resumen en francés
+        description_title_ca: Título de descripción en catalán
+        description_title_es: Título de descripción en español
+        description_title_en: Título de descripción en inglés
+        description_title_fr: Título de descripción en francés
+        description_ca: Descripción en catalán
+        description_es: Descripción en español
+        description_en: Descripción en inglés
+        description_fr: Descripción en francés
+  already_member: ¿Ya estás registrado?
+  home: Inicio
+  about_us: Sobre nosotros
+  listings: Inmuebles
+  contact: Contacto
+  open_main_menu: Abrir menú principal
+  add_your_listing: Agregar tu inmueble
+  open_user_menu: Abrir menú de usuario
+  your_profile: Tu perfil
+  settings: Configuración
+  sign_out: Cerrar sesión
+  phone: Teléfono
+  email: Correo electrónico
+  price: Precio
+  apartment: Apartamento
+  on_sale: En venta
+  for_rent: En alquiler
+  sold: Vendido
+  rented: Alquilado
+  available: Disponible
+  reserved: Reservado
+  earnest_deposit: Depósito en garantía
+  contract: Contrato
+  transaction_completed: Transacción completada
+  rented_with_option_to_buy: Alquilado con opción a compra
+  off_market: Fuera de mercado
+  housing: Vivienda
+  house: Casa
+  parking: Estacionamiento
+  shop: Tienda
+  office: Oficina
+  land: Terreno
+  building: Edificio
+  warehouse: Almacén
+  hotel: Hotel
+  regular: Regular
+  good: Bueno
+  excellent: Excelente
+  very_good: Muy bueno
+  needs_renovation: Necesita renovación
+  new: Nuevo
+  renovated: Renovado
+  newly_renovated: Recién renovado
+  ground_floor_with_garden: Planta baja con jardín
+  townhouse: Casa adosada
+  duplex: Dúplex
+  studio: Estudio
+  loft: Loft
+  triplex: Tríplex
+  bungalow: Bungaló
+  country_house: Casa de campo
+  chalet: Chalet
+  farmhouse: Masía
+  parking_space: Plaza de estacionamiento
+  parking_interior: Estacionamiento interior
+  other: Otros
+  penthouse: Ático
+  terraced: Unifamiliar adosada
+  detached: Unifamiliar aislada
+  urban_land: Terreno urbano
+  interior: Interior
+  view_more_properties: Ver más inmuebles
+  new_properties: Novedades
+  featured_properties: Inmuebles destacados
+  video: vídeo
+  image: imagen
+  bedroom:
+    one: dormitorio
+    other: dormitorios
+  bathroom:
+    one: baño
+    other: baños
+  add_service: Agregar servicio
+  add_content: Agregar contenido
+  save: Guardar
+  back: Volver
+  upload_image: Subir imagen
+  upload_video: Subir vídeo
+  or_drag_and_drop: o arrastrar y soltar
+  header_background_image: Imagen de fondo de cabecera
+  header_background_video: Vídeo de fondo de cabecera
+  image_formats: PNG, JPG, GIF hasta 10MB
+  video_formats: MP4 hasta 10MB
+  content_already_exists: El contenido ya existe
+  select_town: Selecciona un municipio
+  sale: Venta
+  rent: Alquiler
+  in: en
+  ca: Catalán
+  es: Español
+  en: Inglés
+  fr: Francés
+  routes:
+    admin: admin
+    new: nuevo
+    edit: editar
+    delete: borrar
+    show: mostrar
+    index: listar
+    create: crear
+    static: general
+    all_listings: apartamentos-y-casas
+  buy: Comprar
+  sell: Vender
+  search: Buscar
+  operation_type: Tipo de operación
+  property_type: Tipo de inmueble
+  filter: Filtrar
+  town: Población
+  owner_services: Servicios para propietarios
+  who_we_are1: Administradores de Fincas Colegiados A.F. COL 920. Agente de la Propiedad Inmobiliaria API 1009 / AICAT 6541.
+  who_we_are2: Administradores de Fincas Colegiados A.F. COL 920. Agente de la Propiedad Inmobiliaria API 1009 / AICAT 6541.
+  why_choose_us: Por qué elegir Finques Sistach
+  professional_title: Profesionalidad y Experiencia
+  professional_text: En Finques Sistach, nos enorgullece nuestra larga trayectoria como Agentes de la Propiedad Inmobiliaria. Con el aval de más de una década en el sector, hemos construido una reputación sólida y confiable en el mercado inmobiliario de l'Estartit. Nuestro equipo está compuesto por profesionales altamente capacitados y certificados (A.F. COL 920 / API 1009 / AICAT 6541) que trabajan incansablemente para brindar un servicio de calidad y asesoramiento experto a nuestros clientes.
+  exclusive_title: Cartera Inmobiliaria Exclusiva
+  exclusive_text: En Finques Sistach, entendemos que cada propiedad es única, por lo que nos esforzamos por ofrecer un servicio personalizado y adaptado a las necesidades específicas de cada propietario. Contamos con una diversa cartera inmobiliaria que abarca desde apartamentos junto al mar hasta encantadoras casas rurales. Nuestra experiencia y conocimiento del mercado nos permiten destacar las características únicas de cada propiedad, maximizando así su potencial de venta o alquiler.
+  solvent_title: Seriedad y Solvencia
+  solvent_text: "La confianza es fundamental en cualquier transacción inmobiliaria, y en Finques Sistach nos comprometemos a brindar un servicio transparente, ético y profesional en todo momento. Nuestra reputación de seriedad y solvencia se ha ganado gracias a nuestra integridad en cada paso del proceso, desde la valoración inicial hasta la firma del contrato final. Nos aseguramos de que tanto los propietarios como los posibles compradores o inquilinos se sientan respaldados y seguros durante todo el proceso.
+  En resumen, en Finques Sistach ofrecemos más que un simple servicio inmobiliario; ofrecemos una asociación de confianza y compromiso mutuo. Si estás considerando vender o alquilar tu propiedad en l'Estartit, confía en Finques Sistach para hacer que el proceso sea fácil, transparente y exitoso."
+  contact_us: Contacta con nosotros
+  street: Calle
+  avenue: Avenida
+  square: Plaza
+  road: Carretera
+  boulevard: Bulevar
+  alley: Callejón
+  passage: Pasaje
+  promenade: Paseo

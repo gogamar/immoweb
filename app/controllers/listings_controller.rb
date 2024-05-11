@@ -1,29 +1,38 @@
 class ListingsController < ApplicationController
   skip_before_action :authenticate_user!, only: %i[ index show ]
-  before_action :skip_authorization, only: %i[ index show ]
   before_action :set_listing, only: %i[ show edit update destroy ]
 
-  # GET /listings or /listings.json
   def index
-    @listings = Listing.all
+    @all_listings = policy_scope(Listing)
+    @listings_in_town = @all_listings.where(town_id: params[:town_id]) if params[:town_id].present?
+    @listings = @listings_in_town.where(operation: params[:ot]) if params[:ot].present?
+    @listings = @listings.where(listing_subtype: params[:pt]) if params[:pt].present?
+    @listing_types = @listings_in_town.present? ? @listings_in_town.pluck(:listing_subtype).uniq : Listing.pluck(:listing_subtype).uniq
+    @operations = @listings_in_town.present? ? @listings_in_town.pluck(:operation).uniq : Listing.pluck(:operation).uniq
+    @towns = Town.all
+    @all_salesprices = @all_listings.pluck(:salesprice)
+    i = 40000
+    salesprices_1 = Array.new(18){i+=20000}
+    salesprices_2 = Array.new(12){i+=50000}
+    salesprices_3 = Array.new(10){i+=100000}
+    @salesprices_array = salesprices_1 + salesprices_2 + salesprices_3
   end
 
-  # GET /listings/1 or /listings/1.json
   def show
+    @contact = Contact.new
   end
 
-  # GET /listings/new
   def new
     @listing = Listing.new
+    authorize @listing
   end
 
-  # GET /listings/1/edit
   def edit
   end
 
-  # POST /listings or /listings.json
   def create
     @listing = Listing.new(listing_params)
+    authorize @listing
 
     respond_to do |format|
       if @listing.save
@@ -64,6 +73,7 @@ class ListingsController < ApplicationController
   # Use callbacks to share common setup or constraints between actions.
   def set_listing
     @listing = Listing.find(params[:id])
+    authorize @listing
   end
 
   def listing_params

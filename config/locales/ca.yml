@@ -1,4 +1,75 @@
 ca:
+  activerecord:
+    attributes:
+      content:
+        header_background: Triar el tipus de fons de la capçalera
+        header_title_ca: Títol de la capçalera català
+        header_title_es: Títol de la capçalera castellà
+        header_title_en: Títol de la capçalera anglès
+        header_title_fr: Títol de la capçalera francès
+        action_phrase_ca: Frase d'acció català
+        action_phrase_es: Frase d'acció castellà
+        action_phrase_en: Frase d'acció anglès
+        action_phrase_fr: Frase d'acció francès
+        action_button_ca: Botó d'acció català
+        action_button_es: Botó d'acció castellà
+        action_button_en: Botó d'acció anglès
+        action_button_fr: Botó d'acció francès
+        reviews_title_ca: Títol de les ressenyes català
+        reviews_title_es: Títol de les ressenyes castellà
+        reviews_title_en: Títol de les ressenyes anglès
+        reviews_title_fr: Títol de les ressenyes francès
+        reviews_subtitle_ca: Subtítol de les ressenyes català
+        reviews_subtitle_es: Subtítol de les ressenyes castellà
+        reviews_subtitle_en: Subtítol de les ressenyes anglès
+        reviews_subtitle_fr: Subtítol de les ressenyes francès
+        contact_title_ca: Títol de contacte català
+        contact_title_es: Títol de contacte castellà
+        contact_title_en: Títol de contacte anglès
+        contact_title_fr: Títol de contacte francès
+        contact_subtitle_ca: Subtítol de contacte català
+        contact_subtitle_es: Subtítol de contacte castellà
+        contact_subtitle_en: Subtítol de contacte anglès
+        contact_subtitle_fr: Subtítol de contacte francès
+        add_property_title_ca: Títol d'afegir immoble català
+        add_property_title_es: Títol d'afegir immoble castellà
+        add_property_title_en: Títol d'afegir immoble anglès
+        add_property_title_fr: Títol d'afegir immoble francès
+        add_property_subtitle_ca: Subtítol d'afegir immoble català
+        add_property_subtitle_es: Subtítol d'afegir immoble castellà
+        add_property_subtitle_en: Subtítol d'afegir immoble anglès
+        add_property_subtitle_fr: Subtítol d'afegir immoble francès
+        posts_title_ca: Títol de les notícies català
+        posts_title_es: Títol de les notícies castellà
+        posts_title_en: Títol de les notícies anglès
+        posts_title_fr: Títol de les notícies francès
+        posts_subtitle_ca: Subtítol de les notícies català
+        posts_subtitle_es: Subtítol de les notícies castellà
+        posts_subtitle_en: Subtítol de les notícies anglès
+        posts_subtitle_fr: Subtítol de les notícies francès
+      service:
+        summary_title_ca: Títol del resum català
+        summary_title_es: Títol del resum castellà
+        summary_title_en: Títol del resum anglès
+        summary_title_fr: Títol del resum francès
+        summary_ca: Resum català
+        summary_es: Resum castellà
+        summary_en: Resum anglès
+        summary_fr: Resum francès
+        description_title_ca: Títol de la descripció català
+        description_title_es: Títol de la descripció castellà
+        description_title_en: Títol de la descripció anglès
+        description_title_fr: Títol de la descripció francès
+        description_ca: Descripció català
+        description_es: Descripció castellà
+        description_en: Descripció anglès
+        description_fr: Descripció francès
+      contact:
+        name: Nom
+        email: Email
+        phone: Telèfon
+        message: Missatge
+        budget: Pressupost
   already_member: Ja estàs registrat?
   home: Inici
   about_us: Sobre nosaltres
@@ -42,7 +113,6 @@ ca:
   new: Nou
   renovated: Reformada
   newly_renovated: Reformada a estrenar
-  penthouse: Àtic
   ground_floor_with_garden: Baixos amb jardí
   townhouse: Casa de poble
   duplex: Dúplex
@@ -53,29 +123,40 @@ ca:
   country_house: Casa rural
   chalet: Xalet / Torre
   farmhouse: Masia
-  terraced: Unifamiliar adossada
-  detached: Unifamiliar aïllada
-  urban_land: Sòl urbà
   parking_space: Plaça d'aparcament
   parking_interior: Plaça d'aparcament interior
   other: Altres
   penthouse: Àtic
-  ground_floor_with_garden: Baixos amb jardí
-  townhouse: Casa de poble
-  duplex: Dúplex
-  studio: Estudi
-  loft: Loft
-  triplex: Tríplex
-  bungalow: Bungaló
-  country_house: Casa rural
-  chalet: Xalet / Torre
-  farmhouse: Masoveria
   terraced: Unifamiliar adossada
   detached: Unifamiliar aïllada
   urban_land: Sòl urbà
-  parking_space: Plaça d'aparcament
   interior: Interior
-  other: Altres
+  view_more_properties: Veure més immobles
+  new_properties: Novetats
+  featured_properties: Immobles destacats
+  video: video
+  image: foto
+  bedroom:
+    one: dormitori
+    other: dormitoris
+  bathroom:
+    one: bany
+    other: banys
+  add_service: Afegir servei
+  add_content: Afegir contingut
+  save: Desar
+  back: Tornar
+  upload_image: Pujar imatge
+  upload_video: Pujar vídeo
+  or_drag_and_drop: o arrossegar i deixar anar
+  header_background_image: Imatge de fons de la capçalera
+  header_background_video: Vídeo de fons de la capçalera
+  image_formats: PNG, JPG, GIF fins a 10MB
+  video_formats: MP4 fins a 10MB
+  content_already_exists: El contingut ja existeix
+  select_town: Selecciona un municipi
+  sale: Venda
+  rent: Lloguer
   in: a
   ca: Català
   es: Castellà
@@ -91,3 +172,64 @@ ca:
     create: crear
     static: general
     all_listings: apartaments-i-cases
+  buy: Compra
+  sell: Venda
+  search: Cercar
+  operation_type: Tipus d'operació
+  property_type: Tipus d'immoble
+  filter: Filtrar
+  town: Població
+  owner_services: Serveis per a propietaris
+  who_we_are1: Administradors de Finques Col·legiats A.F. COL 920. Agent de la Propietat Immobiliària API 1009 / AICAT 6541.
+  who_we_are2: Administradors de Finques Col·legiats A.F. COL 920. Agent de la Propietat Immobiliària API 1009 / AICAT 6541.
+  why_choose_us: Per què triar Finques Sistach
+  professional_title: Professionalitat i Experiència
+  professional_text: A Finques Sistach, ens enorgulleix la nostra llarga trajectòria com a Agents de la Propietat Immobiliària. Amb l'aval de més d'una dècada en el sector, hem construït una reputació sòlida i fiable en el mercat immobiliari de l'Estartit. El nostre equip està format per professionals altament capacitats i certificats (A.F. COL 920 / API 1009 / AICAT 6541) que treballen incansablement per oferir un servei de qualitat i assessorament expert als nostres clients.
+  exclusive_title: Cartera Immobiliària Exclusiva
+  exclusive_text: A Finques Sistach, entenem que cada propietat és única, per la qual cosa ens esforcem per oferir un servei personalitzat i adaptat a les necessitats específiques de cada propietari. Tenim una cartera immobiliària diversa que abasta des d'apartaments al costat del mar fins a encantadores cases rurals. La nostra experiència i coneixement del mercat ens permeten destacar les característiques úniques de cada propietat, maximitzant així el seu potencial de venda o lloguer.
+  solvent_title: Serietat i Solvència
+  solvent_text: "La confiança és fonamental en qualsevol transacció immobiliària, i a Finques Sistach ens comprometem a oferir un servei transparent, ètic i professional en tot moment. La nostra reputació de serietat i solvència s'ha guanyat gràcies a la nostra integritat en cada pas del procés, des de l'avaluació inicial fins a la signatura del contracte final. Ens assegurem que tant els propietaris com els possibles compradors o llogaters es sentin recolzats i segurs durant tot el procés.
+  En resum, a Finques Sistach oferim més que un simple servei immobiliari; oferim una associació de confiança i compromís mutu. Si estàs considerant vendre o llogar la teva propietat a l'Estartit, confia en Finques Sistach per fer que el procés sigui fàcil, transparent i exitós."
+  contact_us: Contacta amb nosaltres
+  street: Carrer
+  avenue: Avinguda
+  square: Plaça
+  road: Carretera
+  boulevard: Bulevard
+  alley: Carreró
+  passage: Passatge
+  promenade: Passeig
+  our_offices: Les nostres oficines
+  no_strings_attached: Contacta amb nosaltres sense compromís. Estem aquí per ajudar-te.
+  get_in_touch: Posa't en contacte
+  get_in_touch_intro1: "Estàs considerant vendre o llogar la teva propietat? La nostra agència immobiliària està aquí per ajudar-te en cada pas del camí! Ja sigui que vulguis vendre una casa familiar, llogar una propietat o explorar noves oportunitats en el mercat immobiliari, el nostre equip està dedicat a ajudar-te."
+  get_in_touch_intro2: "Amb anys d'experiència i un profund coneixement del mercat local, oferim un servei personalitzat adaptat a les teves necessitats úniques. Posa't en contacte amb nosaltres avui mateix per programar una consulta amb un dels nostres agents experimentats."
+  copyright: Tots els drets reservats.
+  get_info_property: Pregunta sobre aquesta propietat
+  optional: Opcional
+  get_info_message: Hola, m'agradaria obtenir més informació sobre aquesta propietat.
+  looking_for: Estic buscant una propietat de...
+  thank_you_for_contacting_us: Gràcies per posar-te en contacte amb nosaltres. Responrem a la teva consulta aviat.
+  send_message: Enviar missatge
+  new_contact_submitted: Tens un missatge!
+  name: Nom
+  email: Email
+  phone: Telèfon
+  message: Missatge
+  budget: Pressupost
+  bedrooms: dormitoris
+  heating: Calefacció
+  parking: Aparcament
+  views: Vistes
+  lift: Ascensor
+  community_area: Zona comunitària
+  garden_area: Zona ajardinada
+  pool: Piscina
+  preservation: Estat de conservació
+  energy_certificate: Certificat energètic
+  number_bedrooms: Número de dormitoris
+  number_bathrooms: Número de banys
+  details: Detalls
+  features: Característiques
+  no_listings_found: De moment, no tenim cap immoble disponible en %{operation} a %{town} que compleixi aquestes característiques. Si us plau, torna a intentar-ho més tard o posa't en contacte amb nosaltres per obtenir més informació.
+  listings_in_other_towns: Immobles en altres poblacions

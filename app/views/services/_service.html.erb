@@ -1,0 +1,87 @@
+<div id="<%= dom_id service %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Summary title ca:</strong>
+    <%= service.summary_title_ca %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Summary title es:</strong>
+    <%= service.summary_title_es %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Summary title en:</strong>
+    <%= service.summary_title_en %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Summary title fr:</strong>
+    <%= service.summary_title_fr %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Summary ca:</strong>
+    <%= service.summary_ca %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Summary es:</strong>
+    <%= service.summary_es %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Summary en:</strong>
+    <%= service.summary_en %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Summary fr:</strong>
+    <%= service.summary_fr %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description title ca:</strong>
+    <%= service.description_title_ca %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description title es:</strong>
+    <%= service.description_title_es %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description title en:</strong>
+    <%= service.description_title_en %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description title fr:</strong>
+    <%= service.description_title_fr %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description ca:</strong>
+    <%= service.description_ca %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description es:</strong>
+    <%= service.description_es %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description en:</strong>
+    <%= service.description_en %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description fr:</strong>
+    <%= service.description_fr %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this service", service, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to "Edit this service", edit_service_path(service), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
+</div>

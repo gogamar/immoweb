@@ -1,2 +1,66 @@
-<%= render 'company_details' %>
-<%= render 'our_team' %>
+<!-- Content section -->
+<div class="mt-16 overflow-hidden sm:mt-20">
+  <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
+      <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><%= t('owner_services') %></h2>
+        <p class="mt-6 text-xl leading-8 text-gray-600"><%= t('professional_title') %></p>
+        <p class="mt-6 text-base leading-7 text-gray-600"><%= t('professional_text') %></p>
+      </div>
+      <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+        <div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+          <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+        </div>
+        <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
+          <div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+            <img src="https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+          </div>
+          <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
+            <img src="https://images.unsplash.com/photo-1585914641050-fa9883c4e21c?q=80&w=2667&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+          </div>
+          <div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Content section -->
+<div class="mx-auto my-16 max-w-7xl px-6 sm:mt-20 lg:px-8">
+  <div class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
+    <div class="w-full lg:max-w-lg lg:flex-auto">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><%= t('why_choose_us') %></h2>
+      <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]">
+    </div>
+    <div class="w-full lg:max-w-xl lg:flex-auto">
+      <ul class="-my-8 divide-y divide-gray-100">
+        <li class="py-8">
+          <dl class="relative flex flex-wrap gap-x-3">
+            <dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+              <a href="#">
+                <%= t('exclusive_title') %>
+                <span class="absolute inset-0" aria-hidden="true"></span>
+              </a>
+            </dd>
+            <dd class="mt-2 w-full flex-none text-base leading-7 text-gray-600"><%= t('exclusive_text') %></dd>
+          </dl>
+        </li>
+        <li class="py-8">
+          <dl class="relative flex flex-wrap gap-x-3">
+            <dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+              <a href="#">
+                <%= t('solvent_title') %>
+                <span class="absolute inset-0" aria-hidden="true"></span>
+              </a>
+            </dd>
+            <dd class="mt-2 w-full flex-none text-base leading-7 text-gray-600"><%= t('solvent_text') %></dd>
+          </dl>
+        </li>
+      </ul>
+      <div class="mt-8 flex border-t border-gray-100 pt-8">
+        <%= link_to t('contact_us'), contact_us_path, class: "text-sm font-semibold leading-6 text-sky-600 hover:text-sky-500" %>
+      </div>
+    </div>
+  </div>
+</div>

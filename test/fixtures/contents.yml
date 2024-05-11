@@ -1,0 +1,35 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  header_title_ca: MyString
+  header_title_es: MyString
+  header_title_en: MyString
+  header_title_fr: MyString
+  action_phrase_ca: MyString
+  action_phrase_es: MyString
+  action_phrase_en: MyString
+  action_phrase_fr: MyString
+  action_button_ca: MyString
+  action_button_es: MyString
+  action_button_en: MyString
+  action_button_fr: MyString
+  reviews_title: MyString
+  contact_title: MyString
+  contact_subtitle: MyString
+
+two:
+  header_title_ca: MyString
+  header_title_es: MyString
+  header_title_en: MyString
+  header_title_fr: MyString
+  action_phrase_ca: MyString
+  action_phrase_es: MyString
+  action_phrase_en: MyString
+  action_phrase_fr: MyString
+  action_button_ca: MyString
+  action_button_es: MyString
+  action_button_en: MyString
+  action_button_fr: MyString
+  reviews_title: MyString
+  contact_title: MyString
+  contact_subtitle: MyString

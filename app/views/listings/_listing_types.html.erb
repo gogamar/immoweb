@@ -1,0 +1,7 @@
+<% listing_types.each do |listing_type| %>
+  <div class="flex items-center gap-x-3">
+    <% checked = (listing_type == params["pt"] || @listing_types.count == 1) ? "checked" : "" %>
+    <input <%= checked %> id="property_<%= listing_type %>" name="pt" type="radio" class="h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" value="<%= listing_type %>" data-action="change->filter#submitForm">
+    <label for="property_<%= listing_type %>" class="block text-sm font-medium leading-6 text-gray-900"><%= t(listing_type) %></label>
+  </div>
+<% end %>

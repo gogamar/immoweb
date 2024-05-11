@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::Base
   before_action :set_locale
+  # before_action :set_content
+  before_action :set_services
   before_action :authenticate_user!
   before_action :configure_permitted_parameters, if: :devise_controller?
   around_action :set_locale_from_url
@@ -45,8 +47,16 @@ class ApplicationController < ActionController::Base
     I18n.locale = extract_locale || I18n.default_locale
   end
 
+  def set_content
+    @content = Content.first
+  end
+
+  def set_services
+    @services = Service.all.order(:id)
+  end
+
   def skip_pundit?
-    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^static$)/
+    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^static$)|(^contacts$)/
   end
 
   def extract_locale

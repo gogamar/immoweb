@@ -2,7 +2,6 @@
   <% if town.errors.any? %>
     <div id="error_explanation" class="bg-red-50 text-red-500 px-3 py-2 font-medium rounded-lg mt-3">
       <h2><%= pluralize(town.errors.count, "error") %> prohibited this town from being saved:</h2>
-
       <ul>
         <% town.errors.each do |error| %>
           <li><%= error.full_message %></li>
@@ -10,8 +9,43 @@
       </ul>
     </div>
   <% end %>
-
+  <div class="field">
+    <%= form.label :name_ca %>
+    <%= form.text_field :name_ca %>
+  </div>
+  <div class="field">
+    <%= form.label :name_es %>
+    <%= form.text_field :name_es %>
+  </div>
+  <div class="field">
+    <%= form.label :name_fr %>
+    <%= form.text_field :name_fr %>
+  </div>
+  <div class="field">
+    <%= form.label :name_en %>
+    <%= form.text_field :name_en %>
+  </div>
+  <div class="field">
+    <%= form.label :description_ca %>
+    <%= form.text_area :description_ca %>
+  </div>
+  <div class="field">
+    <%= form.label :description_es %>
+    <%= form.text_area :description_es %>
+  </div>
+  <div class="field">
+    <%= form.label :description_fr %>
+    <%= form.text_area :description_fr %>
+  </div>
+  <div class="field">
+    <%= form.label :description_en %>
+    <%= form.text_area :description_en %>
+  </div>
+  <div class="field">
+    <%= form.label :photos, "Upload Photo" %>
+    <%= form.file_field :photos, multiple: true %>
+  </div>
   <div class="inline">
-    <%= form.submit class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer" %>
+    <%= form.submit class: "rounded-lg py-3 px-5 bg-sky-600 text-white inline-block font-medium cursor-pointer" %>
   </div>
 <% end %>

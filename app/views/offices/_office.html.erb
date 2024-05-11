@@ -1,0 +1,22 @@
+<div id="<%= dom_id office %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= office.name %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Address:</strong>
+    <%= office.address %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Phone number:</strong>
+    <%= office.phone_number %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this office", office, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to "Edit this office", edit_office_path(office), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
+</div>

@@ -1,0 +1,53 @@
+<div class="relative bg-white">
+  <div class="pb-5 pt-5 lg:mx-auto lg:max-w-7xl">
+    <div class="px-6 lg:px-8">
+      <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900"><%= t('get_info_property') %></h2>
+        <%= form_with(model: @contact, url: contacts_path) do |form| %>
+          <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+            <div class="sm:col-span-2">
+              <div class="mt-5">
+                <%= form.text_area :message, value: t('get_info_message'), class: "block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6" %>
+              </div>
+            </div>
+            <fieldset class="sm:col-span-2">
+              <legend class="block text-sm font-semibold leading-6 text-gray-900"><%= t('looking_for') %></legend>
+              <div class="mt-4 space-y-4 text-sm leading-6 text-gray-600">
+                <% Contact::BUDGET.each do |range| %>
+                  <div class="flex gap-x-2.5">
+                    <%= form.radio_button :budget, range, class: "mt-1 h-4 w-4 border-gray-300 text-sky-600 shadow-sm focus:ring-sky-600" %>
+                    <%= form.label :budget, range %>
+                  </div>
+                <% end %>
+              </div>
+            </fieldset>
+            <div class="sm:col-span-2">
+              <%= form.label :name, class: "block text-sm font-semibold leading-6 text-gray-900" %>
+              <div class="mt-2.5">
+                <%= form.text_field :name, class: "block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6" %>
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <%= form.label :email, class: "block text-sm font-semibold leading-6 text-gray-900" %>
+              <div class="mt-2.5">
+                <%= form.email_field :email, class: "block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6" %>
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <div class="flex justify-between text-sm leading-6">
+                <%= form.label :phone, class: "block font-semibold text-gray-900" %>
+                <p id="phone-description" class="text-gray-400"><%= t('optional') %></p>
+              </div>
+              <div class="mt-2.5">
+                <%= form.phone_field :phone, class: "block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6" %>
+              </div>
+            </div>
+          </div>
+          <div class="mt-10 flex justify-end border-t border-gray-900/10 pt-8">
+            <%= form.submit t('send_message'), class: "rounded-md bg-sky-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
