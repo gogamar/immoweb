@@ -1,48 +1,48 @@
 <li class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow">
-  <div class="flex flex-1 flex-col p-2 relative group h-60">
-    <img class="mx-auto w-full object-cover rounded-lg border border-gray-300 transform transition-transform duration-300 ease-in-out group-hover:scale-105 aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" src="<%= listing.image_urls.first.url %>" alt="">
-    <!-- Watermark -->
-    <% if listing.mark.present? %>
-      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[5rem] text-red-700 text-4xl uppercase tracking-wider">
-        <%= t('sold') if listing.mark == "sold" %>
-        <%= t('rented') if listing.mark == "rented" %>
+  <%= link_to listing do %>
+    <div class="flex flex-1 flex-col p-2 relative group h-60">
+      <img class="mx-auto w-full object-cover rounded-lg border border-gray-300 transform transition-transform duration-300 ease-in-out group-hover:scale-105 aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]" src="<%= listing.image_urls.first.url %>" alt="">
+      <!-- Watermark -->
+      <% if listing.mark.present? %>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[5rem] text-red-700 text-4xl uppercase tracking-wider">
+          <%= t('sold') if listing.mark == "sold" %>
+          <%= t('rented') if listing.mark == "rented" %>
+        </div>
+      <% end %>
+      <%# -rotate-25 %>
+      <div class="absolute top-3 left-3 flex items-center">
+        <span class="inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"><%= listing.operation == "sale" ? t('on_sale') : t('for_rent') %></span>
       </div>
-    <% end %>
-    <%# -rotate-25 %>
-    <div class="absolute top-3 left-3 flex items-center">
-      <span class="inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"><%= listing.operation == "sale" ? t('on_sale') : t('for_rent') %></span>
-    </div>
-    <div class="mt-4 flex justify-between">
-      <div class="text-left">
-        <h3 class="text-sm text-gray-700">
-          <a href="#">
+      <div class="mt-4 flex justify-between">
+        <div class="text-left">
+          <h3 class="text-sm text-gray-700">
             <span aria-hidden="true" class="absolute inset-0"></span>
             <%= t(listing.listing_subtype) %>
-          </a>
-        </h3>
-        <p class="mt-1 text-sm text-gray-500"><%= "#{listing.town_area}, " if listing.town_area.present? %><%= listing.town_name %></p>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500"><%= "#{listing.town_area}, " if listing.town_area.present? %><%= listing.town_name %></p>
+        </div>
+        <% price = listing.salesprice || listing.rentprice %>
+        <p class="font-medium text-gray-900"><%= number_to_currency(price, locale: locale, precision: 0) %></p>
       </div>
-      <% price = listing.salesprice || listing.rentprice %>
-      <p class="font-medium text-gray-900"><%= number_to_currency(price, locale: locale, precision: 0) %></p>
-    </div>
-    <div class="mt-4 flex justify-between text-gray-500">
-      <span class="text-xs">
-        <% if listing.bedrooms %>
-          <i class="fas fa-bed mr-2"></i><%= listing.bedrooms %> <%= t('bedroom', count: listing.bedrooms) %>
-        <% end %>
-      </span>
-      <% if listing.bathrooms %>
+      <div class="mt-4 flex justify-between text-gray-500">
         <span class="text-xs">
-          <i class="fas fa-bath mr-2"></i><%= listing.bathrooms %> <%= t('bathroom', count: listing.bathrooms) %>
+          <% if listing.bedrooms %>
+            <i class="fas fa-bed mr-2"></i><%= listing.bedrooms %> <%= t('bedroom', count: listing.bedrooms) %>
+          <% end %>
         </span>
-      <% end %>
-      <span class="text-xs">
-        <% if listing.built_area %>
-          <i class="fas fa-vector-square mr-2"></i><%= "#{listing.built_area.round} m²" if listing.built_area %>
-        <% elsif listing.usable_area %>
-          <i class="fas fa-vector-square mr-2"></i><%= "#{listing.usable_area.round} m²" if listing.usable_area %>
+        <% if listing.bathrooms %>
+          <span class="text-xs">
+            <i class="fas fa-bath mr-2"></i><%= listing.bathrooms %> <%= t('bathroom', count: listing.bathrooms) %>
+          </span>
         <% end %>
-      </span>
+        <span class="text-xs">
+          <% if listing.built_area %>
+            <i class="fas fa-vector-square mr-2"></i><%= "#{listing.built_area.round} m²" if listing.built_area %>
+          <% elsif listing.usable_area %>
+            <i class="fas fa-vector-square mr-2"></i><%= "#{listing.usable_area.round} m²" if listing.usable_area %>
+          <% end %>
+        </span>
+      </div>
     </div>
-  </div>
+  <% end %>
 </li>
