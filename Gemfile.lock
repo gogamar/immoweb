@@ -349,6 +349,7 @@ DEPENDENCIES
   rails-i18n
   redis (~> 4.0)
   route_translator
+  sassc-rails
   selenium-webdriver
   sidekiq
   sidekiq-cron
