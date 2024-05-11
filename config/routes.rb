@@ -1,13 +1,5 @@
 Rails.application.routes.draw do
-  namespace :admin do
-      resources :features
-      resources :image_urls
-      resources :listings
-      resources :towns
-      resources :users
 
-      root to: "features#index"
-    end
   localized do
     # Sidekiq Web UI, only for admins.
     require "sidekiq/web"

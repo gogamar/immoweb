@@ -51,7 +51,6 @@ gem "bootsnap", require: false
 gem 'font_awesome5_rails'
 gem "simple_form"
 gem 'devise'
-# gem 'administrate'
 gem 'route_translator'
 gem 'rails-i18n'
 gem 'devise-i18n'
