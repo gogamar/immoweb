@@ -18,14 +18,14 @@ Rails.application.configure do
 
   # fixme: change this to the correct email settings
 
-  config.action_mailer.smtp_settings = {
-    address: "mail.privateemail.com",
-    port: 587,
-    user_name: ENV["EMAIL_USERNAME"],
-    password: ENV["EMAIL_PASSWORD"],
-    authentication: "plain",
-    enable_starttls_auto: true
-  }
+  # config.action_mailer.smtp_settings = {
+  #   address: "mail.privateemail.com",
+  #   port: 587,
+  #   user_name: ENV["EMAIL_USERNAME"],
+  #   password: ENV["EMAIL_PASSWORD"],
+  #   authentication: "plain",
+  #   enable_starttls_auto: true
+  # }
 
   # Code is not reloaded between requests.
   config.cache_classes = true
@@ -49,7 +49,7 @@ Rails.application.configure do
   config.public_file_server.enabled = ENV["RAILS_SERVE_STATIC_FILES"].present?
 
   # Compress CSS using a preprocessor.
-  config.assets.css_compressor = nil
+  # config.assets.css_compressor = nil
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
