@@ -16,16 +16,14 @@ Rails.application.configure do
   #   enable_starttls_auto: true
   # }
 
-  # fixme: change this to the correct email settings
-
-  # config.action_mailer.smtp_settings = {
-  #   address: "mail.privateemail.com",
-  #   port: 587,
-  #   user_name: ENV["EMAIL_USERNAME"],
-  #   password: ENV["EMAIL_PASSWORD"],
-  #   authentication: "plain",
-  #   enable_starttls_auto: true
-  # }
+  config.action_mailer.smtp_settings = {
+    address: "mail.sistachfinques.com",
+    port: 465,
+    user_name: ENV["EMAIL_USERNAME"],
+    password: ENV["EMAIL_PASSWORD"],
+    authentication: "plain",
+    enable_starttls_auto: true
+  }
 
   # Code is not reloaded between requests.
   config.cache_classes = true

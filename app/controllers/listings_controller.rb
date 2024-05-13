@@ -4,11 +4,11 @@ class ListingsController < ApplicationController
 
   def index
     @all_listings = policy_scope(Listing)
-    @listings_in_town = @all_listings.where(town_id: params[:town_id]) if params[:town_id].present?
-    @listings = @listings_in_town.where(operation: params[:ot]) if params[:ot].present?
+    @listings = @all_listings.where(town_id: params[:town_id]) if params[:town_id].present?
+    @listing_types = @listings.present? ? @listings.pluck(:listing_subtype).uniq : Listing.pluck(:listing_subtype).uniq
+    @listings = @listings.where(operation: params[:ot]) if params[:ot].present?
     @listings = @listings.where(listing_subtype: params[:pt]) if params[:pt].present?
-    @listing_types = @listings_in_town.present? ? @listings_in_town.pluck(:listing_subtype).uniq : Listing.pluck(:listing_subtype).uniq
-    @operations = @listings_in_town.present? ? @listings_in_town.pluck(:operation).uniq : Listing.pluck(:operation).uniq
+    @operations = @listings.present? ? @listings.pluck(:operation).uniq : Listing.pluck(:operation).uniq
     @towns = Town.all
     @all_salesprices = @all_listings.pluck(:salesprice)
     i = 40000

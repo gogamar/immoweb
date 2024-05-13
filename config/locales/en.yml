@@ -1,204 +1,233 @@
 en:
+  about_us: About us
   activerecord:
     attributes:
+      contact:
+        budget: Budget
+        email: Email
+        message: Message
+        name: Name
+        phone: Phone
       content:
+        action_button_ca: Catalan action button
+        action_button_en: English action button
+        action_button_es: Spanish action button
+        action_button_fr: French action button
+        action_phrase_ca: Catalan action phrase
+        action_phrase_en: English action phrase
+        action_phrase_es: Spanish action phrase
+        action_phrase_fr: French action phrase
+        add_property_subtitle_ca: Catalan add property subtitle
+        add_property_subtitle_en: English add property subtitle
+        add_property_subtitle_es: Spanish add property subtitle
+        add_property_subtitle_fr: French add property subtitle
+        add_property_title_ca: Catalan add property title
+        add_property_title_en: English add property title
+        add_property_title_es: Spanish add property title
+        add_property_title_fr: French add property title
+        contact_subtitle_ca: Catalan contact subtitle
+        contact_subtitle_en: English contact subtitle
+        contact_subtitle_es: Spanish contact subtitle
+        contact_subtitle_fr: French contact subtitle
+        contact_title_ca: Catalan contact title
+        contact_title_en: English contact title
+        contact_title_es: Spanish contact title
+        contact_title_fr: French contact title
         header_background: Choose header background type
         header_title_ca: Catalan header title
-        header_title_es: Spanish header title
         header_title_en: English header title
+        header_title_es: Spanish header title
         header_title_fr: French header title
-        action_phrase_ca: Catalan action phrase
-        action_phrase_es: Spanish action phrase
-        action_phrase_en: English action phrase
-        action_phrase_fr: French action phrase
-        action_button_ca: Catalan action button
-        action_button_es: Spanish action button
-        action_button_en: English action button
-        action_button_fr: French action button
-        reviews_title_ca: Catalan reviews title
-        reviews_title_es: Spanish reviews title
-        reviews_title_en: English reviews title
-        reviews_title_fr: French reviews title
-        reviews_subtitle_ca: Catalan reviews subtitle
-        reviews_subtitle_es: Spanish reviews subtitle
-        reviews_subtitle_en: English reviews subtitle
-        reviews_subtitle_fr: French reviews subtitle
-        contact_title_ca: Catalan contact title
-        contact_title_es: Spanish contact title
-        contact_title_en: English contact title
-        contact_title_fr: French contact title
-        contact_subtitle_ca: Catalan contact subtitle
-        contact_subtitle_es: Spanish contact subtitle
-        contact_subtitle_en: English contact subtitle
-        contact_subtitle_fr: French contact subtitle
-        add_property_title_ca: Catalan add property title
-        add_property_title_es: Spanish add property title
-        add_property_title_en: English add property title
-        add_property_title_fr: French add property title
-        add_property_subtitle_ca: Catalan add property subtitle
-        add_property_subtitle_es: Spanish add property subtitle
-        add_property_subtitle_en: English add property subtitle
-        add_property_subtitle_fr: French add property subtitle
-        posts_title_ca: Catalan posts title
-        posts_title_es: Spanish posts title
-        posts_title_en: English posts title
-        posts_title_fr: French posts title
         posts_subtitle_ca: Catalan posts subtitle
-        posts_subtitle_es: Spanish posts subtitle
         posts_subtitle_en: English posts subtitle
+        posts_subtitle_es: Spanish posts subtitle
         posts_subtitle_fr: French posts subtitle
+        posts_title_ca: Catalan posts title
+        posts_title_en: English posts title
+        posts_title_es: Spanish posts title
+        posts_title_fr: French posts title
+        reviews_subtitle_ca: Catalan reviews subtitle
+        reviews_subtitle_en: English reviews subtitle
+        reviews_subtitle_es: Spanish reviews subtitle
+        reviews_subtitle_fr: French reviews subtitle
+        reviews_title_ca: Catalan reviews title
+        reviews_title_en: English reviews title
+        reviews_title_es: Spanish reviews title
+        reviews_title_fr: French reviews title
       service:
-        summary_title_ca: Catalan summary title
-        summary_title_es: Spanish summary title
-        summary_title_en: English summary title
-        summary_title_fr: French summary title
-        summary_ca: Catalan summary
-        summary_es: Spanish summary
-        summary_en: English summary
-        summary_fr: French summary
-        description_title_ca: Catalan description title
-        description_title_es: Spanish description title
-        description_title_en: English description title
-        description_title_fr: French description title
         description_ca: Catalan description
-        description_es: Spanish description
         description_en: English description
+        description_es: Spanish description
         description_fr: French description
-  already_member: Already a member?
-  home: Home
-  about_us: About us
-  listings: Listings
-  contact: Contact
-  open_main_menu: Open main menu
+        description_title_ca: Catalan description title
+        description_title_en: English description title
+        description_title_es: Spanish description title
+        description_title_fr: French description title
+        summary_ca: Catalan summary
+        summary_en: English summary
+        summary_es: Spanish summary
+        summary_fr: French summary
+        summary_title_ca: Catalan summary title
+        summary_title_en: English summary title
+        summary_title_es: Spanish summary title
+        summary_title_fr: French summary title
+  add_content: Add content
+  add_service: Add service
   add_your_listing: Add your listing
-  open_user_menu: Open user menu
-  your_profile: Your profile
-  settings: Settings
-  sign_out: Sign out
-  phone: Phone
-  email: Email
-  price: Price
+  alley: Alley
+  already_member: Already a member?
   apartment: Apartment
-  on_sale: For sale
-  for_rent: For rent
-  sold: Sold
-  rented: Rented
   available: Available
-  reserved: Reserved
-  earnest_deposit: Earnest deposit
-  contract: Contract
-  transaction_completed: Transaction completed
-  rented_with_option_to_buy: Rented with option to buy
-  off_market: Off market
-  housing: Housing
-  house: House
-  parking: Parking
-  shop: Shop
-  office: Office
-  land: Land
-  building: Building
-  warehouse: Warehouse
-  hotel: Hotel
-  regular: Regular
-  good: Good
-  excellent: Excellent
-  very_good: Very good
-  needs_renovation: Needs renovation
-  new: New
-  renovated: Renovated
-  newly_renovated: Newly renovated
-  ground_floor_with_garden: Ground floor with garden
-  townhouse: Townhouse
-  duplex: Duplex
-  studio: Studio
-  loft: Loft
-  triplex: Triplex
-  bungalow: Bungalow
-  country_house: Country house
-  chalet: Chalet
-  farmhouse: Farmhouse
-  parking_space: Parking space
-  parking_interior: Indoor parking
-  other: Other
-  penthouse: Penthouse
-  terraced: Terraced
-  detached: Detached
-  urban_land: Urban land
-  interior: Interior
-  view_more_properties: View more properties
-  new_properties: New properties
-  featured_properties: Featured properties
-  video: video
-  image: image
-  bedroom:
-    one: bedroom
-    other: bedrooms
+  avenue: Avenue
+  back: Back
   bathroom:
     one: bathroom
     other: bathrooms
-  add_service: Add service
-  add_content: Add content
-  save: Save
-  back: Back
-  upload_image: Upload image
-  upload_video: Upload video
-  or_drag_and_drop: or drag and drop
+  bedroom:
+    one: bedroom
+    other: bedrooms
+  bedrooms: bedrooms
+  boulevard: Boulevard
+  budget: Budget
+  building: Building
+  bungalow: Bungalow
+  buy: Buy
+  ca: Catalan
+  chalet: Chalet / Tower
+  community_area: Community area
+  contact: Contact
+  contact_us: Contact us
+  content_already_exists: Content already exists
+  contract: Contract
+  copyright: All rights reserved.
+  country_house: Country house
+  detached: Detached
+  details: Details
+  duplex: Duplex
+  earnest_deposit: Earnest deposit
+  email: Email
+  en: English
+  energy_certificate: Energy certificate
+  es: Spanish
+  excellent: Excellent
+  exclusive_text: At Finques Sistach, we understand that each property is unique, so we strive to offer personalized service tailored to the specific needs of each owner. We have a diverse real estate portfolio ranging from seaside apartments to charming country houses. Our experience and market knowledge allow us to highlight the unique features of each property, maximizing its selling or rental potential.
+  exclusive_title: Exclusive Real Estate Portfolio
+  farmhouse: Farmhouse
+  featured_properties: Featured Properties
+  features: Features
+  filter: Filter
+  for_rent: For rent
+  fr: French
+  garden_area: Garden area
+  get_in_touch: Get in touch
+  get_in_touch_intro1: Considering selling or renting out your property? Our real estate agency is here to help you every step of the way! Whether you want to sell a family home, rent out a property, or explore new opportunities in the real estate market, our team is dedicated to assisting you.
+  get_in_touch_intro2: With years of experience and deep knowledge of the local market, we offer personalized service tailored to your unique needs. Get in touch with us today to schedule a consultation with one of our experienced agents.
+  get_info_message: Hi, I would like to get more information about this property.
+  get_info_property: Inquire about this property
+  good: Good
+  ground_floor_with_garden: Ground floor with garden
   header_background_image: Header background image
   header_background_video: Header background video
+  heating: Heating
+  home: Home
+  hotel: Hotel
+  house: House
+  housing: Housing
+  image: image
   image_formats: PNG, JPG, GIF up to 10MB
-  video_formats: MP4 up to 10MB
-  content_already_exists: Content already exists
-  select_town: Select a town
-  sale: Sale
-  rent: Rent
   in: in
-  ca: Catalan
-  es: Spanish
-  en: English
-  fr: French
+  interior: Interior
+  land: Land
+  lift: Elevator
+  listings: Listings
+  listings_in_other_towns: Listings in other towns
+  loft: Loft
+  looking_for: I'm looking for a property...
+  message: Message
+  name: Name
+  needs_renovation: Needs renovation
+  new: New
+  new_contact_submitted: You have a message!
+  new_properties: New Properties
+  newly_renovated: Newly renovated
+  no_listings_found: Currently, we don't have any available properties for %{operation} in %{town} that meet these criteria. Please try again later or contact us for more information.
+  no_strings_attached: Contact us with no strings attached. We're here to help you.
+  number_bathrooms: Number of bathrooms
+  number_bedrooms: Number of bedrooms
+  off_market: Off market
+  office: Office
+  on_sale: For sale
+  open_main_menu: Open main menu
+  open_user_menu: Open user menu
+  operation_type: Operation type
+  optional: Optional
+  or_drag_and_drop: or drag and drop
+  other: Other
+  our_offices: Our Offices
+  owner_services: Owner Services
+  parking: Parking
+  parking_interior: Interior parking space
+  parking_space: Parking space
+  passage: Passage
+  penthouse: Penthouse
+  phone: Phone
+  pool: Pool
+  preservation: Preservation status
+  price: Price
+  professional_text: At Finques Sistach, we take pride in our long-standing history as Real Estate Agents. With over a decade of experience in the industry, we have built a solid and trustworthy reputation in the real estate market of L'Estartit. Our team consists of highly skilled and certified professionals (A.F. COL 920 / API 1009 / AICAT 6541) who work tirelessly to provide quality service and expert advice to our clients.
+  professional_title: Professionalism and Experience
+  promenade: Promenade
+  property_type: Property type
+  regular: Regular
+  renovated: Renovated
+  rent: Rent
+  rented: Rented
+  rented_with_option_to_buy: Rented with option to buy
+  reserved: Reserved
+  road: Road
   routes:
     admin: admin
-    new: new
-    edit: edit
-    delete: delete
-    show: show
-    index: index
-    create: create
-    static: general
     all_listings: apartments-and-houses
-  buy: Buy
-  sell: Sell
+    create: create
+    delete: delete
+    edit: edit
+    index: index
+    new: new
+    show: show
+    static: general
+  sale: Sale
+  save: Save
   search: Search
-  operation_type: Operation type
-  property_type: Property type
-  filter: Filter
-  town: Town
-  owner_services: Owner services
-  who_we_are1: Certified Property Managers A.F. COL 920. Real Estate Agent API 1009 / AICAT 6541.
-  who_we_are2: Certified Property Managers A.F. COL 920. Real Estate Agent API 1009 / AICAT 6541.
-  why_choose_us: Why Choose Finques Sistach
-  professional_title: Professionalism and Experience
-  professional_text: At Finques Sistach, we take pride in our long-standing experience as Real Estate Agents. With over a decade in the industry, we have built a solid and reliable reputation in the real estate market of l'Estartit. Our team consists of highly trained and certified professionals (A.F. COL 920 / API 1009 / AICAT 6541) who work tirelessly to provide quality service and expert advice to our clients.
-  exclusive_title: Exclusive Real Estate Portfolio
-  exclusive_text: At Finques Sistach, we understand that each property is unique, so we strive to offer a personalized service tailored to the specific needs of each owner. We have a diverse real estate portfolio ranging from seaside apartments to charming rural houses. Our experience and market knowledge allow us to highlight the unique features of each property, thus maximizing its potential for sale or rental.
-  solvent_title: Seriousness and Solvency
-  solvent_text: "Trust is essential in any real estate transaction, and at Finques Sistach, we are committed to providing transparent, ethical, and professional service at all times. Our reputation for seriousness and solvency has been earned through our integrity at every step of the process, from the initial valuation to the signing of the final contract. We ensure that both owners and potential buyers or tenants feel supported and secure throughout the process.
-  In summary, at Finques Sistach, we offer more than just a real estate service; we offer a partnership of trust and mutual commitment. If you are considering selling or renting your property in l'Estartit, trust Finques Sistach to make the process easy, transparent, and successful."
-  contact_us: Contact Us
-  street: Street
-  avenue: Avenue
+  select_town: Select a town
+  sell: Sell
+  send_message: Send message
+  settings: Settings
+  shop: Shop
+  sign_out: Sign out
+  sold: Sold
+  solvent_text:
+    Trust is fundamental in any real estate transaction, and at Finques Sistach, we are committed to providing transparent, ethical, and professional service at all times. Our reputation for integrity and solvency has been earned through our integrity at every step of the process, from the initial assessment to the final contract signing. We ensure that both owners and potential buyers or tenants feel supported and secure throughout the process. In summary, at
+    Finques Sistach we offer more than just real estate service; we offer a partnership of trust and mutual commitment. If you are considering selling or renting out your property in L'Estartit, trust Finques Sistach to make the process easy, transparent, and successful.
+  solvent_title: Integrity and Solvency
   square: Square
-  road: Road
-  boulevard: Boulevard
-  alley: Alley
-  passage: Passage
-  promenade: Promenade
-  get_in_touch_intro: "Looking to Sell or Rent Your Property?
-
-  Are you considering selling or renting out your property? Our real estate agency is here to assist you every step of the way! Whether you're looking to sell a family home, rent out an investment property, or explore new opportunities in the real estate market, our team is dedicated to helping you achieve your goals.
-
-  With years of experience and a deep understanding of the local market, we offer personalized service tailored to your unique needs. From expert market analysis to strategic marketing plans, we'll work tirelessly to maximize the value of your property and find the right buyer or tenant.
-
-  Get in touch with us today to schedule a consultation with one of our experienced agents. Let us help you unlock the full potential of your property and navigate the real estate process with confidence.
-
-  Contact us now to get started!"
+  street: Street
+  studio: Studio
+  terraced: Terraced
+  thank_you_for_contacting_us: Thank you for contacting us. We will respond to your inquiry soon.
+  town: Town
+  townhouse: Townhouse
+  transaction_completed: Transaction completed
+  triplex: Triplex
+  upload_image: Upload image
+  upload_video: Upload video
+  urban_land: Urban land
+  very_good: Very good
+  video: video
+  video_formats: MP4 up to 10MB
+  view_more_properties: View more properties
+  views: Views
+  warehouse: Warehouse
+  who_we_are1: Chartered Property Managers A.F. COL 920. Real Estate Agent API 1009 / AICAT 6541.
+  who_we_are2: Chartered Property Managers A.F. COL 920. Real Estate Agent API 1009 / AICAT 6541.
+  why_choose_us: Why Choose Finques Sistach
+  your_profile: Your Profile
