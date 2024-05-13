@@ -6,8 +6,6 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.2"
 
-gem 'sassc-rails'
-
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -21,6 +19,8 @@ gem "puma", "~> 5.0"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
+
+gem 'sassc-rails'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
@@ -60,7 +60,7 @@ gem "pundit"
 gem 'net-ftp'
 gem "geocoder"
 gem 'pagy', '~> 6.0' # omit patch digit
-# gem 'flag-icons-rails'
+gem 'flag-icons-rails'
 # fixme these 4 need to be configured:
 gem "cloudinary"
 gem "sidekiq"

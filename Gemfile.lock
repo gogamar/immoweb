@@ -120,6 +120,8 @@ GEM
     faraday-net_http (3.1.0)
       net-http
     ffi (1.16.3)
+    flag-icons-rails (3.4.6.1)
+      sass-rails
     font_awesome5_rails (1.5.0)
       nokogiri (>= 1.11.3)
       railties (>= 4.2)
@@ -246,6 +248,8 @@ GEM
       actionpack (>= 6.1, < 7.2)
       activesupport (>= 6.1, < 7.2)
     rubyzip (2.3.2)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -333,6 +337,7 @@ DEPENDENCIES
   devise
   devise-i18n
   dotenv-rails
+  flag-icons-rails
   font_awesome5_rails
   geocoder
   importmap-rails
