@@ -3,14 +3,14 @@ class ListingsController < ApplicationController
   before_action :set_listing, only: %i[ show edit update destroy ]
 
   def index
-    @all_listings = policy_scope(Listing)
-    @listings = @all_listings.where(town_id: params[:town_id]) if params[:town_id].present?
+    @listings = policy_scope(Listing)
+    @listings = @listings.where(town_id: params[:town_id]) if params[:town_id].present?
     @listing_types = @listings.present? ? @listings.pluck(:listing_subtype).uniq : Listing.pluck(:listing_subtype).uniq
     @listings = @listings.where(operation: params[:ot]) if params[:ot].present?
     @listings = @listings.where(listing_subtype: params[:pt]) if params[:pt].present?
     @operations = @listings.present? ? @listings.pluck(:operation).uniq : Listing.pluck(:operation).uniq
     @towns = Town.all
-    @all_salesprices = @all_listings.pluck(:salesprice)
+    @all_salesprices = Listing.pluck(:salesprice)
     i = 40000
     salesprices_1 = Array.new(18){i+=20000}
     salesprices_2 = Array.new(12){i+=50000}
