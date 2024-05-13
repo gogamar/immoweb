@@ -14,6 +14,7 @@ test:
 
 production:
   <<: *default
-  database: immoweb_production
-  username: immoweb
-  password: <%= ENV["IMMOWEB_DATABASE_PASSWORD"] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  url: <%= ENV['DATABASE_URL'] %>
