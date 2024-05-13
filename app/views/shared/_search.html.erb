@@ -3,12 +3,12 @@
   <div class="flex-1">
     <div class="space-y-4 sm:flex sm:items-center sm:space-x-10 sm:space-y-0">
       <div class="flex items-center">
-        <%= radio_button_tag "ot", "buy", true, class: "h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" %>
-        <%= label_tag "email", t('buy'), class: "ml-3 block text-base font-medium leading-6 text-gray-900" %>
+        <%= radio_button_tag "ot", "sale", true, class: "h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" %>
+        <%= label_tag "sale", t('to_buy'), class: "ml-3 block text-base font-medium leading-6 text-gray-900" %>
       </div>
       <div class="flex items-center">
-        <%= radio_button_tag "ot", "sell", false, class: "h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" %>
-        <%= label_tag "sms", t('sell'), class: "ml-3 block text-base font-medium leading-6 text-gray-900" %>
+        <%= radio_button_tag "ot", "rent", false, class: "h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" %>
+        <%= label_tag "rent", t('to_rent'), class: "ml-3 block text-base font-medium leading-6 text-gray-900" %>
       </div>
     </div>
   </div>
