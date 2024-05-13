@@ -2,11 +2,11 @@
 import "@hotwired/turbo-rails";
 import "controllers";
 
-import "./add_jquery";
-import { initSlick } from "./components/init_slick";
-import { initMagnificPopUp } from "./components/init_magnificPopUp";
+// import "./add_jquery";
+// import { initSlick } from "./components/init_slick";
+// import { initMagnificPopUp } from "./components/init_magnificPopUp";
 
-document.addEventListener("turbo:load", function () {
-  initSlick();
-  initMagnificPopUp();
-});
+// document.addEventListener("turbo:load", function () {
+//   initSlick();
+//   initMagnificPopUp();
+// });
