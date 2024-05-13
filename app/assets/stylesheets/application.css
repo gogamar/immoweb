@@ -14,13 +14,6 @@
  *= require_self
  */
 
-/*
-  *= require font_awesome5_webfont
- */
-/*
- *= require flag-icon
- */
-
 .slick-prev {
   left: 10px;
   z-index: 999;

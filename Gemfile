@@ -6,8 +6,6 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.2"
 
-gem 'sassc-rails'
-
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -49,9 +47,6 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# Use Sass to process CSS
-gem "sassc-rails"
-
 # added gems
 gem 'font_awesome5_rails'
 gem "simple_form"
@@ -63,7 +58,7 @@ gem "pundit"
 gem 'net-ftp'
 gem "geocoder"
 gem 'pagy', '~> 6.0' # omit patch digit
-gem 'flag-icons-rails'
+# gem 'flag-icons-rails'
 # fixme these 4 need to be configured:
 gem "cloudinary"
 gem "sidekiq"
