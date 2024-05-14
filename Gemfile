@@ -90,5 +90,3 @@ gem "sidekiq-failures", "~> 1.0"
 gem "sidekiq-cron"
 gem "dotenv-rails"
 gem "view_component"
-
-gem "cssbundling-rails", "~> 1.4"

@@ -4,7 +4,7 @@
       <div class="click">
         <% listing.image_urls.each do |image| %>
           <%= link_to image.url, class: "mfp-gallery" do %>
-            <%= image_tag image.url, alt:"#{listing.listing_subtype} #{listing.town_name}", quality: "auto" %>
+            <%=image_tag(image.url, alt:"#{listing.listing_subtype} #{listing.town_name}", quality: "auto") %>
           <% end %>
         <% end %>
       </div>
