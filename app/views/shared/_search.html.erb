@@ -10,18 +10,16 @@
         <%= radio_button_tag "ot", "rent", false, class: "h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" %>
         <%= label_tag "rent", t('to_rent'), class: "ml-3 block text-base font-medium leading-6 text-gray-900" %>
       </div>
+      <!-- Select Town -->
+      <select id="town" name="town_id" class="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6">
+        <% @towns.each do |town| %>
+          <option value="<%= town.id %>"><%= town.name_es %></option>
+        <% end %>
+      </select>
+      <!-- Search Button -->
+      <div class="flex-1">
+        <%= submit_tag t('search'), name: "", class: "text-base w-full px-6 py-2 bg-sky-800 text-white rounded-md hover:bg-sky-900 focus:outline-none focus:ring-2 focus:ring-sky-900 focus:ring-opacity-50" %>
+      </div>
     </div>
-  </div>
-  <!-- Select Town -->
-  <div class="flex-1 me-6 w-auto">
-    <%= render(FancySelectComponent.new(
-        label: t('select_town'),
-        form_name: :town_id,
-        items: @towns
-      )) %>
-  </div>
-  <!-- Search Button -->
-  <div class="flex-1">
-    <%= submit_tag t('search'), name: "", class: "text-base w-full px-6 py-2 bg-sky-800 text-white rounded-md hover:bg-sky-900 focus:outline-none focus:ring-2 focus:ring-sky-900 focus:ring-opacity-50" %>
   </div>
 <% end %>
