@@ -9,4 +9,4 @@ pin "jquery", to: "https://ga.jspm.io/npm:jquery@3.7.1/dist/jquery.js"
 pin "slick-carousel", to: "https://ga.jspm.io/npm:slick-carousel@1.8.1/slick/slick.js"
 pin "magnific-popup", to: "https://ga.jspm.io/npm:magnific-popup@1.1.0/dist/jquery.magnific-popup.js"
 pin "mapbox-gl", to: "https://ga.jspm.io/npm:mapbox-gl@3.1.2/dist/mapbox-gl.js"
-pin "tailwindcss-stimulus-components", to: "https://cdn.jsdelivr.net/npm/tailwindcss-stimulus-components@5.0.2/+esm", preload: true
+# pin "tailwindcss-stimulus-components", to: "https://cdn.jsdelivr.net/npm/tailwindcss-stimulus-components@5.0.2/+esm", preload: true
