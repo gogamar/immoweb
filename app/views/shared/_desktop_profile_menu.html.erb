@@ -1,6 +1,7 @@
 <div class="flex items-center">
   <div class="hidden md:ml-4 md:flex md:flex-shrink-0 md:items-center">
     <!-- Profile dropdown -->
+    <%# fix toggle - use alpine.js %>
     <% if user_signed_in? %>
       <div class="relative ml-3" data-controller="dropdown" data-action="click->dropdown#toggle click@window->dropdown#hide">
         <div>

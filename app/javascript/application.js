@@ -6,9 +6,6 @@ import "@hotwired/turbo-rails";
 // import "magnific-popup";
 import "mapbox-gl";
 
-// Import Tailwind CSS Stimulus Components (assuming they are JavaScript modules)
-// import "tailwindcss-stimulus-components";
-
 // Import controllers (assuming they are Stimulus controllers)
 import "controllers";
 

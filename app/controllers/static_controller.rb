@@ -14,10 +14,6 @@ class StaticController < ApplicationController
     # @new_listings = Listing.order(created_at: :desc).limit(6)
     # @featured_listings = Listing.where(featured: true).where(mark: nil).limit(6)
     @towns = Town.all
-    # @towns = Town.all.map do |town|
-    #   photo_url = town.photos.first.url if town.photos.any?
-    #   FancySelectComponent::Item.new(town.id, town.name_es, photo_url)
-    # end
   end
 
   def about_us

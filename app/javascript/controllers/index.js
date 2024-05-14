@@ -7,25 +7,8 @@ import { eagerLoadControllersFrom } from "@hotwired/stimulus-loading";
 eagerLoadControllersFrom("controllers", application);
 
 // Lazy load controllers as they appear in the DOM (remember not to preload controllers in import map!)
-// import { lazyLoadControllersFrom } from "@hotwired/stimulus-loading"
-// lazyLoadControllersFrom("controllers", application)
+// import { lazyLoadControllersFrom } from "@hotwired/stimulus-loading";
+// lazyLoadControllersFrom("controllers", application);
 
 // Load all the controllers within this directory and all subdirectories.
 // Controller files must be named *_controller.js.
-
-// import {
-//   Alert,
-//   Dropdown,
-//   Modal,
-//   Tabs,
-//   Popover,
-//   Toggle,
-//   Slideover,
-// } from "tailwindcss-stimulus-components";
-// application.register("alert", Alert);
-// application.register("dropdown", Dropdown);
-// application.register("modal", Modal);
-// application.register("tabs", Tabs);
-// application.register("popover", Popover);
-// application.register("toggle", Toggle);
-// application.register("slideover", Slideover);
