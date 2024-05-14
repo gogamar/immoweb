@@ -17,6 +17,7 @@ Rails.application.routes.draw do
     resources :offices
 
     get 'static/about_us', to: 'static#about_us', as: :about_us
+    get 'static/success', to: 'static#success', as: :success
     get 'static/terms'
     get 'static/contact', to: 'static#contact_us', as: :contact_us
     get 'static/sale_listings', to: 'static#sale_listings', as: :sale_listings

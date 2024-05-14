@@ -9,9 +9,9 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
     if @contact.save
       ContactMailer.contact_email(@contact).deliver_now
-      redirect_back(fallback_location: root_path, notice: "thank_you_for_contacting_us")
+      redirect_to success_path
     else
-      render :new
+      redirect_back(fallback_location: root_path, notice: t("contact_error"))
     end
   end
 

@@ -51,4 +51,7 @@ class StaticController < ApplicationController
   def get_info
 
   end
+
+  def success
+  end
 end

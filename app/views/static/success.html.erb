@@ -1,0 +1,15 @@
+<div class="max-w-lg bg-white p-8 rounded-lg shadow-md text-center">
+  <h1 class="text-3xl font-bold text-gray-900 mb-4"><%= t('thank_you_get_in_touch') %></h1>
+  <p class="text-lg text-gray-700 mb-6"><%= t('will_respond_asap') %></p>
+  <p class="text-sm text-gray-500 mb-8"><%= t('redirecting_you') %></p>
+  <div class="flex justify-center">
+    <a href="/listings"
+                class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300 ease-in-out"><%= t('go_to_listings') %></a>
+  </div>
+</div>
+<script>
+  // Redirect after 50 seconds (50000 milliseconds)
+  setTimeout(function () {
+      window.location.href = "/listings";
+  }, 50000); // Adjust the delay as needed (in milliseconds)
+</script>
