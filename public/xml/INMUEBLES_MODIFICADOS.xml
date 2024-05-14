@@ -6,7 +6,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VT05001</Referencia>
     <FechaAlta>2024-05-02</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Piso</TipoEspecifico>
@@ -108,7 +108,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VT2304001</Referencia>
     <FechaAlta>2024-04-24</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Piso</TipoEspecifico>
@@ -256,7 +256,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA88</Referencia>
     <FechaAlta>2024-04-20</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -430,7 +430,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA111</Referencia>
     <FechaAlta>2024-04-20</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Chalet / Torre</TipoEspecifico>
@@ -776,7 +776,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA55</Referencia>
     <FechaAlta>2024-04-17</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -1068,6 +1068,10 @@
         <Nombre/>
         <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351345/images/351345_c61e07924556d31fe75e0ffdbbd98e79.jpg</url>
       </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351345/images/351345_ec6b77f7fe1106e0be72a9c129ba1bc1.jpg</url>
+      </foto>
     </Imagenes>
     <Destacado/>
     <Superdestacado/>
@@ -1079,7 +1083,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA448</Referencia>
     <FechaAlta>2024-03-26</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -1310,7 +1314,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA87</Referencia>
     <FechaAlta>2024-03-06</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -1524,7 +1528,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VE02001</Referencia>
     <FechaAlta>2024-02-27</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -1736,7 +1740,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA1000</Referencia>
     <FechaAlta>2024-02-13</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Chalet / Torre</TipoEspecifico>
@@ -2255,7 +2259,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA46</Referencia>
     <FechaAlta>2024-01-31</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -2522,7 +2526,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA1</Referencia>
     <FechaAlta>2024-01-05</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -2705,7 +2709,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA341</Referencia>
     <FechaAlta>2023-12-21</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -2883,7 +2887,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA999</Referencia>
     <FechaAlta>2023-12-20</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -3085,7 +3089,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA74</Referencia>
     <FechaAlta>2023-12-01</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -3291,7 +3295,7 @@
     <TipoGenerico>Parking</TipoGenerico>
     <Referencia>VB2311001</Referencia>
     <FechaAlta>2023-11-27</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Plaza de aparcamiento</TipoEspecifico>
@@ -3389,7 +3393,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA75</Referencia>
     <FechaAlta>2023-10-24</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -3615,7 +3619,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VAU99</Referencia>
     <FechaAlta>2023-10-17</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -3953,7 +3957,7 @@
     <TipoGenerico>Parking</TipoGenerico>
     <Referencia>VA008</Referencia>
     <FechaAlta>2023-09-27</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>interior</TipoEspecifico>
@@ -4047,7 +4051,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA34</Referencia>
     <FechaAlta>2023-09-26</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -4257,7 +4261,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA963</Referencia>
     <FechaAlta>2023-09-26</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -4507,7 +4511,7 @@
     <TipoGenerico>Edificio</TipoGenerico>
     <Referencia>VBM0900123</Referencia>
     <FechaAlta>2023-09-20</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Otro</TipoEspecifico>
@@ -4717,7 +4721,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA35</Referencia>
     <FechaAlta>2023-09-08</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -4907,7 +4911,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA61</Referencia>
     <FechaAlta>2023-08-28</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -5069,7 +5073,7 @@
     <TipoGenerico>Parking</TipoGenerico>
     <Referencia>VA10</Referencia>
     <FechaAlta>2023-08-22</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Plaza de aparcamiento</TipoEspecifico>
@@ -5179,7 +5183,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA953</Referencia>
     <FechaAlta>2023-08-05</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -5366,7 +5370,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA91</Referencia>
     <FechaAlta>2023-05-29</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -5560,7 +5564,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA45</Referencia>
     <FechaAlta>2023-05-25</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -5731,7 +5735,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA41</Referencia>
     <FechaAlta>2023-05-11</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Chalet / Torre</TipoEspecifico>
@@ -5966,7 +5970,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA666</Referencia>
     <FechaAlta>2023-02-02</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Estudio</TipoEspecifico>
@@ -6102,7 +6106,7 @@
     <TipoGenerico>Parking</TipoGenerico>
     <Referencia>VM15555</Referencia>
     <FechaAlta>2023-01-24</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Plaza de aparcamiento</TipoEspecifico>
@@ -6214,7 +6218,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA92</Referencia>
     <FechaAlta>2021-08-10</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -6412,7 +6416,7 @@
     <TipoGenerico>Suelo</TipoGenerico>
     <Referencia>050</Referencia>
     <FechaAlta>2017-01-21</FechaAlta>
-    <FechaModificacion>2024-05-08</FechaModificacion>
+    <FechaModificacion>2024-05-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Suelo urbano</TipoEspecifico>
