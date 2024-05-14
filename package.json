@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/gogamar/immoweb#readme",
   "dependencies": {
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "tailwindcss-stimulus-components": "^5.1.1"
   }
 }

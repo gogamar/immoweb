@@ -72,7 +72,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-
+# Very important to have this gem in the production environment!!!
 gem "tailwindcss-rails", "~> 2.3"
 
 # added gems
