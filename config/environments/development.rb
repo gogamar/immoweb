@@ -7,15 +7,15 @@ Rails.application.configure do
   # it changes. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
 
-  # config.action_mailer.smtp_settings = {
-  #   address: 'smtp.sendgrid.net',
-  #   port: 587,
-  #   domain: 'sistachfinques.com', # Update with your domain
-  #   user_name: ENV['EMAIL_USERNAME'], # Update with your email address
-  #   password: ENV['EMAIL_PASSWORD'], # Update with your email password
-  #   authentication: :plain,
-  #   enable_starttls_auto: true
-  # }
+  config.action_mailer.smtp_settings = {
+    address: 'smtp.sendgrid.net',
+    port: 587,
+    domain: 'sistachfinques.com', # Update with your domain
+    user_name: ENV['SENDGRID_USERNAME'], # Update with your email address
+    password: ENV['SENDGRID_PASSWORD'], # Update with your email password
+    authentication: :plain,
+    enable_starttls_auto: true
+  }
 
   # config.action_mailer.delivery_method = :smtp
   # config.action_mailer.smtp_settings = {
