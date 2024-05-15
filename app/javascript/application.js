@@ -2,6 +2,7 @@
 import "@hotwired/turbo-rails";
 
 // Import modules managed by Importmap
+import "./controllers";
 import "./add_jquery";
 import { initSlick } from "./components/init_slick";
 import { initMagnificPopUp } from "./components/init_magnificPopUp";
