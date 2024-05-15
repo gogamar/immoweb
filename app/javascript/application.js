@@ -1,10 +1,10 @@
 // Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
 // Import third-party libraries
-import "@hotwired/turbo-rails";
+// import "@hotwired/turbo-rails";
 // import "jquery";
 // import "slick-carousel";
 // import "magnific-popup";
-import "mapbox-gl";
+// import "mapbox-gl";
 
 // Import controllers (assuming they are Stimulus controllers)
 import "controllers";
