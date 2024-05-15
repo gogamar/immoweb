@@ -6,21 +6,12 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options ={:host => 'sistachfinques.com', :protocol => 'https'}
 
-  # # SMTP settings for gmail
-  # config.action_mailer.smtp_settings = {
-  #   address: "smtp.gmail.com",
-  #   port: 587,
-  #   user_name: ENV["GMAIL_USERNAME"],
-  #   password: ENV["GMAIL_PASSWORD"],
-  #   authentication: "plain",
-  #   enable_starttls_auto: true
-  # }
-
+  # SMTP settings for gmail
   config.action_mailer.smtp_settings = {
-    address: "mail.sistachfinques.com",
-    port: 465,
-    user_name: ENV["EMAIL_USERNAME"],
-    password: ENV["EMAIL_PASSWORD"],
+    address: "smtp.gmail.com",
+    port: 587,
+    user_name: ENV["GMAIL_USERNAME"],
+    password: ENV["GMAIL_PASSWORD"],
     authentication: "plain",
     enable_starttls_auto: true
   }

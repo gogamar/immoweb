@@ -150,7 +150,7 @@ en:
   new_contact_submitted: You have a message!
   new_properties: New Properties
   newly_renovated: Newly renovated
-  no_listings_found: Currently, we don't have any available properties for %{operation} in %{town} that meet these criteria. Please try again later or contact us for more information.
+  no_listings_found: Currently, we don't have any available properties for %{operation} in %{town} that meet these criteria.
   no_strings_attached: Contact us with no strings attached. We're here to help you.
   number_bathrooms: Number of bathrooms
   number_bedrooms: Number of bedrooms

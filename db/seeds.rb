@@ -4,7 +4,7 @@ puts "Creating admin..."
 
 User.create(email: "info@sistachfinques.com", password: "WiTaNeS#", admin: true)
 
-GetPropertyService.new.get_properties
+GetPropertiesService.new.get_properties
 
 puts "Creating offices..."
 

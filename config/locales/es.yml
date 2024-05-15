@@ -139,8 +139,8 @@ es:
   interior: Interior
   land: Terreno
   lift: Ascensor
-  listings: Listados
-  listings_in_other_towns: Listados en otras ciudades
+  listings: Inmuebles
+  listings_in_other_towns: Inmuebles en otras poblaciones
   loft: Loft
   looking_for: Estoy buscando una propiedad de...
   message: Mensaje
@@ -150,7 +150,7 @@ es:
   new_contact_submitted: ¡Tienes un mensaje!
   new_properties: Nuevas propiedades
   newly_renovated: Recién renovado
-  no_listings_found: Actualmente, no tenemos propiedades disponibles para %{operation} en %{town} que cumplan con estos criterios. Por favor, inténtalo de nuevo más tarde o contáctanos para obtener más información.
+  no_listings_found: Actualmente, no tenemos propiedades disponibles para %{operation} en %{town} que cumplan con estos criterios.
   no_strings_attached: Contáctanos sin compromiso. Estamos aquí para ayudarte.
   number_bathrooms: Número de baños
   number_bedrooms: Número de dormitorios
@@ -232,3 +232,7 @@ es:
   to_buy: Comprar
   to_rent: Alquilar
   contact_error: Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.
+  thank_you_get_in_touch: Gracias por ponerte en contacto con nosotros.
+  will_respond_asap: Responderemos a tu consulta tan pronto como sea posible.
+  redirecting_you: Te estamos redirigiendo...
+  go_to_listings: Ir a los inmuebles
