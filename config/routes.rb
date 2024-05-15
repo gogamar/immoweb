@@ -28,5 +28,5 @@ Rails.application.routes.draw do
     root to: "static#home"
   end
   get '/ca', to: redirect('/'), as: :redirect_default_locale
-  # get '*path' => 'application#redirect_to_homepage'
+  get '*path' => 'application#redirect_to_homepage'
 end
