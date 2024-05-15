@@ -7,18 +7,31 @@ Rails.application.configure do
   # it changes. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
 
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    address: "smtp.gmail.com",
-    port: 587,
-    user_name: ENV["GMAIL_USERNAME"],
-    password: ENV["GMAIL_PASSWORD"],
-    authentication: "plain",
-    enable_starttls_auto: true
-  }
-  # config.action_mailer.delivery_method = :letter_opener
-  # config.action_mailer.perform_deliveries = true
-  # config.action_mailer.default_url_options = { host: "http://localhost:5000" }
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   address: 'mail.sistachfinques.com',
+  #   port: 465,
+  #   domain: 'sistachfinques.com', # Update with your domain
+  #   user_name: ENV['EMAIL_USERNAME'], # Update with your email address
+  #   password: ENV['EMAIL_PASSWORD'], # Update with your email password
+  #   authentication: :login,
+  #   tls: true, # or ssl: true if SSL/TLS is required
+  #   enable_starttls_auto: true # Set to true if your SMTP server requires STARTTLS
+  # }
+
+
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   address: "smtp.gmail.com",
+  #   port: 587,
+  #   user_name: ENV["GMAIL_USERNAME"],
+  #   password: ENV["GMAIL_PASSWORD"],
+  #   authentication: "plain",
+  #   enable_starttls_auto: true
+  # }
+  config.action_mailer.delivery_method = :letter_opener
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { host: "http://localhost:5000" }
   config.cache_classes = false
 
   # Do not eager load code on boot.
