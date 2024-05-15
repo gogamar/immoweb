@@ -10,4 +10,4 @@ Rails.application.config.assets.version = "1.0"
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile += ['add_jquery.js', './components/init_slick.js', './components/init_magnificPopUp.js']
+Rails.application.config.assets.precompile += ['application.js']
