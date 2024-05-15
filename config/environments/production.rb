@@ -17,14 +17,13 @@ Rails.application.configure do
   # }
 
   config.action_mailer.smtp_settings = {
-    address: 'mail.sistachfinques.com',
-    port: 465,
+    address: 'smtp.sendgrid.net',
+    port: 587,
     domain: 'sistachfinques.com', # Update with your domain
     user_name: ENV['EMAIL_USERNAME'], # Update with your email address
     password: ENV['EMAIL_PASSWORD'], # Update with your email password
-    authentication: :login,
-    tls: true, # or ssl: true if SSL/TLS is required
-    enable_starttls_auto: true # Set to true if your SMTP server requires STARTTLS
+    authentication: :plain,
+    enable_starttls_auto: true
   }
 
   # Code is not reloaded between requests.
