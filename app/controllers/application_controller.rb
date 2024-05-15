@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
   # before_action :set_content
   before_action :set_services
-  before_action :authenticate_user!
+  before_action :authenticate_user!, except: [:redirect_to_homepage]
   before_action :configure_permitted_parameters, if: :devise_controller?
   around_action :set_locale_from_url
   include Pundit::Authorization
