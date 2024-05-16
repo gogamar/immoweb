@@ -12,3 +12,4 @@ pin "add_jquery", to: 'add_jquery.js', preload: true
 pin_all_from "app/javascript/controllers", under: "controllers"
 pin "init_slick", to: "components/init_slick.js"
 pin "init_magnific_popup", to: "components/init_magnificPopUp.js"
+pin "flowbite", to: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.turbo.min.js"

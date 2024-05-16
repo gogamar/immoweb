@@ -1,19 +1,21 @@
 <% current_locale = I18n.locale %>
-<div x-data="{ open: false }" class="relative inline-block text-left">
-  <button @click="open = !open" type="button" class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-2 py-1 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
-    <span class="text-gray-400 group-hover:text-gray-500"><%= t(current_locale) %></span>
-    <svg x-bind:class="{ 'transform rotate-180': open }" class="-mr-1 h-5 w-5 text-gray-400 transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-      <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+<div class="relative inline-block text-left">
+  <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-sky-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-sky-600 dark:hover:bg-sky-700 dark:focus:ring-sky-800" type="button"><%= t(current_locale) %> <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
     </svg>
   </button>
-  <div x-show="open" @click.away="open = false" class="absolute right-0 z-10 mt-2 w-full origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-    <% (I18n.available_locales - [current_locale]).each do |locale| %>
-      <% query_params = params.except(:locale).permit!.to_h %>
-      <% locale_path = url_for(locale: locale.to_s, **query_params) %>
-      <%= link_to(locale_path, class: "text-gray-700 group flex items-center px-4 py-2 text-sm", role: "menuitem", tabindex: "-1", id: "menu-item-0", '@click': 'open = false') do %>
-        <span class="text-gray-400 group-hover:text-gray-500"><%= t(locale) %></span>
+  <!-- Dropdown menu -->
+  <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+      <% (I18n.available_locales - [current_locale]).each do |locale| %>
+        <% query_params = params.except(:locale).permit!.to_h %>
+        <% locale_path = url_for(locale: locale.to_s, **query_params) %>
+        <li>
+          <%= link_to(locale_path, class: "block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white", role: "menuitem", tabindex: "-1", id: "menu-item-0", '@click': 'open = false') do %>
+            <span class="text-gray-400 group-hover:text-gray-500"><%= t(locale) %></span>
+          <% end %>
+        </li>
       <% end %>
-    <% end %>
+    </ul>
   </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
