@@ -1,6 +1,5 @@
 // Import third-party libraries
 import "@hotwired/turbo-rails";
-import "flowbite";
 
 // Import modules managed by Importmap
 import "add_jquery";
