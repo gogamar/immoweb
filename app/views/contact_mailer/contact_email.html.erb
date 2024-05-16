@@ -1,4 +1,6 @@
 <h2><%= t("new_contact_submitted", locale: 'ca') %></h2>
+<p><strong><%= t("listing_reference", locale: 'ca') %>:</strong> <%= @listing.ref_number %></p>
+<p><strong><%= t("listing_address", locale: 'ca') %>:</strong> <%= @listing.speclocation %> <%= @listing.town_name %></p>
 <p><strong><%= t("name", locale: 'ca') %>:</strong> <%= @contact.name %></p>
 <p><strong><%= t("email", locale: 'ca') %>:</strong> <%= @contact.email %></p>
 <p><strong><%= t("phone", locale: 'ca') %>:</strong><%= @contact.phone %></p>

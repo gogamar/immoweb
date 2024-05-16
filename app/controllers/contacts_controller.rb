@@ -7,8 +7,9 @@ class ContactsController < ApplicationController
 
   def create
     @contact = Contact.new(contact_params)
+    @listing = Listing.find_by(id: params[:contact][:listing_id])
     if @contact.save
-      ContactMailer.contact_email(@contact).deliver_now
+      ContactMailer.contact_email(@contact, @listing).deliver_now
       redirect_to success_path
     else
       redirect_back(fallback_location: root_path, notice: t("contact_error"))
@@ -18,6 +19,6 @@ class ContactsController < ApplicationController
   private
 
   def contact_params
-    params.require(:contact).permit(:name, :email, :message, :phone, :budget)
+    params.require(:contact).permit(:name, :email, :message, :phone, :budget, :listing_id)
   end
 end

@@ -4,8 +4,8 @@
       <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900"><%= t('get_info_property') %></h2>
         <%= form_with(model: @contact, url: contacts_path) do |form| %>
-          <%= form.hidden_field :location, value: @listing.speclocation %>
-          <%= form.hidden_field :ref_number, value: @listing.ref_number %>
+          <%= listing.speclocation %>
+          <%= form.hidden_field :listing_id, value: listing.id %>
           <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div class="sm:col-span-2">
               <div class="mt-5">

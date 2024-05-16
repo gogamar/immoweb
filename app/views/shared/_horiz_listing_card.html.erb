@@ -26,6 +26,7 @@
           <span class="inline-flex flex-shrink-0 items-center rounded-full bg-green-50 px-1.5 py-0.5 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"><%= listing.operation == "sale" ? t('on_sale') : t('for_rent') %></span>
         </div>
         <h3 class="font-medium text-grey-900"><%= listing.town_name %></h3>
+        <p class="mt-1 text-sm text-gray-500"><%= t('listing_reference') %>: <%= listing.ref_number %></p>
         <div class="mt-3">
           <h2 class="sr-only"><%= t("price") %></h2>
           <% price = listing.salesprice.present? ? listing.salesprice : listing.rentprice %>
