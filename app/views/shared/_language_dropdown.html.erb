@@ -11,7 +11,7 @@
         <% query_params = params.except(:locale).permit!.to_h %>
         <% locale_path = url_for(locale: locale.to_s, **query_params) %>
         <li>
-          <%= link_to(locale_path, class: "block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white", role: "menuitem", tabindex: "-1", id: "menu-item-0", '@click': 'open = false') do %>
+          <%= link_to(locale_path, class: "block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white", role: "menuitem", tabindex: "-1") do %>
             <span class="text-gray-400 group-hover:text-gray-500"><%= t(locale) %></span>
           <% end %>
         </li>
