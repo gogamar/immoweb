@@ -5,7 +5,5 @@
   "repository": "git@github.com:gogamar/immoweb.git",
   "author": "Gordana Marjanovic <gogamar@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "flowbite": "^2.3.0"
-  }
+  "dependencies": {}
 }

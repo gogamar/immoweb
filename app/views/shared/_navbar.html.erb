@@ -1,33 +1,222 @@
-<nav class="bg-slate-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700 border-b border-solid border-slate-300">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <%= link_to root_path do %>
-      <%=image_tag("logo.png", class: "h-12 w-auto", alt: "Sistach Finques") %>
+  <!-- Navbar-->
+  <header
+    class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+    data-scroll-header
+  >
+    <div class="container">
+          <%= link_to root_path do %>
+      <%=image_tag("logo.png", width: "116", class: "navbar-brand me-3 me-xl-4", alt: "Sistach Finques") %>
     <% end %>
-    <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
-      <span class="sr-only">Open main menu</span>
-      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-      </svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-        <% desktop_current = "border-sky-500 text-gray-900" %>
-        <% desktop_default = "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" %>
-        <li>
-          <%= link_to t('home'), root_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-base font-medium #{ current_page?(root_path) ? desktop_current : desktop_default }" %>
-          <li>
+      <button
+        class="navbar-toggler ms-auto"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span></button
+      ><a
+        class="btn btn-sm text-primary d-none d-lg-block order-lg-3"
+        href="#signin-modal"
+        data-bs-toggle="modal"
+        ><i class="fi-user me-2"></i><%= t('sign_in') %></a
+      ><a
+        class="btn btn-primary btn-sm ms-2 order-lg-3"
+        href="real-estate-add-property.html"
+        ><i class="fi-plus me-2"></i><%= t('add') %><span class="d-none d-sm-inline">
+          <%= t('property') %></span
+        ></a
+      >
+      <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
+        <ul class="navbar-nav navbar-nav-scroll" style="max-height: 35rem">
+          <!-- Menu items-->
+          <li class="nav-item active">
+            <%= link_to t('home'), root_path, class: "nav-link" %>
           </li>
-          <%= link_to t('listings'), listings_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-base font-medium #{ current_page?(listings_path) ? desktop_current : desktop_default }" %>
-          <li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Catalog</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="real-estate-catalog-rent.html"
+                  >Property for Rent</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="real-estate-catalog-sale.html"
+                  >Property for Sale</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="real-estate-single-v1.html"
+                  >Single Property v.1</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="real-estate-single-v2.html"
+                  >Single Property v.2</a
+                >
+              </li>
+            </ul>
           </li>
-          <%= link_to t('about_us'), about_us_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-base font-medium #{ current_page?(about_us_path) ? desktop_current : desktop_default }" %>
-          <li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Account</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="real-estate-account-info.html"
+                  >Personal Info</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="real-estate-account-security.html"
+                  >Password &amp; Security</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="real-estate-account-properties.html"
+                  >My Properties</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="real-estate-account-wishlist.html"
+                  >Wishlist</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="real-estate-account-reviews.html"
+                  >Reviews</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="real-estate-account-notifications.html"
+                  >Notifications</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="signin-light.html">Sign In</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="signup-light.html">Sign Up</a>
+              </li>
+            </ul>
           </li>
-          <%= link_to t('contact'), contact_us_path, class: "inline-flex items-center border-b-2 px-1 pt-1 text-base font-medium #{ current_page?(contact_us_path) ? desktop_current : desktop_default }" %>
-          <li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Vendor</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="real-estate-add-property.html"
+                  >Add Property</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="real-estate-property-promotion.html"
+                  >Property Promotion</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="real-estate-vendor-properties.html"
+                  >Vendor Page: Properties</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="real-estate-vendor-reviews.html"
+                  >Vendor Page: Reviews</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Pages</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="real-estate-about.html">About</a>
+              </li>
+              <li class="dropdown">
+                <a
+                  class="dropdown-item dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Blog</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="real-estate-blog.html"
+                      >Blog Grid</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="real-estate-blog-single.html"
+                      >Single Post</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-item" href="real-estate-contacts.html"
+                  >Contacts</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="real-estate-help-center.html"
+                  >Help Center</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="real-estate-404.html"
+                  >404 Not Found</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item d-lg-none">
+            <a class="nav-link" href="#signin-modal" data-bs-toggle="modal"
+              ><i class="fi-user me-2"></i>Sign in</a
+            >
           </li>
         </ul>
       </div>
     </div>
-  </div>
-</nav>
+  </header>

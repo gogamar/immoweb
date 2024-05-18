@@ -1,15 +1,24 @@
-// Import third-party libraries
+// Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
 import "@hotwired/turbo-rails";
-
-// Import modules managed by Importmap
-import "add_jquery";
 import "controllers";
-import { initSlick } from "init_slick";
-import { initMagnificPopUp } from "init_magnific_popup";
+import "simplebar";
+import "smooth-scroll";
+import "leaflet";
+import "nouislider";
 
-document.addEventListener("turbo:load", function () {
-  initSlick();
-  initMagnificPopUp();
-});
+import "@lottiefiles/lottie-player";
+import "cleave.js";
+import "filepond";
+import "filepond-plugin-file-validate-size";
+import "filepond-plugin-file-validate-type";
+import "filepond-plugin-image-crop";
+import "filepond-plugin-image-preview";
+import "filepond-plugin-image-resize";
+import "filepond-plugin-image-transform";
+import "flatpickr";
+// import "jarallax";
+import "lightgallery";
+import "prismjs";
+import "rellax";
 
-// To add custom files to the importmap, pin them in importmap.rb and import them here.
+import "theme.min";
