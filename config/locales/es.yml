@@ -238,3 +238,28 @@ es:
   go_to_listings: Ir a los inmuebles
   listing_reference: Referencia del inmueble
   listing_address: Dirección del inmueble
+  properties_for_rent: Propiedades en alquiler
+  properties_for_sale: Propiedades en venta
+  properties: Propiedades
+  for_sale: En venta
+  property_result:
+    one: propiedad
+    other: propiedades
+  sort_by: Ordenar por
+  newest: Primero los más recientes
+  low_high_price: Precio más bajo a más alto
+  high_low_price: Precio más alto a más bajo
+  default_meta_description: "Finques Sistach, agencia inmobiliaria en Estartit. Venta y alquiler de inmuebles en la Costa Brava. Apartamentos, casas, chalets, locales y terrenos."
+  default_meta_keywords: "venta de casas, costa brava, barcelona, inmobiliaria, alquiler de pisos, inmuebles, fincas, estartit, alquiler de locales, alquiler de chalets, alquiler de casas, alquiler de terrenos, venta de pisos, venta de locales, venta de chalets, venta de casas, venta de terrenos"
+  home_title: "Finques Sistach, agencia inmobiliaria en Estartit"
+  home_description: "Finques Sistach, agencia inmobiliaria en Estartit. Venta y alquiler de inmuebles en la Costa Brava. Apartamentos, casas, chalets, locales y terrenos."
+  about_us_title: Sobre nosotros
+  about_us_description: "Finques Sistach, agencia inmobiliaria en Estartit. Venta y alquiler de inmuebles en la Costa Brava. Apartamentos, casas, chalets, locales y terrenos."
+  contact_us_title: Contáctanos
+  contact_us_description: "Contacta con Finques Sistach, agencia inmobiliaria en Estartit. Venta y alquiler de inmuebles en la Costa Brava. Apartamentos, casas, chalets, locales y terrenos."
+  listings_rent_title: Propiedades en alquiler
+  listings_rent_description: "Alquiler de apartamentos, casas, chalets, locales y terrenos en la Costa Brava. Finques Sistach, agencia inmobiliaria en Estartit."
+  listings_sale_title: Propiedades en venta
+  listings_sale_description: "Venta de apartamentos, casas, chalets, locales y terrenos en la Costa Brava. Finques Sistach, agencia inmobiliaria en Estartit."
+  single_property_title: "Propiedad en %{operation} en %{address}, %{town} por %{salesprice_or_rentprice}"
+  single_property_description: "Descubre esta propiedad en %{operation} situada en %{address} en %{town}, disponible por %{salesprice_or_rentprice}. Contacta con Finques Sistach para más detalles y para programar una visita."

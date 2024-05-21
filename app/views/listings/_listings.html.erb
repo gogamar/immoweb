@@ -4,7 +4,7 @@
       <% if @listings.present? %>
         <ul role="list" class="grid grid-cols-1 gap-6">
           <% @listings.each do |listing| %>
-            <%= render "shared/horiz_listing_card", listing: listing %>
+            <%= render "listing_card", listing: listing %>
           <% end %>
         </ul>
       <% else %>

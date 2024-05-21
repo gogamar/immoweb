@@ -1,9 +1,54 @@
-<div class="mx-auto flex w-full max-w-7xl items-start gap-x-8 px-4 sm:px-6 lg:px-8">
-  <aside class="top-0 hidden w-56 shrink-0 lg:block">
-    <%# sticky %>
-    <%= render "shared/vertical_search_form" %>
-  </aside>
-  <main class="flex-1">
-    <%= render "listings" %>
-  </main>
+<!-- Page content-->
+<!-- Page container-->
+<div class="container-fluid mt-5 pt-5 p-0">
+  <div class="row g-0 mt-n3">
+    <%= render 'listings_sidebar' %>
+    <!-- Page content-->
+    <div class="col-lg-8 col-xl-9 position-relative overflow-hidden pb-5 pt-4 px-3 px-xl-4 px-xxl-5">
+      <!-- Map popup-->
+      <div class="map-popup invisible" id="map">
+        <button class="btn btn-icon btn-light btn-sm shadow-sm rounded-circle" type="button" data-bs-toggle-class="invisible" data-bs-target="#map"><i class="fi-x fs-xs"></i></button>
+        <div class="interactive-map" data-map-options-json="json/map-options-real-estate-rent.json"></div>
+      </div>
+      <%= render 'shared/breadcrumb' %>
+      <!-- Title-->
+      <% if @listings.present? %>
+        <div class="d-sm-flex align-items-center justify-content-between pb-3 pb-sm-4">
+          <h1 class="h2 mb-sm-0"><%= params[:ot] == "rent" ? t('properties_for_rent') : t('properties_for_sale') %></h1>
+          <a class="d-inline-block fw-bold text-decoration-none py-1" href="#" data-bs-toggle-class="invisible" data-bs-target="#map"><i class="fi-map me-2"></i>Map view</a>
+        </div>
+      <% end %>
+      <% if @listings.count > 3 %>
+        <!-- Sorting-->
+        <div class="d-flex flex-sm-row flex-column align-items-sm-center align-items-stretch my-2">
+          <div class="d-flex align-items-center flex-shrink-0">
+            <label class="fs-sm me-2 pe-1 text-nowrap" for="sortby"><i class="fi-arrows-sort text-muted mt-n1 me-2"></i><%= t('sort_by') %></label>
+            <select class="form-select form-select-sm" id="sortby">
+              <option><%= t('newest') %></option>
+              <option><%= t('low_high_price') %></option>
+              <option><%= t('high_low_price') %></option>
+            </select>
+          </div>
+          <hr class="d-none d-sm-block w-100 mx-4">
+          <div class="d-none d-sm-flex align-items-center flex-shrink-0 text-muted"><i class="fi-check-circle me-2"></i><span class="fs-sm mt-n1"><%= @listings.count %> <%= t('property_result', count: @listings.count) %></span></div>
+        </div>
+      <% end %>
+      <!-- Catalog grid-->
+      <div class="row g-4 py-4">
+        <% if @listings.present? %>
+          <% @listings.each do |listing| %>
+            <%= render "listing_card", listing: listing %>
+          <% end %>
+        <% else %>
+          <p><%= t('no_listings_found', operation: params['ot']&.downcase, town: params["t"]) %></p>
+          <h3 class="h2 mb-sm-0"><%= t('listings_in_other_towns') %></h3>
+          <% @all_listings.each do |listing| %>
+            <%= render "listing_card", listing: listing %>
+          <% end %>
+        <% end %>
+      </div>
+      <!-- Pagination-->
+      <%== pagy_bootstrap_nav(@pagy) if @pagy.pages > 1 %>
+    </div>
+  </div>
 </div>

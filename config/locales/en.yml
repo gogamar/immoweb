@@ -240,3 +240,28 @@ en:
   go_to_listings: Go to listings
   listing_reference: Listing reference
   listing_address: Listing address
+  properties_for_rent: Properties for rent
+  properties_for_sale: Properties for sale
+  properties: Properties
+  for_sale: For sale
+  property_result:
+    one: property
+    other: properties
+  sort_by: Sort by
+  newest: Newest first
+  low_high_price: Price low to high
+  high_low_price: Price high to low
+  default_meta_description: "Finques Sistach, real estate agency in Estartit. Sale and rental of properties on the Costa Brava. Apartments, houses, chalets, commercial properties, and land."
+  default_meta_keywords: "house sales, costa brava, barcelona, real estate agency, apartment rentals, properties, estates, estartit, commercial rentals, chalet rentals, house rentals, land rentals, apartment sales, commercial sales, chalet sales, house sales, land sales"
+  home_title: "Finques Sistach, real estate agency in Estartit"
+  home_description: "Finques Sistach, real estate agency in Estartit. Sale and rental of properties on the Costa Brava. Apartments, houses, chalets, commercial properties, and land."
+  about_us_title: About us
+  about_us_description: "Finques Sistach, real estate agency in Estartit. Sale and rental of properties on the Costa Brava. Apartments, houses, chalets, commercial properties, and land."
+  contact_us_title: Contact us
+  contact_us_description: "Contact Finques Sistach, real estate agency in Estartit. Sale and rental of properties on the Costa Brava. Apartments, houses, chalets, commercial properties, and land."
+  listings_rent_title: Properties for rent
+  listings_rent_description: "Rental of apartments, houses, chalets, commercial properties, and land on the Costa Brava. Finques Sistach, real estate agency in Estartit."
+  listings_sale_title: Properties for sale
+  listings_sale_description: "Sale of apartments, houses, chalets, commercial properties, and land on the Costa Brava. Finques Sistach, real estate agency in Estartit."
+  single_property_title: "%{operation} Property at %{address}, %{town} for %{salesprice_or_rentprice}"
+  single_property_description: "Discover this %{operation} property located at %{address} in %{town}, available for %{salesprice_or_rentprice}. Contact Sistach Finques for more details and to schedule a viewing."

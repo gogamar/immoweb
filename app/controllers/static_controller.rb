@@ -13,11 +13,16 @@ class StaticController < ApplicationController
 
     # @new_listings = Listing.order(created_at: :desc).limit(6)
     # @featured_listings = Listing.where(featured: true).where(mark: nil).limit(6)
-    @towns = Town.all
+    @all_operations = Listing.pluck(:operation).uniq
+    @all_towns = Listing.pluck(:town_name).uniq
+    @page_title = t('home_title')
+    @page_description = t('home_description')
   end
 
   def about_us
     @listing = Listing.first
+    @page_title = t('about_us_title')
+    @page_description = t('about_us_description')
   end
 
   def contact_us
@@ -31,6 +36,8 @@ class StaticController < ApplicationController
         marker_html: render_to_string(partial: "offices/marker")
       }
     end
+    @page_title = t('contact_us_title')
+    @page_description = t('contact_us_description')
   end
 
   def terms
@@ -38,13 +45,9 @@ class StaticController < ApplicationController
 
   def get_operations_and_listing_types
     @town = Town.find(params[:town_id])
-    @operations = @town.listings.distinct.pluck(:operation)
     @listing_types = @town.listings.distinct.pluck(:listing_subtype)
     render json: {
-      operations_html: render_to_string(partial: 'listings/operations', locals: { operations: @operations }),
-      listing_types_html: render_to_string(partial: 'listings/listing_types', locals: { listing_types: @listing_types }),
-      operations: @operations,
-      listing_types: @listing_types
+      listing_types_html: render_to_string(partial: 'listings/listing_types', locals: { listing_types: @listing_types })
     }
   end
 

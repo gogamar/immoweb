@@ -1,0 +1,55 @@
+<!-- Filters sidebar (Offcanvas on mobile)-->
+<aside class="col-lg-4 col-xl-3 border-top-lg border-end-lg shadow-sm px-3 px-xl-3 px-xxl-5 pt-lg-2">
+  <div class="offcanvas-lg offcanvas-start" id="filters-sidebar">
+    <div class="offcanvas-header d-flex d-lg-none align-items-center">
+      <h2 class="h5 mb-0">Filters</h2>
+      <button class="btn-close" type="button" data-bs-dismiss="offcanvas" data-bs-target="#filters-sidebar"></button>
+    </div>
+    <div class="offcanvas-header d-block border-bottom pt-0 pt-lg-4 px-lg-0">
+      <ul class="nav nav-tabs mb-0">
+        <% if Listing.where(operation: "rent").present? %>
+          <li class="nav-item">
+            <%= link_to listings_path(ot: "rent"), class: "nav-link #{'active' if current_page?(listings_path(ot: 'rent'))}" do %>
+              <i class="fi-rent fs-base me-2"></i> <%= t('for_rent') %>
+            <% end %>
+          </li>
+        <% end %>
+        <% if Listing.where(operation: "sale").present? %>
+          <li class="nav-item">
+            <%= link_to listings_path(ot: "sale"), class: "nav-link #{'active' if current_page?(listings_path(ot: 'sale'))}" do %>
+              <i class="fi-home fs-base me-2"></i><%= t('for_sale') %>
+            <% end %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+    <div class="offcanvas-body py-lg-4" data-controller="filter">
+      <%= form_with(url: listings_path, method: :get) do |form| %>
+        <div class="pb-4 mb-2">
+          <h3 class="h6"><%= t('town') %></h3>
+          <select class="form-select mb-2" id="town" name="town_id" data-action="change->filter#fetchOperationsAndListingTypes" >
+            <option value=""><%= t('select_town') %></option>
+            <% @towns.each do |town| %>
+              <% selected = town.id == params["town_id"].to_i ? "selected" : "" %>
+              <option value="<%= town.id %>" <%= selected %>><%= town.name_es %></option>
+              <% end %>
+            </select>
+          </div>
+          <div class="pb-4 mb-2">
+            <h3 class="h6"><%= t('listing_type') %></h3>
+            <div class="overflow-auto" data-filter-target="listingTypes">
+              <%= render 'listings/listing_types', listing_types: @listing_types %>
+            </div>
+          </div>
+          <div class="border-top py-4">
+            <!--
+            <button class="btn btn-outline-primary" type="button"><i class="fi-rotate-right me-2"></i>Reset filters</button>
+            -->
+            <%= submit_tag t('filter'), name: "", class: "btn btn-outline-primary" %>
+          </div>
+          <div class="border-top py-4">
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </aside>

@@ -83,7 +83,7 @@ gem 'devise-i18n'
 gem "pundit"
 gem 'net-ftp'
 gem "geocoder"
-gem 'pagy', '~> 6.0' # omit patch digit
+gem 'pagy', '~> 6.0'
 # fixme these 4 need to be configured:
 gem "cloudinary"
 gem "sidekiq"

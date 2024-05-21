@@ -4,11 +4,20 @@ class ListingsController < ApplicationController
 
   def index
     @listings = policy_scope(Listing)
-    @listings = @listings.where(town_id: params[:town_id]) if params[:town_id].present?
+    @listings = @listings.where(town_name: params[:t]) if params[:t].present?
     @listing_types = @listings.present? ? @listings.pluck(:listing_subtype).uniq : Listing.pluck(:listing_subtype).uniq
-    @listings = @listings.where(operation: params[:ot]) if params[:ot].present?
+    if params[:ot].present? && params[:ot] == t('rent')
+      @listings = @listings.where(operation: 'rent')
+    elsif params[:ot].present? && params[:ot] == t('sale')
+      @listings = @listings.where(operation: 'sale')
+    end
     @listings = @listings.where(listing_subtype: params[:pt]) if params[:pt].present?
-    @operations = @listings.present? ? @listings.pluck(:operation).uniq : Listing.pluck(:operation).uniq
+    @pagy, @listings = pagy(@listings, page: params[:page], items: 9)
+    @all_listings = Listing.all
+    @pagy, @all_listings = pagy(@all_listings, page: params[:page], items: 9)
+    @all_operations = Listing.pluck(:operation).uniq
+    @operations = @listings.present? ? @listings.pluck(:operation).uniq : @all_operations
+    @all_listing_subtypes = Listing.pluck(:listing_subtype).uniq
     @towns = Town.all
     @all_salesprices = Listing.pluck(:salesprice)
     i = 40000
@@ -16,10 +25,18 @@ class ListingsController < ApplicationController
     salesprices_2 = Array.new(12){i+=50000}
     salesprices_3 = Array.new(10){i+=100000}
     @salesprices_array = salesprices_1 + salesprices_2 + salesprices_3
+    @page_title = params[:ot].present? && params[:ot] == t('for_rent') ? t('listings_rent_title') : t('listings_sale_title')
+    @page_description = params[:ot].present? && params[:ot] == t('for_rent') ? t('listings_rent_description') : t('listings_sale_description')
+    # fixme: customize page meta keywords for each page
+    listings_link = params[:ot].present? && params[:ot] == t('for_rent') ? listings_path(ot: 'rent') : listings_path(ot: 'sale')
   end
 
   def show
     @contact = Contact.new
+    salesprice_or_rentprice = @listing.operation == 'sale' ? @listing.salesprice : @listing.rentprice
+    operation = @listing.operation == 'sale' ? t('for_sale') : t('for_rent')
+    @page_title = t('single_property_title', address: @listing.address, town: @listing.town_name, operation: operation, salesprice_or_rentprice: salesprice_or_rentprice)
+    @page_description = t('single_property_description', address: @listing.address, town: @listing.town_name, operation: operation, salesprice_or_rentprice: salesprice_or_rentprice)
   end
 
   def new

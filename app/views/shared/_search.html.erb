@@ -1,26 +1,54 @@
-<%= form_with(url: listings_path, method: "get", class: "flex flex-col sm:flex-row items-center gap-2") do %>
-  <!-- Buy or Sell Radio Group -->
-  <div class="flex-1">
-    <div class="space-y-4 sm:flex sm:items-center sm:space-x-10 sm:space-y-0">
-      <div class="flex items-center">
-        <%= radio_button_tag "ot", "sale", true, class: "h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" %>
-        <%= label_tag "sale", t('to_buy'), class: "ml-3 block text-base font-medium leading-6 text-gray-900" %>
-      </div>
-      <div class="flex items-center">
-        <%= radio_button_tag "ot", "rent", false, class: "h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600" %>
-        <%= label_tag "rent", t('to_rent'), class: "ml-3 block text-base font-medium leading-6 text-gray-900" %>
-      </div>
-      <!-- Select Town -->
-      <select id="town" name="town_id" class="mt-2 block w-auto rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6">
-        <option value=""><%= t('select_town') %></option>
-        <% @towns.each do |town| %>
-          <option value="<%= town.id %>"><%= town.name_es %></option>
+<form class="form-group d-block" action="<%= listings_path %>" method="get">
+  <div class="row g-0">
+    <div class="col-md-10 d-sm-flex align-items-center">
+      <div class="dropdown w-sm-50 border-end-sm" data-bs-toggle="select">
+        <% if @all_operations.count == 1 %>
+          <!-- If only one option, show it as selected and disable the dropdown -->
+          <button class="btn btn-lg btn-link ps-2 ps-sm-3" type="button" disabled>
+            <i class="fi-home me-2"></i><span class="dropdown-toggle-label"><%= t("#{@all_operations.first}") %></span>
+          </button>
+          <input type="hidden" name="ot" value="<%= t(@all_operations.first) %>">
+        <% else %>
+          <!-- Otherwise, render the dropdown as usual -->
+          <button class="btn btn-lg btn-link dropdown-toggle ps-2 ps-sm-3" type="button" data-bs-toggle="dropdown">
+            <i class="fi-home me-2"></i><span class="dropdown-toggle-label"><%= t(@all_operations.first) %></span>
+          </button>
+          <input type="hidden" name="ot" value="<%= t(@all_operations.first) %>">
+          <ul class="dropdown-menu">
+            <% @all_operations.each do |operation| %>
+              <li><a class="dropdown-item" href="#"><span class="dropdown-item-label"><%= t("#{operation}") %></span></a></li>
+            <% end %>
+          </ul>
         <% end %>
-      </select>
-      <!-- Search Button -->
-      <div class="flex-1">
-        <%= submit_tag t('search'), name: "", class: "text-base w-full px-6 py-2 bg-sky-800 text-white rounded-md hover:bg-sky-900 focus:outline-none focus:ring-2 focus:ring-sky-900 focus:ring-opacity-50" %>
+      </div>
+      <hr class="d-sm-none my-2">
+      <div class="dropdown w-sm-50 border-end-sm" data-bs-toggle="select">
+        <button class="btn btn-lg btn-link dropdown-toggle ps-2 ps-sm-3" type="button" data-bs-toggle="dropdown">
+          <i class="fi-map-pin me-2"></i><span class="dropdown-toggle-label"><%= t('select_town') %></span>
+        </button>
+        <input type="hidden" name="t">
+        <ul class="dropdown-menu">
+          <% @all_towns.each do |town| %>
+            <li><a class="dropdown-item" href="#"><span class="dropdown-item-label"><%= town %></span></a></li>
+          <% end %>
+        </ul>
       </div>
     </div>
+    <hr class="d-md-none mt-2">
+    <div class="col-md-2 d-sm-flex align-items-center pt-3 pt-md-0">
+      <button class="btn btn-lg btn-icon btn-primary px-3 w-100" type="submit"><%= t('search') %></button>
+    </div>
   </div>
-<% end %>
+</form>
+<script>
+  document.querySelectorAll('.dropdown-item').forEach(item => {
+    item.addEventListener('click', event => {
+      let dropdown = event.target.closest('.dropdown');
+      let hiddenInput = dropdown.querySelector('input[type="hidden"]');
+      let button = dropdown.querySelector('.dropdown-toggle-label');
+
+      hiddenInput.value = event.target.innerText.trim();
+      button.innerText = event.target.innerText.trim();
+    });
+  });
+</script>

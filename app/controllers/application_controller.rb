@@ -1,11 +1,13 @@
 class ApplicationController < ActionController::Base
   before_action :set_locale
+  before_action :set_page_defaults
   # before_action :set_content
   before_action :set_services
   before_action :authenticate_user!, except: [:redirect_to_homepage]
   before_action :configure_permitted_parameters, if: :devise_controller?
   around_action :set_locale_from_url
   include Pundit::Authorization
+  include Pagy::Backend
 
   # Pundit: allow-list approach
   after_action :verify_authorized, except: :index, unless: :skip_pundit?
@@ -62,5 +64,11 @@ class ApplicationController < ActionController::Base
   def extract_locale
     parsed_locale = params[:locale]
     I18n.available_locales.map(&:to_s).include?(parsed_locale) ? parsed_locale : nil
+  end
+
+  def set_page_defaults
+    @page_title = "Sistach Finques"
+    @page_description = t("default_meta_description")
+    @page_keywords = t("default_meta_keywords")
   end
 end

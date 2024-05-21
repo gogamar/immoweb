@@ -238,3 +238,28 @@ fr:
   go_to_listings: Aller aux annonces
   listing_reference: Référence de l'annonce
   listing_address: Adresse
+  properties_for_rent: Propriétés à louer
+  properties_for_sale: Propriétés à vendre
+  properties: Propriétés
+  for_sale: À vendre
+  property_result:
+    one: propriété
+    other: propriétés
+  sort_by: Trier par
+  newest: D'abord les plus récents
+  low_high_price: Prix croissant
+  high_low_price: Prix décroissant
+  default_meta_description: "Finques Sistach, agence immobilière à l'Estartit. Vente et location de biens immobiliers sur la Costa Brava. Appartements, maisons, chalets, locaux commerciaux et terrains."
+  default_meta_keywords: "vente de maisons, costa brava, barcelone, agence immobilière, location d'appartements, biens immobiliers, propriétés, estartit, location de locaux commerciaux, location de chalets, location de maisons, location de terrains, vente d'appartements, vente de locaux commerciaux, vente de chalets, vente de maisons, vente de terrains"
+  home_title: "Finques Sistach, agence immobilière à l'Estartit"
+  home_description: "Finques Sistach, agence immobilière à l'Estartit. Vente et location de biens immobiliers sur la Costa Brava. Appartements, maisons, chalets, locaux commerciaux et terrains."
+  about_us_title: À propos de nous
+  about_us_description: "Finques Sistach, agence immobilière à l'Estartit. Vente et location de biens immobiliers sur la Costa Brava. Appartements, maisons, chalets, locaux commerciaux et terrains."
+  contact_us_title: Contactez-nous
+  contact_us_description: "Contactez Finques Sistach, agence immobilière à l'Estartit. Vente et location de biens immobiliers sur la Costa Brava. Appartements, maisons, chalets, locaux commerciaux et terrains."
+  listings_rent_title: Propriétés à louer
+  listings_rent_description: "Location d'appartements, maisons, chalets, locaux commerciaux et terrains sur la Costa Brava. Finques Sistach, agence immobilière à l'Estartit."
+  listings_sale_title: Propriétés à vendre
+  listings_sale_description: "Vente d'appartements, maisons, chalets, locaux commerciaux et terrains sur la Costa Brava. Finques Sistach, agence immobilière à l'Estartit."
+  single_property_title: "Propriété %{operation} à %{address}, %{town} pour %{salesprice_or_rentprice}"
+  single_property_description: "Découvrez cette propriété %{operation} située à %{address} à %{town}, disponible pour %{salesprice_or_rentprice}. Contactez Finques Sistach pour plus de détails et pour planifier une visite."

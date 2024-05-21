@@ -1,0 +1,9 @@
+.listings-index {
+  height: 200px;
+}
+
+.listings-index img {
+  width: 100%; /* Ensure the image takes the full width */
+  height: 100%; /* Ensure the image takes the full height */
+  object-fit: cover; /* Ensure the image covers the area */
+}

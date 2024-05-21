@@ -240,3 +240,29 @@ ca:
   go_to_listings: Anar als immobles
   listing_reference: Referència de l'immoble
   listing_address: Adreça de l'immoble
+  properties_for_rent: Immobles en lloguer
+  properties_for_sale: Immobles en venda
+  properties: Immobles
+  for_sale: En venda
+  property_result:
+    one: immoble
+    other: immobles
+  sort_by: Ordenar per
+  newest: Primer els últims publicats
+  low_high_price: Preu més baix a més alt
+  high_low_price: Preu més alt a més baix
+  default_meta_description: "Finques Sistach, agència immobiliària a l'Estartit. Venda i lloguer d'immobles a la Costa Brava. Apartaments, cases, xalets, locals i terrenys."
+  default_meta_keywords: "venda de cases, costa brava, barcelona, immobiliaria, lloguer de pisos, immobles, finques, estartit, lloguer de locals, lloguer de xalets, lloguer de cases, lloguer de terrenys, venda de pisos, venda de locals, venda de xalets, venda de cases, venda de terrenys"
+  home_title: "Finques Sistach, agència immobiliària a l'Estartit"
+  home_description: "Finques Sistach, agència immobiliària a l'Estartit. Venda i lloguer d'immobles a la Costa Brava. Apartaments, cases, xalets, locals i terrenys."
+  about_us_title: Sobre nosaltres
+  about_us_description: "Finques Sistach, agència immobiliària a l'Estartit. Venda i lloguer d'immobles a la Costa Brava. Apartaments, cases, xalets, locals i terrenys."
+  contact_us_title: Contacta amb nosaltres
+  contact_us_description: "Contacta amb Finques Sistach, agència immobiliària a l'Estartit. Venda i lloguer d'immobles a la Costa Brava. Apartaments, cases, xalets, locals i terrenys."
+  listings_rent_title: Immobles en lloguer
+  listings_rent_description: "Lloguer d'apartaments, cases, xalets, locals i terrenys a la Costa Brava. Finques Sistach, agència immobiliària a l'Estartit."
+  listings_sale_title: Immobles en venda
+  listings_sale_description: "Venda d'apartaments, cases, xalets, locals i terrenys a la Costa Brava. Finques Sistach, agència immobiliària a l'Estartit."
+  single_property_title: "Propietat %{operation} a %{address}, %{town} per %{salesprice_or_rentprice}"
+  single_property_description: "Descobreix aquesta propietat %{operation} situada a %{address} a %{town}, disponible per %{salesprice_or_rentprice}. Contacta amb Sistach Finques per a més detalls i per programar una visita."
+  view_all: Veure tot
