@@ -74,7 +74,6 @@ group :test do
 end
 
 # added gems
-# gem 'font_awesome5_rails'
 gem "simple_form"
 gem 'devise'
 gem 'route_translator'

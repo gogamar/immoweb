@@ -160,7 +160,6 @@ en:
   open_main_menu: Open main menu
   open_user_menu: Open user menu
   operation_type: Operation type
-  optional: Optional
   or_drag_and_drop: or drag and drop
   other: Other
   our_offices: Our Offices
@@ -265,3 +264,53 @@ en:
   listings_sale_description: "Sale of apartments, houses, chalets, commercial properties, and land on the Costa Brava. Finques Sistach, real estate agency in Estartit."
   single_property_title: "%{operation} Property at %{address}, %{town} for %{salesprice_or_rentprice}"
   single_property_description: "Discover this %{operation} property located at %{address} in %{town}, available for %{salesprice_or_rentprice}. Contact Sistach Finques for more details and to schedule a viewing."
+  view_all: View all
+  property_value: Property value
+  your_appraisal: Your appraisal
+  appraisal_explanation: Real estate appraisal is a process that allows determining the market value of a property, whether it's an apartment, a house, land, etc. Our appraisal is objective, professional, free, and without obligation.
+  evaluate: Request an appraisal
+  discover_property_value: Discover the value of your property
+  find_home: Find your new home
+  sell_property: Sell your property
+  rent_property: Rent an apartment or house
+  real_estate_solutions: Real estate solutions tailored to you
+  loading: Loading...
+  buy_with_confidence: Buy with confidence.
+  sell_without_pressure: Sell your property without pressure.
+  find_out_property_value: Find out the value of your property
+  property_location: Property location
+  enter_property_address: Enter the address or area
+  please_enter_property_address: Please enter the address or area
+  close: Close
+  address_or_area: Address or area
+  select_property_type: Select the type of property
+  please_select_type: Please select the type of property
+  number_of_bedrooms: Number of bedrooms
+  enter_number_of_bedrooms: Enter the number of bedrooms
+  total_surface: Total surface
+  enter_surface: Enter the total surface
+  request_free_evaluation: Request a free evaluation
+  appraisal_request_sent: Your appraisal request has been sent. We will contact you soon.
+  email_or_phone: Email or phone
+  enter_email_or_phone: Enter your email or phone
+  please_enter_email_or_phone: Please enter your email or phone
+  leave_your_message: Leave us a message
+  name_surname: Name and surname
+  enter_name_surname: Enter your name and surname
+  please_enter_name_surname: Please enter your name and surname
+  enter_message: Enter your message
+  please_enter_message: Please enter your message
+  enter_email: Enter your email
+  please_enter_email: Please enter your email
+  more_info: More information
+  buy_property: Buy a property
+  copy_link: Copy link
+  sales_price: Sales price
+  rent_price: Rent price
+  property_surface: Property surface
+  enter_phone: Enter your phone
+  please_enter_phone: Please enter your phone
+  optional: (optional)
+  contact_by_whatsapp: Contact by WhatsApp
+  contacting_about: "I wanted to have more information about this property: "
+  in_process: In process

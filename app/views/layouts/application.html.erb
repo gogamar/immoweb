@@ -107,7 +107,15 @@
     <%= javascript_importmap_tags %>
   </head>
   <body>
-    <main class="page-wrapper">
+    <% if controller_name == "static" && action_name == "home" %>
+      <div class="d-none d-md-block">
+        <%= render 'header_md' %>
+      </div>
+      <div class="d-md-none">
+        <%= render 'header_sm' %>
+      </div>
+    <% end %>
+    <main class="page-wrapper px-4">
       <%= render 'shared/spinner' %>
       <%= render 'shared/sign_in_modal' %>
       <%= render 'shared/sign_up_modal' %>

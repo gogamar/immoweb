@@ -160,7 +160,6 @@ ca:
   open_main_menu: Obrir menú principal
   open_user_menu: Obrir menú d'usuari
   operation_type: Tipus d'operació
-  optional: Opcional
   or_drag_and_drop: o arrossegar i deixar anar
   other: Altres
   our_offices: Les nostres oficines
@@ -301,11 +300,19 @@ ca:
   name_surname: Nom i cognoms
   enter_name_surname: Introdueix el teu nom i cognoms
   please_enter_name_surname: Si us plau, introdueix el teu nom i cognoms
-  message: Missatge
   enter_message: Introdueix el teu missatge
   please_enter_message: Si us plau, introdueix el teu missatge
-  email: Email
   enter_email: Introdueix el teu email
   please_enter_email: Si us plau, introdueix el teu email
   more_info: Més informació
   buy_property: Compra una propietat
+  copy_link: Copiar enllaç
+  sales_price: Preu de venda
+  rent_price: Preu de lloguer
+  property_surface: Superfície de l'immoble
+  enter_phone: Introdueix el teu telèfon
+  please_enter_phone: Si us plau, introdueix el teu telèfon
+  optional: (opcional)
+  contact_by_whatsapp: Contactar per WhatsApp
+  contacting_about: "Volia tenir més informació sobre aquest immoble: "
+  in_process: En tramitació

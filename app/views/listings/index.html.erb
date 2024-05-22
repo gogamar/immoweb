@@ -15,7 +15,9 @@
       <% if @listings.present? %>
         <div class="d-sm-flex align-items-center justify-content-between pb-3 pb-sm-4">
           <h1 class="h2 mb-sm-0"><%= params[:ot] == "rent" ? t('properties_for_rent') : t('properties_for_sale') %></h1>
+          <!--
           <a class="d-inline-block fw-bold text-decoration-none py-1" href="#" data-bs-toggle-class="invisible" data-bs-target="#map"><i class="fi-map me-2"></i>Map view</a>
+          -->
         </div>
       <% end %>
       <% if @listings.count > 3 %>

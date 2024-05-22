@@ -160,7 +160,6 @@ es:
   open_main_menu: Abrir menú principal
   open_user_menu: Abrir menú de usuario
   operation_type: Tipo de operación
-  optional: Opcional
   or_drag_and_drop: o arrastra y suelta
   other: Otros
   our_offices: Nuestras Oficinas
@@ -263,3 +262,53 @@ es:
   listings_sale_description: "Venta de apartamentos, casas, chalets, locales y terrenos en la Costa Brava. Finques Sistach, agencia inmobiliaria en Estartit."
   single_property_title: "Propiedad en %{operation} en %{address}, %{town} por %{salesprice_or_rentprice}"
   single_property_description: "Descubre esta propiedad en %{operation} situada en %{address} en %{town}, disponible por %{salesprice_or_rentprice}. Contacta con Finques Sistach para más detalles y para programar una visita."
+  view_all: Ver todo
+  property_value: ¿Cuánto vale mi propiedad?
+  your_appraisal: Reciba su valoración personal
+  appraisal_explanation: La tasación inmobiliaria es un proceso que permite determinar el valor de mercado de un inmueble, ya sea un piso, una casa, un terreno, etc. Nuestra valoración es objetiva, profesional, gratuita y sin compromiso.
+  evaluate: Solicitar la valoración
+  discover_property_value: Descubre el valor de tu propiedad
+  find_home: Encuentra tu nuevo hogar
+  sell_property: Vende tu propiedad
+  rent_property: Alquila un piso o casa
+  real_estate_solutions: Soluciones inmobiliarias a tu medida
+  loading: Cargando...
+  buy_with_confidence: Compra con confianza.
+  sell_without_pressure: Vende tu propiedad sin presión.
+  find_out_property_value: Descubre el valor de tu propiedad
+  property_location: Ubicación del inmueble
+  enter_property_address: Introduce la dirección o la zona
+  please_enter_property_address: Por favor, introduce la dirección o la zona
+  close: Cerrar
+  address_or_area: Dirección o zona
+  select_property_type: Selecciona el tipo de inmueble
+  please_select_type: Por favor, selecciona el tipo de inmueble
+  number_of_bedrooms: Número de dormitorios
+  enter_number_of_bedrooms: Introduce el número de dormitorios
+  total_surface: Superficie total
+  enter_surface: Introduce la superficie total
+  request_free_evaluation: Solicita evaluación gratuita
+  appraisal_request_sent: Tu solicitud de valoración ha sido enviada. Nos pondremos en contacto contigo pronto.
+  email_or_phone: Email o teléfono
+  enter_email_or_phone: Introduce tu email o teléfono
+  please_enter_email_or_phone: Por favor, introduce tu email o teléfono
+  leave_your_message: Déjanos un mensaje
+  name_surname: Nombre y apellidos
+  enter_name_surname: Introduce tu nombre y apellidos
+  please_enter_name_surname: Por favor, introduce tu nombre y apellidos
+  enter_message: Introduce tu mensaje
+  please_enter_message: Por favor, introduce tu mensaje
+  enter_email: Introduce tu email
+  please_enter_email: Por favor, introduce tu email
+  more_info: Más información
+  buy_property: Compra una propiedad
+  copy_link: Copiar enlace
+  sales_price: Precio de venta
+  rent_price: Precio de alquiler
+  property_surface: Superficie del inmueble
+  enter_phone: Introduce tu teléfono
+  please_enter_phone: Por favor, introduce tu teléfono
+  optional: (opcional)
+  contact_by_whatsapp: Contactar por WhatsApp
+  contacting_about: "Quería tener más información sobre este inmueble: "
+  in_process: En proceso

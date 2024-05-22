@@ -160,7 +160,6 @@ fr:
   open_main_menu: Ouvrir le menu principal
   open_user_menu: Ouvrir le menu utilisateur
   operation_type: Type d'opération
-  optional: Optionnel
   or_drag_and_drop: ou faites glisser et déposez
   other: Autres
   our_offices: Nos bureaux
@@ -263,3 +262,53 @@ fr:
   listings_sale_description: "Vente d'appartements, maisons, chalets, locaux commerciaux et terrains sur la Costa Brava. Finques Sistach, agence immobilière à l'Estartit."
   single_property_title: "Propriété %{operation} à %{address}, %{town} pour %{salesprice_or_rentprice}"
   single_property_description: "Découvrez cette propriété %{operation} située à %{address} à %{town}, disponible pour %{salesprice_or_rentprice}. Contactez Finques Sistach pour plus de détails et pour planifier une visite."
+  view_all: Tout voir
+  property_value: Valeur de la propriété
+  your_appraisal: Votre évaluation
+  appraisal_explanation: L'évaluation immobilière est un processus qui permet de déterminer la valeur marchande d'un bien immobilier, qu'il s'agisse d'un appartement, d'une maison, d'un terrain, etc. Notre évaluation est objective, professionnelle, gratuite et sans engagement.
+  evaluate: Demander une évaluation
+  discover_property_value: Découvrir la valeur de votre propriété
+  find_home: Trouver votre nouveau domicile
+  sell_property: Vendre votre propriété
+  rent_property: Louer un appartement ou une maison
+  real_estate_solutions: Solutions immobilières sur mesure
+  loading: Chargement...
+  buy_with_confidence: Achetez en toute confiance.
+  sell_without_pressure: Vendez votre propriété sans pression.
+  find_out_property_value: Découvrir la valeur de votre propriété
+  property_location: Emplacement de la propriété
+  enter_property_address: Entrez l'adresse ou la zone
+  please_enter_property_address: Veuillez entrer l'adresse ou la zone
+  close: Fermer
+  address_or_area: Adresse ou zone
+  select_property_type: Sélectionnez le type de propriété
+  please_select_type: Veuillez sélectionner le type de propriété
+  number_of_bedrooms: Nombre de chambres
+  enter_number_of_bedrooms: Entrez le nombre de chambres
+  total_surface: Surface totale
+  enter_surface: Entrez la surface totale
+  request_free_evaluation: Demandez une évaluation gratuite
+  appraisal_request_sent: Votre demande d'évaluation a été envoyée. Nous vous contacterons bientôt.
+  email_or_phone: Email ou téléphone
+  enter_email_or_phone: Entrez votre email ou téléphone
+  please_enter_email_or_phone: Veuillez entrer votre email ou téléphone
+  leave_your_message: Laissez-nous un message
+  name_surname: Nom et prénom
+  enter_name_surname: Entrez votre nom et prénom
+  please_enter_name_surname: Veuillez entrer votre nom et prénom
+  enter_message: Entrez votre message
+  please_enter_message: Veuillez entrer votre message
+  enter_email: Entrez votre email
+  please_enter_email: Veuillez entrer votre email
+  more_info: Plus d'informations
+  buy_property: Achetez une propriété
+  copy_link: Copier le lien
+  sales_price: Prix de vente
+  rent_price: Prix de location
+  property_surface: Superficie de la propriété
+  enter_phone: Entrez votre téléphone
+  please_enter_phone: Veuillez entrer votre téléphone
+  optional: (optionnel)
+  contact_by_whatsapp: Contactez par WhatsApp
+  contacting_about: "Je voulais avoir plus d'informations sur cette propriété : "
+  in_process: En cours de traitement

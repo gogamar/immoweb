@@ -1,0 +1,43 @@
+<%= form_with(model: @contact, local: true, class: 'needs-validation', html: { novalidate: true }) do |form| %>
+  <%= @listing.speclocation %>
+  <%= form.hidden_field :listing_id, value: @listing.id %>
+  <div class="pt-2 mb-3">
+    <%= form.label :name, class: 'form-label fw-bold mb-2', for: 'name' do %>
+      <%= t('name_surname') %>
+    <% end %>
+    <%= form.text_field :name, class: 'form-control', id: 'name', placeholder: t('enter_name_surname'), required: true %>
+    <div class="invalid-feedback"><%= t('please_enter_name_surname') %></div>
+  </div>
+  <div class="pt-2 mb-3">
+    <%= form.label :email, class: 'form-label fw-bold mb-2', for: 'email' do %>
+      <%= t('email') %>
+    <% end %>
+    <%= form.email_field :email, class: 'form-control', id: 'email', placeholder: t('enter_email'), required: true %>
+    <div class="invalid-feedback"><%= t('please_enter_email') %></div>
+  </div>
+  <div class="pt-2 mb-3">
+    <%= form.label :phone, class: 'form-label fw-bold mb-2', for: 'phone' do %>
+      <%= t('phone') %>
+    <% end %>
+    <span class="muted"><%= t('optional') %></span>
+    <%= form.text_field :phone, class: 'form-control', id: 'phone', placeholder: t('enter_phone') %>
+    <div class="invalid-feedback"><%= t('please_enter_phone') %></div>
+  </div>
+  <div class="pt-2 mb-3">
+    <%= form.label :message, class: 'form-label fw-bold mb-2', for: 'message' do %>
+      <%= t('message') %>
+    <% end %>
+    <%= form.text_area :message, value: t('get_info_message'), class: 'form-control', id: 'message', placeholder: t('enter_message'), required: true %>
+    <div class="invalid-feedback"><%= t('please_enter_message') %></div>
+  </div>
+  <div class="pt-2 mb-3">
+    <div class="mb-3"><%= t('looking_for') %></div>
+    <% Contact::BUDGET.each do |range| %>
+      <div class="form-check">
+        <%= form.radio_button :budget, range, class: "form-check-input", id: "budget" %>
+        <%= form.label :budget, range, class: "form-check-label" %>
+      </div>
+    <% end %>
+  </div>
+  <button class="btn btn-primary d-block w-100 mb-4" type="submit"><i class="fi-calculator me-2"></i><%= t('send_message') %></button>
+<% end %>

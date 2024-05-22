@@ -93,4 +93,19 @@ class Listing < ApplicationRecord
   def has_feature?(feature_name)
     features.exists?(name: feature_name)
   end
+
+  def property_address
+    if address.present?
+      return address
+    elsif speclocation.present?
+      "#{speclocation} #{town_name}"
+    else
+      "#{I18n.t(typestreet)} #{namestreet} #{numberstreet} #{town_name}"
+    end
+  end
+
+  def property_surface
+    surface = built_area || usable_area
+    "#{surface.round} m²" if surface.present?
+  end
 end
