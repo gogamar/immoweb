@@ -5,10 +5,10 @@
 <% end %>
 <p><strong><%= t("name", locale: 'ca') %>:</strong> <%= @contact.name %></p>
 <p><strong><%= t("email", locale: 'ca') %>:</strong> <%= @contact.email %></p>
-<%= if @contact.phone.present? %>
+<% if @contact.phone.present? %>
   <p><strong><%= t("phone", locale: 'ca') %>:</strong><%= @contact.phone %></p>
 <% end %>
-<%= if @contact.budget.present? %>
+<% if @contact.budget.present? %>
   <p><strong><%= t("budget", locale: 'ca') %>:</strong><%= @contact.budget %></p>
 <% end %>
 <p><strong><%= t("message", locale: 'ca') %>:</strong> <%= @contact.message %></p>
