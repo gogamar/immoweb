@@ -26,6 +26,7 @@ class StaticController < ApplicationController
   end
 
   def contact_us
+    @contact = Contact.new
     @offices = Office.all
     # The `geocoded` scope filters only offices with coordinates
     @markers = @offices.geocoded.map do |office|
@@ -44,15 +45,14 @@ class StaticController < ApplicationController
   end
 
   def get_operations_and_listing_types
-    @town = Town.find(params[:town_id])
-    @listing_types = @town.listings.distinct.pluck(:listing_subtype)
+    listings_in_town = Listing.where(town_name: params[:t])
+    @listing_types = listings_in_town.distinct.pluck(:listing_subtype)
     render json: {
       listing_types_html: render_to_string(partial: 'listings/listing_types', locals: { listing_types: @listing_types })
     }
   end
 
   def get_info
-
   end
 
   def success

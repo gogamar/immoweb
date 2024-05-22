@@ -12,10 +12,11 @@ export default class extends Controller {
   }
 
   async fetchOperationsAndListingTypes(event) {
-    const townId = event.target.value;
-    if (townId) {
+    const town = event.target.value;
+    console.log("this is the town", town);
+    if (town) {
       const response = await fetch(
-        `/get_operations_and_listing_types?town_id=${townId}`
+        `/get_operations_and_listing_types?t=${town}`
       );
       const data = await response.json();
       this.listingTypesTarget.innerHTML = data.listing_types_html;

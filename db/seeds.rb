@@ -10,7 +10,7 @@ puts "Creating offices..."
 
 Office.create(name: "Sistach Finques Estartit", address: "Avinguda de Grècia, 39, 17258 l'Estartit", phone_number: "972 100 834")
 
-Office.create(name: "Sistach Finques Barcelona", address: "c/Rosselló 439, 08022 Barcelona", phone_number: "972 100 834")
+Office.create(name: "Sistach Finques Barcelona", address: "c/Rosselló 439, 08025 Barcelona", phone_number: "972 100 834")
 
 Office.create(name: "Sistach Finques Berga", address: "c/Roser 1, 1-2, 08600 Berga", phone_number: "972 100 834")
 
@@ -56,7 +56,7 @@ Service.create(
   summary_title_es: "Asistencia legal en la compra o venta de bienes inmuebles",
   summary_title_en: "Legal assistance in buying or selling real estate",
   summary_title_fr: "Assistance juridique dans l'achat ou la vente de biens immobiliers",
-  summary_ca: "Oferim una assistència especialitzada per a aquelles persones que estan pensant en comprar o vendre béns immobles, com ara cases. El nostre equip d'experts en l'àmbit immobiliari ajuda els clients a navegar de manera fluïda per tots els aspectes legals i els contractes relacionats amb aquestes transaccions, assegurant que els seus drets i interessos estiguin protegits durant tot el procés de compra o venda.\"",
+  summary_ca: "Oferim una assistència especialitzada per a aquelles persones que estan pensant en comprar o vendre béns immobles, com ara cases. El nostre equip d'experts en l'àmbit immobiliari ajuda els clients a navegar de manera fluïda per tots els aspectes legals i els contractes relacionats amb aquestes transaccions, assegurant que els seus drets i interessos estiguin protegits durant tot el procés de compra o venda.",
   summary_es: "Ofrecemos asistencia especializada para personas que están considerando comprar o vender bienes inmuebles, como viviendas. Nuestro equipo de expertos en bienes raíces ayuda a los clientes a navegar sin problemas por todos los aspectos legales y contratos relacionados con estas transacciones, garantizando que sus derechos e intereses estén protegidos durante todo el proceso de compra o venta.",
   summary_en: "We provide specialized assistance for individuals thinking about buying or selling real estate properties, like homes. Our team of experts in real estate helps clients smoothly navigate all the legal aspects and contracts related to these transactions, ensuring that their rights and interests are safeguarded throughout the entire buying or selling process.",
   summary_fr: "Nous proposons une assistance spécialisée pour les personnes envisageant d'acheter ou de vendre des biens immobiliers, tels que des maisons. Notre équipe d'experts en immobilier aide les clients à naviguer en toute simplicité à travers tous les aspects juridiques et les contrats liés à ces transactions, garantissant que leurs droits et leurs intérêts soient protégés tout au long du processus d'achat ou de vente."

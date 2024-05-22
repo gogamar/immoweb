@@ -23,6 +23,7 @@ Rails.application.routes.draw do
     get 'static/sale_listings', to: 'static#sale_listings', as: :sale_listings
     get 'static/rental_listings', to: 'static#rental_listings', as: :rental_listings
     get 'get_operations_and_listing_types', to: 'static#get_operations_and_listing_types', as: :get_operations_and_listing_types
+    get 'contact_submit', to: 'contacts#submit'
 
     devise_for :users
     root to: "static#home"

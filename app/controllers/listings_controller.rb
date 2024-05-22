@@ -12,13 +12,16 @@ class ListingsController < ApplicationController
       @listings = @listings.where(operation: 'sale')
     end
     @listings = @listings.where(listing_subtype: params[:pt]) if params[:pt].present?
-    @pagy, @listings = pagy(@listings, page: params[:page], items: 9)
-    @all_listings = Listing.all
-    @pagy, @all_listings = pagy(@all_listings, page: params[:page], items: 9)
+    if @listings.present?
+      @pagy, @listings = pagy(@listings, page: params[:page], items: 9)
+    else
+      @all_listings = Listing.all
+      @pagy, @all_listings = pagy(@all_listings, page: params[:page], items: 9)
+    end
     @all_operations = Listing.pluck(:operation).uniq
     @operations = @listings.present? ? @listings.pluck(:operation).uniq : @all_operations
     @all_listing_subtypes = Listing.pluck(:listing_subtype).uniq
-    @towns = Town.all
+    @towns = Listing.pluck(:town_name).uniq
     @all_salesprices = Listing.pluck(:salesprice)
     i = 40000
     salesprices_1 = Array.new(18){i+=20000}

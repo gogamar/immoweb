@@ -6,7 +6,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VT05001</Referencia>
     <FechaAlta>2024-05-02</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Piso</TipoEspecifico>
@@ -108,7 +108,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VT2304001</Referencia>
     <FechaAlta>2024-04-24</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Piso</TipoEspecifico>
@@ -256,7 +256,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA88</Referencia>
     <FechaAlta>2024-04-20</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -430,7 +430,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA111</Referencia>
     <FechaAlta>2024-04-20</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Chalet / Torre</TipoEspecifico>
@@ -776,7 +776,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA55</Referencia>
     <FechaAlta>2024-04-17</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -1083,7 +1083,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA448</Referencia>
     <FechaAlta>2024-03-26</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -1314,7 +1314,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA87</Referencia>
     <FechaAlta>2024-03-06</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -1523,224 +1523,12 @@
     <Imagenes_Certificado/>
   </inmueble>
   <inmueble>
-    <IdFicha>inmo_02814_347294</IdFicha>
-    <IdAgencia>inmo_02814</IdAgencia>
-    <TipoGenerico>Casa</TipoGenerico>
-    <Referencia>VE02001</Referencia>
-    <FechaAlta>2024-02-27</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
-    <Estado>Disponible</Estado>
-    <SubEstado/>
-    <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
-    <Pais>España</Pais>
-    <SituacionConcreta>Calle Suïssa</SituacionConcreta>
-    <TipoVia>Calle</TipoVia>
-    <NombreVia>Suïssa</NombreVia>
-    <NumeroVia/>
-    <SuperficieUtil>125.00</SuperficieUtil>
-    <SuperficieConstruida>147.00</SuperficieConstruida>
-    <PrecioVenta>215000</PrecioVenta>
-    <PrecioAlquiler/>
-    <PrecioTraspaso/>
-    <PrecioSubasta/>
-    <PrecioAlquilerTemporada/>
-    <Comunidad>Cataluña</Comunidad>
-    <Provincia>Girona</Provincia>
-    <Localidad>Estartit</Localidad>
-    <CodigoPostal>17258</CodigoPostal>
-    <Zona/>
-    <Anuncio><![CDATA[Casa adosada de 150 m2 utiles aproximados, con 3 habitacions ( dos dobles y una individual) y amplio comedor sala de estar con salida a terraza con vistas. Consta de 1 baño completo con ducha y un aseo. Garage y jardin privado. Calefacción a gasoil. Urbanización Torre Gran, zona muy tranquila y  a pocos minutos en coche de la playa.   ]]></Anuncio>
-    <Slogan><![CDATA[Casa con Jardín en Torre Gran]]></Slogan>
-    <AnuncioCAT><![CDATA[Casa adossada de 150 m2 útils aproximats, amb 3 habitacions (dues dobles i una individual) i un ampli menjador sala d'estar amb sortida a terrassa amb vistes. Consta de 1 bany complet amb dutxa i un lavabo. Garatge i jardí privat. Calefacció de gasoil. Urbanització Torre Gran, zona molt tranquil·la i a pocs minuts en cotxe de la platja]]></AnuncioCAT>
-    <SloganCAT><![CDATA[Casa amb jardí a Torre Gran]]></SloganCAT>
-    <AnuncioENG><![CDATA[Semi-detached house of approximately 150 m2 of usable space, with 3 bedrooms (two doubles and one single) and a spacious living-dining room with access to a terrace with views. It consists of 1 complete bathroom with shower and a toilet. Garage and private garden. Diesel heating. Torre Gran urbanization, very quiet area and a few minutes by car from the beach]]></AnuncioENG>
-    <SloganENG><![CDATA[House with garden in Torre Gran]]></SloganENG>
-    <AnuncioFR><![CDATA[Maison mitoyenne d'environ 150 m2 utiles, avec 3 chambres (deux doubles et une simple) et un grand salon-salle à manger avec accès à une terrasse offrant une vue. Comprend 1 salle de bain complète avec douche et un WC. Garage et jardin privé. Chauffage au gazole. Urbanisation Torre Gran, quartier très calme et à quelques minutes en voiture de la plage]]></AnuncioFR>
-    <SloganFR><![CDATA[Maison avec jardin à Torre Gran]]></SloganFR>
-    <ReferenciaCatastral/>
-    <Latitud>42.055516</Latitud>
-    <Longitud>3.1690431</Longitud>
-    <ContratoExclusividad>0</ContratoExclusividad>
-    <FechaFinExclusiva/>
-    <ObraNueva>No</ObraNueva>
-    <Apialia/>
-    <Bancario>0</Bancario>
-    <Visibilidad>2</Visibilidad>
-    <Caracteristicas>
-      <Caracteristica>
-        <Descripcion>Año construcción</Descripcion>
-        <Valor>1983</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Estado conservación</Descripcion>
-        <Valor>Buena</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de baños</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de dormitorios</Descripcion>
-        <Valor>3</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Dormitorios individuales</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Dormitorios dobles</Descripcion>
-        <Valor>2</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Categoría del consumo energético</Descripcion>
-        <Valor>E</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Zona ajardinada</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Observaciones</Descripcion>
-        <Valor> </Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ubicación local</Descripcion>
-        <Valor>A pie de calle</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Categoría de les emisiones</Descripcion>
-        <Valor>F</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Emisiones CO2 (kg CO2/m2 año)</Descripcion>
-        <Valor>71</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Consumo energético (kWh/m2 año)</Descripcion>
-        <Valor>272</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parcela (m2)</Descripcion>
-        <Valor>127.00</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Calefacción</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parking</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Soleado</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Vistas</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Indice de referencia de precios de alquiler</Descripcion>
-        <Valor>No disponible</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Importe de la renta del último contrato de arrenda</Descripcion>
-        <Valor/>
-      </Caracteristica>
-    </Caracteristicas>
-    <Imagenes>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/347294_5f1effa04514164c811b1eda8ab7936e.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_e1d28bd6d6fd1e576df42a6dbdef94cd.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_467c1f3a5eecc07db61eefb91044d7a8.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_4a57fd6ce2d404b1313a5f49b2bbd2dd.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_6c1c6365b330d9cefb6f3700b4351f65.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_042166b05124b9bb867ad4c940dc200c.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_2c7fa3b1dd47c11995e956070ceec1e5.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_abb20e385f989d21cdfd81167305849d.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_ea37f5020398acd8d68b2e33b4620651.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_436253402ef03f98b3eafecab342057f.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_4b51991cae09ec0755a6ae1dcf716b1b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_0a59d1bad8db0e51c2e3057717f14cc5.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_d83f4a663aede7aeb9bd651384f11b10.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_3cfe117208f31acb88d7345d9a6fc66a.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_de9a20349e86ec131ba04acc37a8a6d9.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_1e155efa673892de419d3317243504c3.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_fd79af60046381434029bbf8b4887e7b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_4c3a78d29bd2c106a23cc631b4d324b0.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_3338fe11161549560873a59fc786038f.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/347294/images/021558900_9d460c9861ec14bc99c016cc2db0d13b.jpg</url>
-      </foto>
-    </Imagenes>
-    <Destacado/>
-    <Superdestacado/>
-    <Imagenes_Certificado/>
-  </inmueble>
-  <inmueble>
     <IdFicha>inmo_02814_345836</IdFicha>
     <IdAgencia>inmo_02814</IdAgencia>
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA1000</Referencia>
     <FechaAlta>2024-02-13</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Chalet / Torre</TipoEspecifico>
@@ -2259,7 +2047,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA46</Referencia>
     <FechaAlta>2024-01-31</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -2526,7 +2314,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA1</Referencia>
     <FechaAlta>2024-01-05</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -2709,7 +2497,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA341</Referencia>
     <FechaAlta>2023-12-21</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -2887,7 +2675,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA999</Referencia>
     <FechaAlta>2023-12-20</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -3089,7 +2877,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA74</Referencia>
     <FechaAlta>2023-12-01</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -3290,110 +3078,12 @@
     <Imagenes_Certificado/>
   </inmueble>
   <inmueble>
-    <IdFicha>inmo_02814_340490</IdFicha>
-    <IdAgencia>inmo_02814</IdAgencia>
-    <TipoGenerico>Parking</TipoGenerico>
-    <Referencia>VB2311001</Referencia>
-    <FechaAlta>2023-11-27</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
-    <Estado>Disponible</Estado>
-    <SubEstado/>
-    <TipoEspecifico>Plaza de aparcamiento</TipoEspecifico>
-    <Pais>España</Pais>
-    <SituacionConcreta>Calle de Padilla, 234</SituacionConcreta>
-    <TipoVia>Calle</TipoVia>
-    <NombreVia>de Padilla</NombreVia>
-    <NumeroVia>234</NumeroVia>
-    <SuperficieUtil>12.00</SuperficieUtil>
-    <SuperficieConstruida/>
-    <PrecioVenta>13000</PrecioVenta>
-    <PrecioAlquiler/>
-    <PrecioTraspaso/>
-    <PrecioSubasta/>
-    <PrecioAlquilerTemporada/>
-    <Comunidad>Cataluña</Comunidad>
-    <Provincia>Barcelona</Provincia>
-    <Localidad>Barcelona</Localidad>
-    <CodigoPostal>08013</CodigoPostal>
-    <Zona>Eixample</Zona>
-    <Anuncio><![CDATA[Plaça de parquing per a cotxe mitjà. Facil entrada. Porta automatica amb comandament a distancia.   ]]></Anuncio>
-    <Slogan><![CDATA[Parquing carrer padilla 234]]></Slogan>
-    <ReferenciaCatastral/>
-    <Latitud>41.4051913</Latitud>
-    <Longitud>2.1782057</Longitud>
-    <ContratoExclusividad>0</ContratoExclusividad>
-    <FechaFinExclusiva/>
-    <ObraNueva>No</ObraNueva>
-    <Apialia/>
-    <Bancario>0</Bancario>
-    <Visibilidad>1</Visibilidad>
-    <Caracteristicas>
-      <Caracteristica>
-        <Descripcion>Nº de dormitorios</Descripcion>
-        <Valor/>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Entre plazas</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Situado en planta nº</Descripcion>
-        <Valor>-2</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Observaciones</Descripcion>
-        <Valor> </Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ubicación local</Descripcion>
-        <Valor>A pie de calle</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Columna lateral</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Plaza núm.</Descripcion>
-        <Valor>29</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parcela (m2)</Descripcion>
-        <Valor/>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Indice de referencia de precios de alquiler</Descripcion>
-        <Valor>No disponible</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Importe de la renta del último contrato de arrenda</Descripcion>
-        <Valor/>
-      </Caracteristica>
-    </Caracteristicas>
-    <Imagenes>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/340490/images/340490_8df55d3cafafcf03a35e5b3352ce85c2.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/340490/images/340490_ab357d745f09701f8db11dd69e64072f.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images34/340490/images/340490_cb4b73e9e4e397ecda95a7e50e7d4e03.jpg</url>
-      </foto>
-    </Imagenes>
-    <Destacado/>
-    <Superdestacado/>
-    <Imagenes_Certificado/>
-  </inmueble>
-  <inmueble>
     <IdFicha>inmo_02814_337483</IdFicha>
     <IdAgencia>inmo_02814</IdAgencia>
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA75</Referencia>
     <FechaAlta>2023-10-24</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -3619,7 +3309,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VAU99</Referencia>
     <FechaAlta>2023-10-17</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -3957,7 +3647,7 @@
     <TipoGenerico>Parking</TipoGenerico>
     <Referencia>VA008</Referencia>
     <FechaAlta>2023-09-27</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>interior</TipoEspecifico>
@@ -4051,7 +3741,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA34</Referencia>
     <FechaAlta>2023-09-26</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -4261,7 +3951,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA963</Referencia>
     <FechaAlta>2023-09-26</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -4511,7 +4201,7 @@
     <TipoGenerico>Edificio</TipoGenerico>
     <Referencia>VBM0900123</Referencia>
     <FechaAlta>2023-09-20</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Otro</TipoEspecifico>
@@ -4721,7 +4411,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA35</Referencia>
     <FechaAlta>2023-09-08</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -4911,7 +4601,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA61</Referencia>
     <FechaAlta>2023-08-28</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -5073,7 +4763,7 @@
     <TipoGenerico>Parking</TipoGenerico>
     <Referencia>VA10</Referencia>
     <FechaAlta>2023-08-22</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Plaza de aparcamiento</TipoEspecifico>
@@ -5183,7 +4873,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA953</Referencia>
     <FechaAlta>2023-08-05</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -5370,7 +5060,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA91</Referencia>
     <FechaAlta>2023-05-29</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -5564,7 +5254,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA45</Referencia>
     <FechaAlta>2023-05-25</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -5735,7 +5425,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA41</Referencia>
     <FechaAlta>2023-05-11</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Chalet / Torre</TipoEspecifico>
@@ -5970,7 +5660,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA666</Referencia>
     <FechaAlta>2023-02-02</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Estudio</TipoEspecifico>
@@ -6106,7 +5796,7 @@
     <TipoGenerico>Parking</TipoGenerico>
     <Referencia>VM15555</Referencia>
     <FechaAlta>2023-01-24</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Plaza de aparcamiento</TipoEspecifico>
@@ -6218,7 +5908,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA92</Referencia>
     <FechaAlta>2021-08-10</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -6416,7 +6106,7 @@
     <TipoGenerico>Suelo</TipoGenerico>
     <Referencia>050</Referencia>
     <FechaAlta>2017-01-21</FechaAlta>
-    <FechaModificacion>2024-05-15</FechaModificacion>
+    <FechaModificacion>2024-05-21</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Suelo urbano</TipoEspecifico>

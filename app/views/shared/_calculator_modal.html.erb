@@ -1,0 +1,44 @@
+<!-- Property cost calculator modal-->
+<div class="modal fade" id="cost-calculator" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header d-block position-relative border-0 px-sm-5 px-4">
+        <h3 class="h4 modal-title mt-4 text-center"><%= t('discover_property_value') %></h3>
+        <button class="btn-close position-absolute top-0 end-0 mt-3 me-3" type="button" data-bs-dismiss="modal" aria-label="<%= t('close') %>"></button>
+      </div>
+      <div class="modal-body px-sm-5 px-4">
+        <form class="needs-validation" novalidate action="<%= contact_submit_path %>" method="get">
+          <div class="mb-3">
+            <label class="form-label fw-bold mb-2" for="property_type"><%= t('property_type') %></label>
+            <select name="property_type" class="form-control form-select" id="property_type" required>
+              <option value="" selected disabled hidden><%= t('select_property_type') %></option>
+              <% Listing::LISTING_TYPE.values.each do |listing_type| %>
+                <option value="<%= listing_type %>"><%= t(listing_type) %></option>
+              <% end %>
+            </select>
+            <div class="invalid-feedback"><%= t('please_select_type') %></div>
+          </div>
+          <div class="pt-2 mb-3">
+            <label class="form-label fw-bold mb-2" for="property-address"><%= t('address_or_area') %></label>
+            <input name="property_address" class="form-control" type="text" id="property-address" placeholder="<%= t('enter_property_address') %>" required>
+            <div class="invalid-feedback"><%= t('please_enter_property_address') %></div>
+          </div>
+          <div class="pt-2 mb-4">
+            <label class="form-label fw-bold mb-2" for="property-bedrooms"><%= t('number_of_bedrooms') %></label>
+            <input name="property_bedrooms" class="form-control" type="text" id="property-bedrooms" placeholder="<%= t('enter_number_of_bedrooms') %>">
+          </div>
+          <div class="pt-2 mb-4">
+            <label class="form-label fw-bold mb-2" for="property-surface"><%= t('total_surface') %></label>
+            <input name="property_surface" class="form-control" type="text" id="property-surface" placeholder="<%= t('enter_surface') %>">
+          </div>
+          <div class="pt-2 mb-3">
+            <label class="form-label fw-bold mb-2" for="email-or-phone"><%= t('email_or_phone') %></label>
+            <input name="email_or_phone" class="form-control" type="text" id="email-or-phone" placeholder="<%= t('enter_email_or_phone') %>" required>
+            <div class="invalid-feedback"><%= t('please_enter_email_or_phone') %></div>
+          </div>
+          <button class="btn btn-primary d-block w-100 mb-4" type="submit"><i class="fi-calculator me-2"></i><%= t('request_free_evaluation') %></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

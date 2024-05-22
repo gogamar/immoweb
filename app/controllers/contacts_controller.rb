@@ -16,6 +16,24 @@ class ContactsController < ApplicationController
     end
   end
 
+  def submit
+    @property_type = params[:property_type]
+    @property_address = params[:property_address]
+    @property_bedrooms = params[:property_bedrooms]
+    @property_surface = params[:property_surface]
+    @contact_info = params[:email_or_phone]
+
+    ContactMailer.with(
+      property_type: @property_type,
+      property_address: @property_address,
+      property_bedrooms: @property_bedrooms,
+      property_surface: @property_surface,
+      contact_info: @contact_info
+    ).evaluation_email.deliver_now
+
+    redirect_to root_path, notice: t('appraisal_request_sent')
+  end
+
   private
 
   def contact_params

@@ -176,6 +176,7 @@ ca:
   price: Preu
   professional_text: A Finques Sistach, ens enorgulleix la nostra llarga trajectòria com a Agents de la Propietat Immobiliària. Amb l'aval de més d'una dècada en el sector, hem construït una reputació sòlida i fiable en el mercat immobiliari de l'Estartit. El nostre equip està format per professionals altament capacitats i certificats (A.F. COL 920 / API 1009 / AICAT 6541) que treballen incansablement per oferir un servei de qualitat i assessorament expert als nostres clients.
   professional_title: Professionalitat i Experiència
+  professional_subtitle: Servei de qualitat i assessorament expert
   promenade: Passeig
   property_type: Tipus d'immoble
   regular: Regular
@@ -209,6 +210,7 @@ ca:
     La confiança és fonamental en qualsevol transacció immobiliària, i a Finques Sistach ens comprometem a oferir un servei transparent, ètic i professional en tot moment. La nostra reputació de serietat i solvència s'ha guanyat gràcies a la nostra integritat en cada pas del procés, des de l'avaluació inicial fins a la signatura del contracte final. Ens assegurem que tant els propietaris com els possibles compradors o llogaters es sentin recolzats i segurs durant tot el procés. En resum, a
     Finques Sistach oferim més que un simple servei immobiliari; oferim una associació de confiança i compromís mutu. Si estàs considerant vendre o llogar la teva propietat a l'Estartit, confia en Finques Sistach per fer que el procés sigui fàcil, transparent i exitós.
   solvent_title: Serietat i Solvència
+  solvent_subtitle: Servei transparent, ètic i professional
   square: Plaça
   street: Carrer
   studio: Estudi
@@ -266,3 +268,44 @@ ca:
   single_property_title: "Propietat %{operation} a %{address}, %{town} per %{salesprice_or_rentprice}"
   single_property_description: "Descobreix aquesta propietat %{operation} situada a %{address} a %{town}, disponible per %{salesprice_or_rentprice}. Contacta amb Sistach Finques per a més detalls i per programar una visita."
   view_all: Veure tot
+  property_value: Quant val la meva propietat?
+  your_appraisal: Rebi la seva valoració personal
+  appraisal_explanation: La taxació immobiliària és un procés que permet determinar el valor de mercat d'un immoble, ja sigui un pis, una casa, un terreny, etc. La nostra valoració es objectiva, professional, gratuïta i sense compromís.
+  evaluate: Demanar la valoració
+  discover_property_value: Descobreix el valor de la teva propietat
+  find_home: Troba la teva nova llar
+  sell_property: Ven la teva propietat
+  rent_property: Lloga un pis o casa
+  real_estate_solutions: Solucions immobiliàries a la teva mida
+  loading: Carregant...
+  buy_with_confidence: Compra amb confiança.
+  sell_without_pressure: Ven la teva propietat sense pressió.
+  find_out_property_value: Descobreix el valor de la teva propietat
+  property_location: Ubicació de l'immoble
+  enter_property_address: Introdueix l'adreça o la zona
+  please_enter_property_address: Si us plau, introdueix l'adreça o la zona
+  close: Tancar
+  address_or_area: Adreça o zona
+  select_property_type: Selecciona el tipus d'immoble
+  please_select_type: Si us plau, selecciona el tipus d'immoble
+  number_of_bedrooms: Número de dormitoris
+  enter_number_of_bedrooms: Introdueix el número de dormitoris
+  total_surface: Superfície total
+  enter_surface: Introdueix la superfície total
+  request_free_evaluation: Demana evaluació gratuita
+  appraisal_request_sent: La teva sol·licitud de valoració ha estat enviada. Ens posarem en contacte amb tu aviat.
+  email_or_phone: Email o telèfon
+  enter_email_or_phone: Introdueix el teu email o telèfon
+  please_enter_email_or_phone: Si us plau, introdueix el teu email o telèfon
+  leave_your_message: Deixa'ns un missatge
+  name_surname: Nom i cognoms
+  enter_name_surname: Introdueix el teu nom i cognoms
+  please_enter_name_surname: Si us plau, introdueix el teu nom i cognoms
+  message: Missatge
+  enter_message: Introdueix el teu missatge
+  please_enter_message: Si us plau, introdueix el teu missatge
+  email: Email
+  enter_email: Introdueix el teu email
+  please_enter_email: Si us plau, introdueix el teu email
+  more_info: Més informació
+  buy_property: Compra una propietat

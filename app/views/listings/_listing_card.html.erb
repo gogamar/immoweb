@@ -9,7 +9,9 @@
       <div class="tns-carousel-inner listings-index">
         <% if listing.image_urls.present? %>
           <% listing.image_urls.each do |image| %>
-            <%=image_tag(image.url, alt:"#{listing.listing_subtype} #{listing.town_name}", quality: "auto", class: "img-fluid") %>
+            <%= link_to listing_path(listing) do %>
+              <%= image_tag(image.url, alt: "#{listing.listing_subtype} #{listing.town_name}", class: "img-fluid", quality: "auto") %>
+            <% end %>
           <% end %>
         <% end %>
       </div>

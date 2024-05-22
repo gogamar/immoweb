@@ -1,9 +1,10 @@
-<%# render 'header' %>
-<%# render 'featured' %>
-<%# render 'new_listings' %>
-<%# render 'add_listing_banner' %>
-<%# render 'popular_destinations' %>
-<%# render 'services' %>
-<%# render 'add_listing_area' %>
-<%# render 'reviews' %>
-<%= render 'finder_home' %>
+<!-- Page content-->
+<div class="d-none d-md-block">
+  <%= render 'header_md' %>
+</div>
+<div class="d-md-none">
+  <%= render 'header_sm' %>
+</div>
+<%= render 'top_offers' %>
+<%= render 'property_calculator' %>
+<%= render 'services' %>
