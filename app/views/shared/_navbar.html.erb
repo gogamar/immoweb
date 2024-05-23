@@ -18,14 +18,15 @@
       >
       <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="d-none d-lg-block order-lg-3">
+      <%= language_dropdown(I18n.locale || params[:locale]) %>
+    </div>
     <!--
-      <a
-        class="btn btn-sm text-primary d-none d-lg-block order-lg-3"
+      <a class="btn btn-sm text-primary d-none d-lg-block order-lg-3"
         href="#signin-modal"
         data-bs-toggle="modal"
-        ><i class="fi-user me-2"></i><%= t('sign_in') %></a
-      ><a
-        class="btn btn-primary btn-sm ms-2 order-lg-3"
+        ><i class="fi-user me-2"></i><%= t('sign_in') %></a>
+        <a class="btn btn-primary btn-sm ms-2 order-lg-3"
         href="real-estate-add-property.html"
         ><i class="fi-plus me-2"></i><%= t('add') %><span class="d-none d-sm-inline">
         <%= t('property') %></span
@@ -73,6 +74,9 @@
             >
         </li>
         -->
+        <div class="d-lg-none px-2">
+          <%= language_dropdown(I18n.locale || params[:locale]) %>
+        </div>
       </ul>
     </div>
   </div>
