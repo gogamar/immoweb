@@ -314,3 +314,4 @@ es:
   in_process: En proceso
   professional_subtitle: Servicio de calidad y asesoramiento experto
   solvent_subtitle: Servicio transparente, ético y profesional
+  recaptcha_error: La verificación reCAPTCHA falló, por favor inténtalo de nuevo

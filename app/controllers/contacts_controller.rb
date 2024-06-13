@@ -12,7 +12,7 @@ class ContactsController < ApplicationController
       ContactMailer.contact_email(@contact, @listing).deliver_now
       redirect_to success_path
     else
-      redirect_back(fallback_location: root_path, notice: t("contact_error"))
+      redirect_back(fallback_location: root_path, notice: @contact.errors.full_messages.include?("reCAPTCHA verification failed, please try again.") ? t('recaptcha_error') : t('contact_error') )
     end
   end
 

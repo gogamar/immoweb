@@ -314,3 +314,4 @@ fr:
   in_process: En cours de traitement
   professional_subtitle: Service de qualité et conseil expert
   solvent_subtitle: Service transparent, éthique et professionnel
+  recaptcha_error: Échec de la vérification reCAPTCHA, veuillez réessayer.

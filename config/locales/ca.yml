@@ -316,3 +316,4 @@ ca:
   contact_by_whatsapp: Contactar per WhatsApp
   contacting_about: "Volia tenir més informació sobre aquest immoble: "
   in_process: En tramitació
+  recaptcha_error: La verificació reCAPTCHA ha fallat, si us plau, torna a intentar-ho.
