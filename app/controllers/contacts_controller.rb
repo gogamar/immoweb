@@ -8,7 +8,7 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.new(contact_params)
     @listing = Listing.find_by(id: params[:contact][:listing_id])
-    if @contact.save
+    if verify_recaptcha(model: @contact) && @contact.save
       ContactMailer.contact_email(@contact, @listing).deliver_now
       redirect_to success_path
     else

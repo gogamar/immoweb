@@ -92,3 +92,4 @@ gem "dotenv-rails"
 gem "view_component"
 gem 'sendgrid-ruby'
 gem 'flag-icons-rails'
+gem "recaptcha"
