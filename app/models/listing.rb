@@ -1,6 +1,7 @@
 class Listing < ApplicationRecord
   belongs_to :user
   belongs_to :town, optional: true
+  has_many :contacts, dependent: :destroy
   has_many :image_urls, dependent: :destroy
   has_and_belongs_to_many :features, join_table: "listings_features"
   # geocoded_by :address

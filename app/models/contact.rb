@@ -1,8 +1,9 @@
 class Contact < ApplicationRecord
 
+  belongs_to :listing
+
   validates :name, presence: true
   validates :email, presence: true
-
 
   BUDGET = [
     "0-100.000€",

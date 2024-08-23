@@ -157,13 +157,17 @@ class GetPropertiesService
       local_listing.save!
     end
 
+    # add water mark on listings that are not in the XML file
+    # Listing.where.not(idfile: doc.search('IdFicha').map(&:text)).each do |listing|
+    #   if listing.operation == "sale"
+    #     listing.update(mark: "sold")
+    #   elsif listing.operation == "rent"
+    #     listing.update(mark: "rented")
+    #   end
+    # end
+
     # delete listings that are not in the XML file
-    Listing.where.not(idfile: doc.search('IdFicha').map(&:text)).each do |listing|
-      if listing.operation == "sale"
-        listing.update(mark: "sold")
-      elsif listing.operation == "rent"
-        listing.update(mark: "rented")
-      end
-    end
+    deactivated_listings = Listing.where.not(idfile: doc.search('IdFicha').map(&:text))
+    deactivated_listings.destroy_all
   end
 end
