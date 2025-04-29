@@ -5,8 +5,7 @@ class StaticController < ApplicationController
 
   def home
     @listings = Listing.all
-    @featured_listings = Listing.where(mark: nil)
-                             .where(listing_type: "housing")
+    @featured_listings = Listing
                              .where("published_on > ?", Date.today.beginning_of_year)
                              .shuffle
                              .take(6)
