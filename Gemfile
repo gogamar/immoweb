@@ -84,7 +84,8 @@ gem 'net-ftp'
 gem "geocoder"
 gem 'pagy', '~> 6.0'
 # fixme these 4 need to be configured:
-gem "cloudinary"
+gem 'imagekitio'
+gem 'cloudinary'
 gem "sidekiq"
 gem "sidekiq-failures", "~> 1.0"
 gem "sidekiq-cron"

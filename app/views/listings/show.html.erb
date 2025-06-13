@@ -9,19 +9,37 @@
               <div class="ps-1"><span class="tns-current-slide fs-5 fw-bold"></span><span class="fs-5 fw-bold">/</span><span class="tns-total-slides fs-5 fw-bold"></span></div>
             </div>
             <div class="tns-carousel-inner listings-show" data-carousel-options="{&quot;navAsThumbnails&quot;: true, &quot;navContainer&quot;: &quot;#thumbnails&quot;, &quot;gutter&quot;: 12, &quot;responsive&quot;: {&quot;0&quot;:{&quot;controls&quot;: false},&quot;500&quot;:{&quot;controls&quot;: true}}}">
-              <% @listing.image_urls.each do |image| %>
-                <div>
-                  <%= image_tag image.url, alt: "#{@listing.listing_subtype} #{@listing.town_name}", class: "img-fluid" %>
-                </div>
+
+              <% if @listing.photos.attached? %>
+                <% @listing.photos.each do |photo| %>
+                  <div>
+                    <%= image_tag photo.url, alt: "#{@listing.listing_subtype} #{@listing.town_name}", class: "img-fluid" %>
+                  </div>
+                <% end %>
+              <%elsif @listing.image_urls.exists? %>
+                <% @listing.image_urls.each do |image| %>
+                  <div>
+                    <%= image_tag image.url, alt: "#{@listing.listing_subtype} #{@listing.town_name}", class: "img-fluid" %>
+                  </div>
+                <% end %>
               <% end %>
+
             </div>
           </div>
           <!-- Thumbnails nav-->
           <ul class="tns-thumbnails mb-4" id="thumbnails">
-            <% @listing.image_urls.each do |image| %>
-              <li class="tns-thumbnail listings-show-thumbnail">
-                <%= image_tag image.url, alt: "#{@listing.listing_subtype} #{@listing.town_name}" %>
-              </li>
+            <% if @listing.photos.attached? %>
+              <% @listing.photos.each do |photo| %>
+                <li class="tns-thumbnail listings-show-thumbnail">
+                  <%= image_tag photo.url, alt: "#{@listing.listing_subtype} #{@listing.town_name}"%>
+                </li>
+              <% end %>
+            <%elsif @listing.image_urls.exists? %>
+              <% @listing.image_urls.each do |image| %>
+                <li class="tns-thumbnail listings-show-thumbnail">
+                  <%= image_tag image.url, alt: "#{@listing.listing_subtype} #{@listing.town_name}"%>
+                </li>
+              <% end %>
             <% end %>
           </ul>
         </div>

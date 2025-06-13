@@ -4,6 +4,6 @@ class ImportListingsJob < ApplicationJob
   require 'net/ftp'
 
   def perform()
-    GetPropertiesService.new.get_properties
+    GetPropertiesService.new.call
   end
 end

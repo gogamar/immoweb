@@ -6,6 +6,12 @@ local:
   service: Disk
   root: <%= Rails.root.join("storage") %>
 
+imagekitio:
+  service: ImageKitIo
+  public_key: <%= ENV['IMAGEKIT_PUBLIC_KEY'] %>
+  private_key: <%= ENV['IMAGEKIT_PRIVATE_KEY'] %>
+  url_endpoint: <%= ENV['IMAGEKIT_ENDPOINT'] %>
+
 cloudinary:
   service: Cloudinary
   folder: <%= Rails.env %>

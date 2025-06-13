@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <inmuebles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <inmueble>
-    <IdFicha>inmo_02814_372319</IdFicha>
+    <IdFicha>inmo_02814_376003</IdFicha>
     <IdAgencia>inmo_02814</IdAgencia>
-    <TipoGenerico>Piso</TipoGenerico>
-    <Referencia>VA17</Referencia>
-    <FechaAlta>2025-03-24</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <TipoGenerico>Casa</TipoGenerico>
+    <Referencia>VA55</Referencia>
+    <FechaAlta>2025-05-29</FechaAlta>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
-    <TipoEspecifico>Apartamento</TipoEspecifico>
+    <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
     <Pais>España</Pais>
-    <SituacionConcreta>Calle de les Illes</SituacionConcreta>
-    <TipoVia>Calle</TipoVia>
-    <NombreVia>de les Illes</NombreVia>
-    <NumeroVia/>
-    <SuperficieUtil>55.00</SuperficieUtil>
-    <SuperficieConstruida>67.00</SuperficieConstruida>
-    <PrecioVenta>157000</PrecioVenta>
+    <SituacionConcreta>Pasaje Londres, 11</SituacionConcreta>
+    <TipoVia>Pasaje</TipoVia>
+    <NombreVia>Londres</NombreVia>
+    <NumeroVia>11</NumeroVia>
+    <SuperficieUtil>61.00</SuperficieUtil>
+    <SuperficieConstruida>64.00</SuperficieConstruida>
+    <PrecioVenta>223000</PrecioVenta>
     <PrecioAlquiler/>
     <PrecioTraspaso/>
     <PrecioSubasta/>
@@ -27,17 +27,22 @@
     <Localidad>Estartit</Localidad>
     <CodigoPostal>17258</CodigoPostal>
     <Zona/>
-    <Anuncio><![CDATA[Precioso apartamento en planta baja de 2 habitaciones totalmente reformado con patio privado de 35 m2 a escasos 30 metros de la playa de l'Estartit]]></Anuncio>
+    <Anuncio><![CDATA[Preciosa casa adosada de 64 m2 de dos habitaciones en la Urbanización TorreVella de l'Estartit, totalmente reformada , jardín y pàrquing privado, a escasos metros de la piscina comunitaria. En la parte inferior incluye un trastero privado     La propiedad se vende totalmente amueblada y equipada.]]></Anuncio>
+    <Slogan><![CDATA[CASA ADOSADA CON JARDÍN PRIVADO]]></Slogan>
     <ReferenciaCatastral/>
-    <Latitud>42.055426</Latitud>
-    <Longitud>3.2030511</Longitud>
+    <Latitud>42.0582865</Latitud>
+    <Longitud>3.1606881</Longitud>
     <ContratoExclusividad>0</ContratoExclusividad>
     <FechaFinExclusiva/>
     <ObraNueva>No</ObraNueva>
     <Apialia/>
     <Bancario>0</Bancario>
-    <Visibilidad>2</Visibilidad>
+    <Visibilidad>1</Visibilidad>
     <Caracteristicas>
+      <Caracteristica>
+        <Descripcion>Estado conservación</Descripcion>
+        <Valor>Muy buena</Valor>
+      </Caracteristica>
       <Caracteristica>
         <Descripcion>Nº de baños</Descripcion>
         <Valor>1</Valor>
@@ -47,8 +52,8 @@
         <Valor>2</Valor>
       </Caracteristica>
       <Caracteristica>
-        <Descripcion>Ascensor</Descripcion>
-        <Valor>Si</Valor>
+        <Descripcion>Orientación</Descripcion>
+        <Valor>Sur</Valor>
       </Caracteristica>
       <Caracteristica>
         <Descripcion>Dormitorios individuales</Descripcion>
@@ -59,15 +64,39 @@
         <Valor>1</Valor>
       </Caracteristica>
       <Caracteristica>
+        <Descripcion>Categoría del consumo energético</Descripcion>
+        <Valor>F</Valor>
+      </Caracteristica>
+      <Caracteristica>
         <Descripcion>Ubicación local</Descripcion>
         <Valor>A pie de calle</Valor>
       </Caracteristica>
       <Caracteristica>
-        <Descripcion>Parcela (m2)</Descripcion>
-        <Valor/>
+        <Descripcion>Categoría de les emisiones</Descripcion>
+        <Valor>E</Valor>
       </Caracteristica>
       <Caracteristica>
-        <Descripcion>Calefacción</Descripcion>
+        <Descripcion>Emisiones CO2 (kg CO2/m2 año)</Descripcion>
+        <Valor>59</Valor>
+      </Caracteristica>
+      <Caracteristica>
+        <Descripcion>Consumo energético (kWh/m2 año)</Descripcion>
+        <Valor>310</Valor>
+      </Caracteristica>
+      <Caracteristica>
+        <Descripcion>Parcela (m2)</Descripcion>
+        <Valor>127.00</Valor>
+      </Caracteristica>
+      <Caracteristica>
+        <Descripcion>Parking</Descripcion>
+        <Valor>Si</Valor>
+      </Caracteristica>
+      <Caracteristica>
+        <Descripcion>Soleado</Descripcion>
+        <Valor>Si</Valor>
+      </Caracteristica>
+      <Caracteristica>
+        <Descripcion>Vistas</Descripcion>
         <Valor>Si</Valor>
       </Caracteristica>
       <Caracteristica>
@@ -82,15 +111,123 @@
     <Imagenes>
       <foto>
         <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/372319/images/543008441_223257263f96e258a641f3f71a88a249.jpg</url>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_cb60af9ba6017000ee2bdfa37fc16fdd.jpg</url>
       </foto>
       <foto>
         <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/372319/images/543008441_b17d58f0a9cd8b9962059406a1852bb2.jpg</url>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_c761d6a347a5e7d01c554791682cf8d0.jpg</url>
       </foto>
       <foto>
         <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/372319/images/543008441_79d30eddddbc618532d4f459b557d1d7.jpg</url>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_9f409a484a899194ceceda3f0a96c043.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_e491667026716e88775d5f56ae64387d.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_846a2810038034ae7a84b631c9a156ef.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_dca5e8280db090f1b9e98aec10f531d4.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_858aaf0c2d9b71217d957d266b182319.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_447386927fe1e33b8ad1f9267b0991de.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_13d36641c1493c22f0617215d7e3bde5.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_2b217a33e408e12e157361239906bcc5.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_cb7d1cb98140f34dca431738f8da9ace.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_ffb9dae43573885020c7ffe06b540668.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_53d690ce2daf8b6d816487e9ff4a92d8.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_c4700be5eb3aab6cc9013a6df3954ac2.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_1ef1c342ae9b9ef74661fb18ed1472b5.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_b79fb376222741ffa71fdcb21be4d917.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_13ae8d4ee1fcf073e23fd49bfc1396d1.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_c85765cace07d33d45c9cd4a02ed5f73.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_813af8bf753e513badc0b18384b31227.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_7131ad37d37316517d8101035cce39c3.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_f767559def610b55b93a118b5fae016d.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_4aae90f201680661bcdad6a7f3aed6d3.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_d7693c736c01b922978683927072116c.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_2acd4cc1119ad3162b5d246a9f083738.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_e8b162416bd53f0719f5c4da19a72d4b.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_5768044c695980c1e1c59692a9a9aa3c.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_9091f1125bed274865a30e6dc83abf90.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_c53b1b07cfedbb52c5cec5d53e48e813.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_3ce1b731ab50423702ff380b15fb8638.jpg</url>
+      </foto>
+      <foto>
+        <Nombre/>
+        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/376003/images/637942966_a6e1ceec3fe99eb1272e2c1a5c021d2f.jpg</url>
       </foto>
     </Imagenes>
     <Destacado/>
@@ -103,7 +240,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA88</Referencia>
     <FechaAlta>2025-03-22</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -297,7 +434,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA12</Referencia>
     <FechaAlta>2025-03-22</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Chalet / Torre</TipoEspecifico>
@@ -451,7 +588,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA55</Referencia>
     <FechaAlta>2025-03-21</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -646,7 +783,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA99</Referencia>
     <FechaAlta>2025-03-21</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -851,472 +988,12 @@
     <Imagenes_Certificado/>
   </inmueble>
   <inmueble>
-    <IdFicha>inmo_02814_370470</IdFicha>
-    <IdAgencia>inmo_02814</IdAgencia>
-    <TipoGenerico>Casa</TipoGenerico>
-    <Referencia>VA1000</Referencia>
-    <FechaAlta>2025-02-25</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
-    <Estado>Disponible</Estado>
-    <SubEstado/>
-    <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
-    <Pais>España</Pais>
-    <SituacionConcreta>Calle Palmeres</SituacionConcreta>
-    <TipoVia>Calle</TipoVia>
-    <NombreVia>Palmeres</NombreVia>
-    <NumeroVia/>
-    <SuperficieUtil>60.00</SuperficieUtil>
-    <SuperficieConstruida>75.00</SuperficieConstruida>
-    <PrecioVenta>220000</PrecioVenta>
-    <PrecioAlquiler/>
-    <PrecioTraspaso/>
-    <PrecioSubasta/>
-    <PrecioAlquilerTemporada/>
-    <Comunidad>Cataluña</Comunidad>
-    <Provincia>Girona</Provincia>
-    <Localidad>Estartit</Localidad>
-    <CodigoPostal>17258</CodigoPostal>
-    <Zona/>
-    <Anuncio><![CDATA[Preciosa casa de 60 m2 ubicada en la Urbanización Les Palmeres de l'Estartit completamente amueblada y equipada con jardín privado sobre 215 m2 de parcela . A escasos metros se encuentra el jardín y la piscina comunitária. La vivienda fué renovada en el año 2011    El inmueble dispone de licencia turística    ]]></Anuncio>
-    <Slogan><![CDATA[CASA ADOSSADA AMB JARDÍ I PISCINA COMUNITÀRIA]]></Slogan>
-    <ReferenciaCatastral/>
-    <Latitud>42.0530678</Latitud>
-    <Longitud>3.1653544</Longitud>
-    <ContratoExclusividad>0</ContratoExclusividad>
-    <FechaFinExclusiva/>
-    <ObraNueva>No</ObraNueva>
-    <Apialia/>
-    <Bancario>0</Bancario>
-    <Visibilidad>2</Visibilidad>
-    <Caracteristicas>
-      <Caracteristica>
-        <Descripcion>Estado conservación</Descripcion>
-        <Valor>Buena</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de baños</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de dormitorios</Descripcion>
-        <Valor>2</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Orientación</Descripcion>
-        <Valor>Sur-Este</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Dormitorios dobles</Descripcion>
-        <Valor>2</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Zona comunitaria</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ubicación local</Descripcion>
-        <Valor>A pie de calle</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parcela (m2)</Descripcion>
-        <Valor/>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parking</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Soleado</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Vistas</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Indice de referencia de precios de alquiler</Descripcion>
-        <Valor>No disponible</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Importe de la renta del último contrato de arrenda</Descripcion>
-        <Valor/>
-      </Caracteristica>
-    </Caracteristicas>
-    <Imagenes>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_ec0a9ca8dce974a76d69daf7c834c746.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_01b0d994cbcd17ccf2c26a428e4251b4.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_28fdbfdb99b1be6a8f793bb2dfed50f0.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_4ccc67fc740f7708ed4b5e19f26bb3fe.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_9cb2e8854d1a80bda64ca45c83694117.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_e06e335193646395e37e9b2b41207a13.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_d5b6f69f0f0003ee1bb1663357fbe2f6.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_b65f2b7a85a3eb07ecc2650c0c017485.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_f5eb4ac7e8f377c4092eda3bafe971e9.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_fbb752b3a1860a692a197b02647f81aa.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_4b6d3320021af5d91c10a0b441c7579f.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_78b77e8ab286d92430330cf251457047.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_c15b6035ca90220e8110370fda73f134.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_b04bfdc2a0b8adf6093f2b8b7a6f9238.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_2516919df06f9d5ce24045a6485dcc3d.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_921676ae11f08205cf7caa46a7b9ecc1.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_34c0cd01fe902ae5d26b60e3966c0a92.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/340459910_846d773c98d4647703eb2af5f2ee376b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/370470_3a216cf36c5f2a1f4e5434d46371555f.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/370470_b14a0d7a1e23a60c98b57224b8e1f500.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/370470_57c6fbe1535f86bf7946e9ed3cebc56d.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/370470_82e570762ec57aa6d4d5bfc090646d6a.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/370470_04ba0afda1391ccb05b86a8a020b1897.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/370470_ba6eb6ba6f4316812210741015793b5d.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/370470_0e8f1269dac01fd821a44a5f1353efeb.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/370470_36cd0b27a421efc95598d7779a8f022d.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images37/370470/images/370470_f2bf9ecddfdb29d86bfccb57317988ce.jpg</url>
-      </foto>
-    </Imagenes>
-    <Destacado/>
-    <Superdestacado/>
-    <Imagenes_Certificado/>
-  </inmueble>
-  <inmueble>
-    <IdFicha>inmo_02814_362438</IdFicha>
-    <IdAgencia>inmo_02814</IdAgencia>
-    <TipoGenerico>Piso</TipoGenerico>
-    <Referencia>VA87</Referencia>
-    <FechaAlta>2024-10-23</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
-    <Estado>Disponible</Estado>
-    <SubEstado/>
-    <TipoEspecifico>Apartamento</TipoEspecifico>
-    <Pais>España</Pais>
-    <SituacionConcreta>Calle de la Garrotxa</SituacionConcreta>
-    <TipoVia>Calle</TipoVia>
-    <NombreVia>de la Garrotxa</NombreVia>
-    <NumeroVia/>
-    <SuperficieUtil>50.00</SuperficieUtil>
-    <SuperficieConstruida>64.00</SuperficieConstruida>
-    <PrecioVenta>185000</PrecioVenta>
-    <PrecioAlquiler/>
-    <PrecioTraspaso/>
-    <PrecioSubasta/>
-    <PrecioAlquilerTemporada/>
-    <Comunidad>Cataluña</Comunidad>
-    <Provincia>Girona</Provincia>
-    <Localidad>Estartit</Localidad>
-    <CodigoPostal>17258</CodigoPostal>
-    <Zona/>
-    <Anuncio><![CDATA[Espectacular apartamento de 2 habitaciones totalmente equipado y amueblado en la Zona dels Salats de l'Estartit.  La comunidad dispone de conserge todo el año. El precio incluye plaza de pàrquing en el mismo edificio]]></Anuncio>
-    <Slogan><![CDATA[APARTAMENTO 2 HABITACIONES CON PISCINA]]></Slogan>
-    <ReferenciaCatastral/>
-    <Latitud>42.0494005</Latitud>
-    <Longitud>3.1887507</Longitud>
-    <ContratoExclusividad>0</ContratoExclusividad>
-    <FechaFinExclusiva/>
-    <ObraNueva>No</ObraNueva>
-    <Apialia/>
-    <Bancario>0</Bancario>
-    <Visibilidad>2</Visibilidad>
-    <Caracteristicas>
-      <Caracteristica>
-        <Descripcion>Estado conservación</Descripcion>
-        <Valor>Excelente</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de baños</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de dormitorios</Descripcion>
-        <Valor>2</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Orientación</Descripcion>
-        <Valor>Sur</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ascensor</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Dormitorios individuales</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Dormitorios dobles</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Zona comunitaria</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Zona ajardinada</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ubicación local</Descripcion>
-        <Valor>A pie de calle</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parcela (m2)</Descripcion>
-        <Valor/>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parking</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Soleado</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Vistas</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parkes y jardines</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Indice de referencia de precios de alquiler</Descripcion>
-        <Valor>No disponible</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Importe de la renta del último contrato de arrenda</Descripcion>
-        <Valor/>
-      </Caracteristica>
-    </Caracteristicas>
-    <Imagenes>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_cc865d6707fa5a9d33edfd3f77c38d17.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_b6839852880a6a03e9214507be92c95a.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_d5744506a12b0221a323983ce8f45762.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_72ca86c4f69b56f7acf124a2e650eea2.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_141639f25f5087b3c332fd4b80793853.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_0b9eb925e7497cac5e2f341b515867c0.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_c026cc0cd58490c1a74e5174181b640e.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_2e7edcaabc36750380248e219033a541.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_ffaa9f96e3fc354bbb6c091bd4febdcd.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_427f7c3d9ebd2ebbd86aae3c4817e022.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_7985eea5f53dc03c347760794ff4be46.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_d864b1b23f14d752a710f79dc95458e2.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_626ff9efefd0e80a5f0f007761489317.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_79ecf0e010763d982822af66d2efd05c.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_5c394482342d83de232089737b7f612e.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_4771f01acfb8ed41c05d22ff713aab56.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_3b722821976670654f01ee7d6167f369.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_81ff9980b71f8212ad16bf07197181e9.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_d431c1a9d1ebf70d9245a5a77d3568ec.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_24cd80d6d9da55bffa497f06544cc0a3.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_70d66df404ba062849283104b8dcd9f2.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_7dea826773319d7504c8ff576a6f2e0b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_4861f60e655acddce1d0296ec4c76162.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_81d53f13ce71586d1f19590ae4ac77e0.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_1dee6ab29b4562fd26502621c54d53e9.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_bce113e293652dca3e72dbc098fb55c4.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_c2f2977e31ddc3eaefce81a917334a8a.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_fe8cfe57e682888bc361bafe431e53f3.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_b9ca3e29ec2b78a8d568e0a27119e676.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_0ca1e58af349b8156d338a2e353c711b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_491f418b7d021f53bc5df5badd9fe3d1.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_88cf9af204d2e9bd8df26d0ed52d680e.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_83db1109c06c501c81a1ab324a3a9003.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_e160b1ecd3ec80be94067168e44c99f8.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images36/362438/images/295834932_15a83cdfa1dd677755d8a42efbe22d5d.jpg</url>
-      </foto>
-    </Imagenes>
-    <Destacado/>
-    <Superdestacado/>
-    <Imagenes_Certificado/>
-  </inmueble>
-  <inmueble>
     <IdFicha>inmo_02814_361280</IdFicha>
     <IdAgencia>inmo_02814</IdAgencia>
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA75</Referencia>
     <FechaAlta>2024-10-04</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -1454,7 +1131,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA45</Referencia>
     <FechaAlta>2024-09-17</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -1844,198 +1521,12 @@
     <Imagenes_Certificado/>
   </inmueble>
   <inmueble>
-    <IdFicha>inmo_02814_357866</IdFicha>
-    <IdAgencia>inmo_02814</IdAgencia>
-    <TipoGenerico>Piso</TipoGenerico>
-    <Referencia>VA99</Referencia>
-    <FechaAlta>2024-07-25</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
-    <Estado>Disponible</Estado>
-    <SubEstado/>
-    <TipoEspecifico>Apartamento</TipoEspecifico>
-    <Pais>España</Pais>
-    <SituacionConcreta>Ronda Països Catalans</SituacionConcreta>
-    <TipoVia>Ronda</TipoVia>
-    <NombreVia>Països Catalans</NombreVia>
-    <NumeroVia/>
-    <SuperficieUtil>53.00</SuperficieUtil>
-    <SuperficieConstruida>75.00</SuperficieConstruida>
-    <PrecioVenta>130000</PrecioVenta>
-    <PrecioAlquiler/>
-    <PrecioTraspaso/>
-    <PrecioSubasta/>
-    <PrecioAlquilerTemporada/>
-    <Comunidad>Cataluña</Comunidad>
-    <Provincia>Girona</Provincia>
-    <Localidad>Torroella de Montgri</Localidad>
-    <CodigoPostal>17258</CodigoPostal>
-    <Zona/>
-    <Anuncio><![CDATA[Precioso apartamento de 1 habitación con más de 50 m2 útiles, totalmente reformado, una gran sala comedor . El precio incluye plaza de aparcamiento y trastero    ]]></Anuncio>
-    <Slogan><![CDATA[PRECIOSO PISO EN EL CENTRO DE TORROELLA CON PARQUING Y TRASTERO]]></Slogan>
-    <ReferenciaCatastral/>
-    <Latitud>42.0396193</Latitud>
-    <Longitud>3.1310283</Longitud>
-    <ContratoExclusividad>0</ContratoExclusividad>
-    <FechaFinExclusiva/>
-    <ObraNueva>No</ObraNueva>
-    <Apialia/>
-    <Bancario>0</Bancario>
-    <Visibilidad>2</Visibilidad>
-    <Caracteristicas>
-      <Caracteristica>
-        <Descripcion>Estado conservación</Descripcion>
-        <Valor>Excelente</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de baños</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de dormitorios</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ascensor</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Dormitorios dobles</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ubicación local</Descripcion>
-        <Valor>A pie de calle</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parcela (m2)</Descripcion>
-        <Valor/>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Calefacción</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parking</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Hospital</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Indice de referencia de precios de alquiler</Descripcion>
-        <Valor>No disponible</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Importe de la renta del último contrato de arrenda</Descripcion>
-        <Valor/>
-      </Caracteristica>
-    </Caracteristicas>
-    <Imagenes>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_f171268ca8cb27530ce6b156b1dcea78.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_d51370d7f7445e8827f31a9e9bd3e7d6.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_b437443e89b8f28b57c1fa8b7201a0b4.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_164834b42ebd02674bfdc35db13a5551.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_6eacaaa02b621a689da5e126930f31b4.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_76547118140f844896dfdbcbc60d70ca.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_c3e5f01903809484ef34002ec5ff12ef.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_36adb25ab699145e4ee4ee40e7a064c2.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_696d8542abb3b37ecaabde5ab8ab2c84.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_5cac1ab8c19661b5ced4d04e1979575c.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_f560c90d25612f7c5039d804ec4624fe.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_1d9600a76cf7ce4ecfb3fb45b63d7a74.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_23fd0f75c02695b5ed48be5c40a41377.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_daa04cc1bcf67239ec6e4d908661cb8b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_02fd214af8b23efb0836c8a058318dd7.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_aeea34a866e5c28ed3f2eeb60535919f.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_9d983f94e58fcae18e468eff2e638662.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_5b3a811e0b07115743982dd76d2e7ff1.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_7b1ee9e4b2ea7a1bd988e7df2cba1ccc.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_b6b7d9c9538da7ace11b50ce15ebf5f6.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_d918000c337a3c85dc535c3b787c89fb.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_21dc794df0ca0ae02769ce42ef4b2094.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/357866/images/255542884_9d5121674a612cc1ac5b282760fb0221.jpg</url>
-      </foto>
-    </Imagenes>
-    <Destacado/>
-    <Superdestacado/>
-    <Imagenes_Certificado/>
-  </inmueble>
-  <inmueble>
     <IdFicha>inmo_02814_357315</IdFicha>
     <IdAgencia>inmo_02814</IdAgencia>
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA1000</Referencia>
     <FechaAlta>2024-07-16</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -2273,7 +1764,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VT240501</Referencia>
     <FechaAlta>2024-05-29</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Masia</TipoEspecifico>
@@ -2488,186 +1979,12 @@
     <Imagenes_Certificado/>
   </inmueble>
   <inmueble>
-    <IdFicha>inmo_02814_351703</IdFicha>
-    <IdAgencia>inmo_02814</IdAgencia>
-    <TipoGenerico>Piso</TipoGenerico>
-    <Referencia>VA88</Referencia>
-    <FechaAlta>2024-04-20</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
-    <Estado>Disponible</Estado>
-    <SubEstado/>
-    <TipoEspecifico>Apartamento</TipoEspecifico>
-    <Pais>España</Pais>
-    <SituacionConcreta>Calle d'Eivissa</SituacionConcreta>
-    <TipoVia>Calle</TipoVia>
-    <NombreVia>d'Eivissa</NombreVia>
-    <NumeroVia/>
-    <SuperficieUtil>38.00</SuperficieUtil>
-    <SuperficieConstruida>45.00</SuperficieConstruida>
-    <PrecioVenta>98000</PrecioVenta>
-    <PrecioAlquiler/>
-    <PrecioTraspaso/>
-    <PrecioSubasta/>
-    <PrecioAlquilerTemporada/>
-    <Comunidad>Cataluña</Comunidad>
-    <Provincia>Girona</Provincia>
-    <Localidad>Estartit</Localidad>
-    <CodigoPostal>17258</CodigoPostal>
-    <Zona/>
-    <Anuncio><![CDATA[Apartamento muy céntrico de 1 habitación a escasos 50 metros de la playa de l'Estartit de 1 habitación, totalmente reformado y equipado.]]></Anuncio>
-    <Slogan><![CDATA[PISO CENTRO ESTARTIT 1 HABITACIÓN]]></Slogan>
-    <ReferenciaCatastral/>
-    <Latitud>42.0516097</Latitud>
-    <Longitud>3.19325</Longitud>
-    <ContratoExclusividad>0</ContratoExclusividad>
-    <FechaFinExclusiva/>
-    <ObraNueva>No</ObraNueva>
-    <Apialia/>
-    <Bancario>0</Bancario>
-    <Visibilidad>2</Visibilidad>
-    <Caracteristicas>
-      <Caracteristica>
-        <Descripcion>Estado conservación</Descripcion>
-        <Valor>Buena</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de baños</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de dormitorios</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Dormitorios dobles</Descripcion>
-        <Valor>1</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ubicación local</Descripcion>
-        <Valor>A pie de calle</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parcela (m2)</Descripcion>
-        <Valor/>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Calefacción</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Hospital</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Indice de referencia de precios de alquiler</Descripcion>
-        <Valor>No disponible</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Importe de la renta del último contrato de arrenda</Descripcion>
-        <Valor/>
-      </Caracteristica>
-    </Caracteristicas>
-    <Imagenes>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_bc4909a2353c67bd43b034750054b317.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_666f869f1ccfc8c53d8968037aafb429.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_935ebd53aff45f885daef55906c710ad.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_2aad92e8df93911d1faa4c2b673a3e39.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_de5650c1cc538a12e7110ce3d737e605.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_128a629e0ec75c8d581779b6df6e5703.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_8d7ee983e86f9dbe782e6da92c816bef.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_93cd32320527df0d8786382aa9c6e3d3.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_11f3d2748389ac92720facd4288eb86c.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_752562c1ed8789678f08a10c75cb1503.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_4366a81410d0a5dc3411c7ae6196bc66.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_0240680f96b8d73cc64dbbc0845e960e.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_7bd306b8118cca137d1558fac9e86e9d.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_aa14cd5a779202483e06391322c327b2.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_8c8ec1aaa32a0163a5a455a949cbea78.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_27acf4d213a892f9e71641bcec7ef01b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_95e335733b4ac8ffe5b48a17b1534be4.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_91025a3e9d7ed92f6b5cc5b82a38c055.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_fea8e15db262b6c9cbc62b75fcc8eebf.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_d8431e6673ab84762b78aa02f88b55b3.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_d3ba86495aeaf591803f4ca2247d4843.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/351703/images/074722100_6625a3dc0d931231cab9fc6b1323156e.jpg</url>
-      </foto>
-    </Imagenes>
-    <Destacado/>
-    <Superdestacado/>
-    <Imagenes_Certificado/>
-  </inmueble>
-  <inmueble>
     <IdFicha>inmo_02814_344821</IdFicha>
     <IdAgencia>inmo_02814</IdAgencia>
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA46</Referencia>
     <FechaAlta>2024-01-31</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -2929,218 +2246,12 @@
     <Imagenes_Certificado/>
   </inmueble>
   <inmueble>
-    <IdFicha>inmo_02814_334747</IdFicha>
-    <IdAgencia>inmo_02814</IdAgencia>
-    <TipoGenerico>Edificio</TipoGenerico>
-    <Referencia>VBM0900123</Referencia>
-    <FechaAlta>2023-09-20</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
-    <Estado>Disponible</Estado>
-    <SubEstado/>
-    <TipoEspecifico>Otro</TipoEspecifico>
-    <Pais>España</Pais>
-    <SituacionConcreta>Calle de la Rosa</SituacionConcreta>
-    <TipoVia>Calle</TipoVia>
-    <NombreVia>de la Rosa</NombreVia>
-    <NumeroVia/>
-    <SuperficieUtil>600.00</SuperficieUtil>
-    <SuperficieConstruida>655.00</SuperficieConstruida>
-    <PrecioVenta>890000</PrecioVenta>
-    <PrecioAlquiler/>
-    <PrecioTraspaso/>
-    <PrecioSubasta/>
-    <PrecioAlquilerTemporada/>
-    <Comunidad>Cataluña</Comunidad>
-    <Provincia>Barcelona</Provincia>
-    <Localidad>Viladecans</Localidad>
-    <CodigoPostal>08840</CodigoPostal>
-    <Zona>Torrent Ballester</Zona>
-    <Anuncio><![CDATA[Oportunidad en Viladecans: Edificio con 2 viviendas y una pensión de 10 habitaciones con lavabos, ubicado en una tranquila zona residencial en Viladecans. Este edificio se compone de tres construcciones con accesos independientes desde dos calles.  La vivienda principal cuenta con 6 habitaciones, 2 baños, un espacioso salón comedor, una amplia cocina y un jardín privado.   La pensión, en pleno funcionamiento y con todos los permisos en regla, ofrece 10 habitaciones con baño propio: 6 habitaciones dobles y 4 habitaciones individuales. Además, dispone de un acogedor recibidor y una sala de estar con acceso a una extensa terraza. Hay piscina y parking.  La tercera construcción es una vivienda de aproximadamente 110 m2 que incluye 3 habitaciones: una suite doble, otra habitación doble y una individual. Además, cuenta con trastero, jardín y una sala de estar con cocina abierta que se abre a un encantador espacio al aire libre.  Esta propiedad ofrece una oportunidad única para aquellos que buscan un inmueble versátil con múltiples posibilidades de uso y una ubicación privilegiada: A pocos minutos del aeropuerto y bien comunicado con Barcelona ]]></Anuncio>
-    <Slogan><![CDATA[Edificio con 2 viviendas y una pensión de 10 habitaciones ]]></Slogan>
-    <ReferenciaCatastral/>
-    <Latitud>41.3200331</Latitud>
-    <Longitud>2.0040981</Longitud>
-    <ContratoExclusividad>0</ContratoExclusividad>
-    <FechaFinExclusiva/>
-    <ObraNueva>No</ObraNueva>
-    <Apialia>0</Apialia>
-    <Bancario>0</Bancario>
-    <Visibilidad>2</Visibilidad>
-    <Caracteristicas>
-      <Caracteristica>
-        <Descripcion>Año construcción</Descripcion>
-        <Valor>1964</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Estado conservación</Descripcion>
-        <Valor>Buena</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de dormitorios</Descripcion>
-        <Valor/>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Tipo edificio</Descripcion>
-        <Valor>Otros</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Superficie solar</Descripcion>
-        <Valor>967.00</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Observaciones</Descripcion>
-        <Valor>   </Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ubicación local</Descripcion>
-        <Valor>A pie de calle</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parcela (m2)</Descripcion>
-        <Valor/>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Calefacción</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parking</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Soleado</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Vistas</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Autobus</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Buena comunicación</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Indice de referencia de precios de alquiler</Descripcion>
-        <Valor>No disponible</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Importe de la renta del último contrato de arrenda</Descripcion>
-        <Valor/>
-      </Caracteristica>
-    </Caracteristicas>
-    <Imagenes>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_aa1a3a8a9d7551ae15524056bd84d817.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_d7661c1b5a551090bfef39d2a9364955.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_7f05228dd73e45777b97ed90b0e00c09.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_f0ccf2f096c3b831401bab628402b151.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_8eb69909bb5b3a5711b7a55a14a21dbd.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_12f99c195f97f3cd9777042a8d8a8a12.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_9ce29711dbcb5296088e57f15271c40e.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_472a0d2d71b9f4e78e85dfd800676b9c.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_77e50b6775e255d6219eb124a74621e1.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_59b78d29fe1aa649c0d513703937aa99.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_e627bc01e54302af68c0146aeeb0c28e.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_697890cb5e76a6036c6cdd283372bd71.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_6c7f92912a384fe42413a8d8ecec4f86.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_da8b5f02a7053bc6a559dffdae18ce34.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_5a41aadb4c959172e0fbb2cc54a0147d.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_e48c0cd3c2c19c2fd6274b8e44c0a9e5.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_50bf601ef1185bd954d31be7205bf897.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_413748253af90ac4b3d5dab9d318fa2c.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_34260e98c39809fe5a10cf7f60a4a06b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_12c751c9940e282c28b5d46853815b50.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_52f0a4d6ad56a522754933398cc8ae8a.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_2b6faf01ea30d98ed89cda2e2b4741ec.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_35224dd26a5f46267cfb583e9b815f0b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images33/334747/images/085170700_8ddd32ab55e9881a339ebed7456420bf.jpg</url>
-      </foto>
-    </Imagenes>
-    <Destacado/>
-    <Superdestacado/>
-    <Imagenes_Certificado/>
-  </inmueble>
-  <inmueble>
     <IdFicha>inmo_02814_325752</IdFicha>
     <IdAgencia>inmo_02814</IdAgencia>
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA91</Referencia>
     <FechaAlta>2023-05-29</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -3334,7 +2445,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA92</Referencia>
     <FechaAlta>2021-08-10</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -3532,7 +2643,7 @@
     <TipoGenerico>Suelo</TipoGenerico>
     <Referencia>050</Referencia>
     <FechaAlta>2017-01-21</FechaAlta>
-    <FechaModificacion>2025-04-29</FechaModificacion>
+    <FechaModificacion>2025-06-13</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Suelo urbano</TipoEspecifico>
