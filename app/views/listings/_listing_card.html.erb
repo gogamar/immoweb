@@ -11,7 +11,9 @@
         <% if listing.photos.attached? %>
           <% photo = listing.photos.first %>
           <%= image_tag photo.url, alt: "#{listing.listing_subtype} #{listing.town_name}", class: "img-fluid rounded-top" %>
-
+        <% elsif listing.image_urls.exists? %>
+          <% img_url = listing.image_urls.first %>
+          <%= image_tag img_url.url, alt: "#{listing.listing_subtype} #{listing.town_name}", class: "img-fluid rounded-top" %>
         <% end %>
 
         <% if listing.mark.present? %>
