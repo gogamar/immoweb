@@ -19,7 +19,7 @@ class GetPropertiesService
 
   def initialize
     @logger = Rails.logger
-    @stats = { processed: 0, created: 0, updated: 0, deactivated: 0, errors: 0 }
+    @stats = { processed: 0, created: 0, updated: 0, deactivated: 0, errors: 0, images_processed: 0 }
   end
 
   def call
@@ -144,7 +144,7 @@ class GetPropertiesService
     listing.user ||= admin_user
 
     if listing.save
-      process_images_for(listing, gh_listing)
+      process_images_for_listing(listing, gh_listing)
 
       if is_new_record
         @stats[:created] += 1
@@ -250,15 +250,20 @@ class GetPropertiesService
     mapping ? mapping[value] : value
   end
 
-  def process_images_for(listing, gh_listing)
-    image_urls = extract_image_urls(gh_listing)
-    return if image_urls.empty?
+  def process_images_for_listing(listing, gh_listing)
+    image_urls_from_xml = extract_image_urls(gh_listing)
+    return if image_urls_from_xml.empty?
 
-    # Remove images no longer in the feed
-    purge_outdated_images(listing, image_urls)
+    @logger.debug "Processing #{image_urls_from_xml.size} images for listing #{listing.idfile}"
 
-    # Add new images in batch to avoid deprecation warning
-    attach_new_images_batch(listing, image_urls)
+    # Remove image_urls no longer in the feed
+    remove_outdated_image_urls(listing, image_urls_from_xml)
+
+    # Create new image_url records for new URLs
+    create_new_image_urls(listing, image_urls_from_xml)
+
+    # Use ImageKit service to migrate images
+    migrate_images_to_imagekit(listing)
   rescue => e
     @logger.error "Error processing images for listing #{listing.idfile}: #{e.message}"
   end
@@ -267,57 +272,44 @@ class GetPropertiesService
     gh_listing.search('foto url').map(&:text).compact.map(&:strip).reject(&:blank?)
   end
 
-  def purge_outdated_images(listing, current_urls)
-    listing.photos.attachments.each do |attachment|
-      source_url = attachment.blob.metadata['source_url']
-      attachment.purge_later unless current_urls.include?(source_url)
+  def remove_outdated_image_urls(listing, current_urls)
+    # Remove image_url records that are no longer in the XML feed
+    outdated_image_urls = listing.image_urls.where.not(url: current_urls)
+
+    if outdated_image_urls.any?
+      @logger.debug "Removing #{outdated_image_urls.count} outdated images for listing #{listing.idfile}"
+      outdated_image_urls.destroy_all
     end
   end
 
-  def attach_new_images_batch(listing, image_urls)
-    existing_urls = listing.photos.map { |photo| photo.blob.metadata['source_url'] }
-    new_urls = image_urls - existing_urls
+  def create_new_image_urls(listing, image_urls_from_xml)
+    existing_urls = listing.image_urls.pluck(:url)
+    new_urls = image_urls_from_xml - existing_urls
 
     return if new_urls.empty?
 
-    # Download all images first, then attach in batch
-    attachables = []
-    new_urls.each do |url|
-      attachable = download_image_for_attachment(url)
-      attachables << attachable if attachable
+    @logger.debug "Creating #{new_urls.size} new image_url records for listing #{listing.idfile}"
+
+    new_image_urls = new_urls.map do |url|
+      {
+        url: url,
+        listing_id: listing.id,
+        created_at: Time.current,
+        updated_at: Time.current
+      }
     end
 
-    # Attach all images at once to avoid deprecated behavior
-    listing.photos.attach(attachables) if attachables.any?
+    # Bulk insert for efficiency
+    listing.image_urls.insert_all(new_image_urls) if new_image_urls.any?
+    @stats[:images_processed] += new_image_urls.size
   end
 
-  def download_image_for_attachment(url)
-    retries = 0
-
-    begin
-      io = URI.open(url, read_timeout: 30)
-      filename = File.basename(URI.parse(url).path)
-      filename = "image_#{SecureRandom.hex(4)}.jpg" if filename.blank?
-
-      {
-        io: io,
-        filename: filename,
-        content_type: io.content_type || 'image/jpeg',
-        metadata: { source_url: url }
-      }
-    rescue => e
-      retries += 1
-      if retries <= MAX_RETRIES
-        @logger.warn "Image download failed for #{url}, retry #{retries}: #{e.message}"
-        sleep(RETRY_DELAY)
-        retry
-      else
-        @logger.error "Failed to download image #{url} after #{MAX_RETRIES} retries: #{e.message}"
-        nil
-      end
-    ensure
-      # Note: Don't close io here as Active Storage needs it open
-    end
+  def migrate_images_to_imagekit(listing)
+    # Use the ImageKit service to migrate any images that aren't already on ImageKit
+    imagekit_service = ImagekitService.new(listing)
+    imagekit_service.migrate_images
+  rescue => e
+    @logger.error "Error migrating images to ImageKit for listing #{listing.idfile}: #{e.message}"
   end
 
   def deactivate_missing_listings
@@ -356,6 +348,7 @@ class GetPropertiesService
       - Created: #{@stats[:created]}
       - Updated: #{@stats[:updated]}
       - Deactivated: #{@stats[:deactivated]}
+      - Images processed: #{@stats[:images_processed]}
       - Errors: #{@stats[:errors]}
     LOG
   end

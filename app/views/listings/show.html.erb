@@ -10,13 +10,7 @@
             </div>
             <div class="tns-carousel-inner listings-show" data-carousel-options="{&quot;navAsThumbnails&quot;: true, &quot;navContainer&quot;: &quot;#thumbnails&quot;, &quot;gutter&quot;: 12, &quot;responsive&quot;: {&quot;0&quot;:{&quot;controls&quot;: false},&quot;500&quot;:{&quot;controls&quot;: true}}}">
 
-              <% if @listing.photos.attached? %>
-                <% @listing.photos.each do |photo| %>
-                  <div>
-                    <%= image_tag photo.url, alt: "#{@listing.listing_subtype} #{@listing.town_name}", class: "img-fluid" %>
-                  </div>
-                <% end %>
-              <%elsif @listing.image_urls.exists? %>
+              <%if @listing.image_urls.any? %>
                 <% @listing.image_urls.each do |image| %>
                   <div>
                     <%= image_tag image.url, alt: "#{@listing.listing_subtype} #{@listing.town_name}", class: "img-fluid" %>
@@ -31,7 +25,15 @@
             <% if @listing.photos.attached? %>
               <% @listing.photos.each do |photo| %>
                 <li class="tns-thumbnail listings-show-thumbnail">
-                  <%= image_tag photo.url, alt: "#{@listing.listing_subtype} #{@listing.town_name}"%>
+                  <%= image_tag(
+          # if you want ImageKit on-the-fly transforms:
+          photo
+            .variant(resize_to_limit: [400, 300])
+            .processed
+            .service_url(transformation: [{ width: 400, height: 300 }]),
+          alt:   "#{@listing.listing_subtype} #{@listing.town_name}",
+          class: "img-fluid rounded-top"
+        ) %>
                 </li>
               <% end %>
             <%elsif @listing.image_urls.exists? %>

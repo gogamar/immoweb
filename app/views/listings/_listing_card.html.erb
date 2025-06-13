@@ -2,22 +2,27 @@
 <div class="col-sm-6 col-xl-4">
   <div class="card shadow-sm card-hover border-0 h-100">
     <%= link_to listing_path(listing) do %>
-      <div class="card-img-top card-img-hover">
+      <div class="card-img-top card-img-hover position-relative overflow-hidden" style="height: 240px;">
         <% badge = listing.operation == "rent" ? t('for_rent') : t('for_sale') %>
-        <div class="position-absolute start-0 top-0 pt-3 ps-3">
+        <div class="position-absolute start-0 top-0 pt-3 ps-3" style="z-index: 2;">
           <span class="d-table badge bg-success mb-1"><%= badge %></span>
         </div>
 
-        <% if listing.photos.attached? %>
-          <% photo = listing.photos.first %>
-          <%= image_tag photo.url, alt: "#{listing.listing_subtype} #{listing.town_name}", class: "img-fluid rounded-top" %>
-        <% elsif listing.image_urls.exists? %>
+        <% if listing.image_urls.present? %>
           <% img_url = listing.image_urls.first %>
-          <%= image_tag img_url.url, alt: "#{listing.listing_subtype} #{listing.town_name}", class: "img-fluid rounded-top" %>
+          <%= image_tag img_url.url,
+                alt: "#{listing.listing_subtype} #{listing.town_name}",
+                class: "w-100 h-100 rounded-top",
+                style: "object-fit: cover; object-position: center;" %>
+        <% else %>
+          <!-- Placeholder for listings without images -->
+          <div class="w-100 h-100 rounded-top bg-light d-flex align-items-center justify-content-center">
+            <i class="fi-image fs-1 text-muted"></i>
+          </div>
         <% end %>
 
         <% if listing.mark.present? %>
-          <div class="position-absolute start-50 top-50 translate-middle text-danger d-flex justify-content-center align-items-center fs-1 fw-bold text-uppercase">
+          <div class="position-absolute start-50 top-50 translate-middle text-danger d-flex justify-content-center align-items-center fs-1 fw-bold text-uppercase" style="z-index: 3;">
             <% if listing.mark == "sold" %>
               <%= t('sold') %>
             <% elsif listing.mark == "rented" %>
