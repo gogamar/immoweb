@@ -6,7 +6,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA55</Referencia>
     <FechaAlta>2025-05-29</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -240,7 +240,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA88</Referencia>
     <FechaAlta>2025-03-22</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -434,7 +434,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA12</Referencia>
     <FechaAlta>2025-03-22</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Chalet / Torre</TipoEspecifico>
@@ -588,7 +588,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA55</Referencia>
     <FechaAlta>2025-03-21</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -783,7 +783,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA99</Referencia>
     <FechaAlta>2025-03-21</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -993,7 +993,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA75</Referencia>
     <FechaAlta>2024-10-04</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -1131,7 +1131,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA45</Referencia>
     <FechaAlta>2024-09-17</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -1526,7 +1526,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA1000</Referencia>
     <FechaAlta>2024-07-16</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -1759,232 +1759,12 @@
     <Imagenes_Certificado/>
   </inmueble>
   <inmueble>
-    <IdFicha>inmo_02814_354253</IdFicha>
-    <IdAgencia>inmo_02814</IdAgencia>
-    <TipoGenerico>Casa</TipoGenerico>
-    <Referencia>VT240501</Referencia>
-    <FechaAlta>2024-05-29</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
-    <Estado>Disponible</Estado>
-    <SubEstado/>
-    <TipoEspecifico>Masia</TipoEspecifico>
-    <Pais>España</Pais>
-    <SituacionConcreta>Carretera de Juià</SituacionConcreta>
-    <TipoVia>Carretera</TipoVia>
-    <NombreVia>de Juià</NombreVia>
-    <NumeroVia/>
-    <SuperficieUtil>390.00</SuperficieUtil>
-    <SuperficieConstruida>490.00</SuperficieConstruida>
-    <PrecioVenta>525000</PrecioVenta>
-    <PrecioAlquiler/>
-    <PrecioTraspaso/>
-    <PrecioSubasta/>
-    <PrecioAlquilerTemporada/>
-    <Comunidad>Cataluña</Comunidad>
-    <Provincia>Girona</Provincia>
-    <Localidad>Celrà</Localidad>
-    <CodigoPostal>17460</CodigoPostal>
-    <Zona/>
-    <Anuncio><![CDATA[Si buscas un hogar lleno de carácter, historia y encanto, esta masía del siglo XVIII es para ti. Con una superficie construida de aproximadamente 380 m  y construida en piedra natural, la propiedad te permitirá disfrutar de una temperatura fresca en verano y cálida en invierno, asegurando el máximo confort todo el año.    Distribuida en tres plantas, la planta baja cuenta con una cocina rústica, un amplio comedor con sala de estar, dos habitaciones, un baño y una encantadora bodega. La primera planta ofrece otro gran comedor, cuatro habitaciones dobles y un baño completo. En la segunda planta encontrarás una sala de estar y dos habitaciones más, con posibilidad de ampliarlas a cuatro según tus necesidades.    En el exterior, la masía se encuentra en una parcela espectacular de 2120 m , con anexos de 100 m  que pueden adaptarse a diversos usos. Además, cuenta con una era espectacular, ideal para tomar algo y disfrutar de la tranquilidad del entorno. Orientada al sur, disfrutarás de luz natural durante todo el día.    Es un lugar perfecto para los amantes de la naturaleza, ya que se encuentra justo frente al Massís de Les Gavarres, donde podrás disfrutar de rutas de senderismo, ciclismo y excursiones por la montaña. Posibilidad de aumentar edificabilidad.  ]]></Anuncio>
-    <Slogan><![CDATA[Masía única del siglo XVIII en Celrà, cerca de Girona, la Costa Brava y Les Gavarres]]></Slogan>
-    <AnuncioCAT><![CDATA[Si estàs buscant una llar plena de caràcter, història i encant, aquesta masia del segle XVIII és per a tu. Amb una superfície construïda d aproximadament 380 m  i construïda en pedra natural, aquesta propietat et permet gaudir d una temperatura fresca a l estiu i càlida a l hivern, oferint el màxim confort durant tot l any.    Distribuïda en tres plantes, la planta baixa compta amb una cuina rústica, un ampli menjador amb sala d'estar, dues habitacions, un bany i una encantadora bodega. La primera planta ofereix un altre gran menjador, quatre habitacions dobles i un bany complet. A la segona planta trobaràs una sala d'estar i dues habitacions més, amb possibilitat d ampliar a quatre segons les teves necessitats.    A l exterior, aquesta masia se situa en una espectacular parcel·la de 2120 m , amb annexos de 100 m  que es poden adaptar a diferents usos. Inclou una era encantadora, ideal per prendre alguna cosa mentre gaudeixes de la tranquil·litat i les vistes. Orientada al sud, gaudiràs de llum natural durant tot el dia.    A més, aquesta propietat és perfecta per als amants de la natura, ja que es troba just al costat del Massís de Les Gavarres, on podràs gaudir de rutes de senderisme, ciclisme i excursions per la muntanya. Possibilitat d'augmentar l'edificabilitat.    ]]></AnuncioCAT>
-    <SloganCAT><![CDATA[Masia única del segle XVIII a Celrà, a prop de Girona, la Costa Brava i Les Gavarres]]></SloganCAT>
-    <AnuncioENG><![CDATA[If you're looking for a home full of character, history, and charm, this 18th-century masia is for you. With a built area of approximately 380 m  and constructed from natural stone, this property offers cool summers and warm winters, providing year-round comfort.    Spread across three floors, the ground floor features a rustic kitchen, a spacious dining room with a living area, two bedrooms, a bathroom, and a charming wine cellar. The first floor offers another large dining room, four double bedrooms, and a full bathroom. The second floor has a living room and two more bedrooms, with the potential to convert into four rooms as needed.    Outside, the masia is set on a spectacular 2120 m  plot with additional outbuildings of approximately 100 m  that can be adapted for various uses. It also includes a stunning courtyard, perfect for enjoying a drink while taking in the peaceful surroundings. South-facing, you'll enjoy natural light all day long.    For nature lovers, the location is ideal, just across the road from the Les Gavarres mountain range, perfect for hiking, cycling, and mountain adventures. It s also conveniently close to schools, the train station, supermarkets, and essential services.    Whether you're looking for a unique family home or a rural tourism project like a guesthouse or hotel, this is a rare opportunity, just minutes from Girona and the beautiful Costa Brava.Possibility of increasing buildability.]]></AnuncioENG>
-    <SloganENG><![CDATA[Unique 18th-Century Masia in Celrà, near Girona, the Costa Brava, and Les Gavarres]]></SloganENG>
-    <AnuncioFR><![CDATA[Si vous recherchez une maison pleine de caractère, d'histoire et de charme, cette masia du XVIIIe siècle est faite pour vous. Avec une surface bâtie d'environ 380 m  et construite en pierre naturelle, elle vous offrira une fraîcheur en été et une chaleur agréable en hiver, garantissant un confort tout au long de l'année.    Répartie sur trois étages, le rez-de-chaussée comprend une cuisine rustique, une grande salle à manger avec un salon, deux chambres, une salle de bains et une cave à vin pleine de charme. Le premier étage offre une autre grande salle à manger, quatre chambres doubles et une salle de bains complète. Au deuxième étage, vous trouverez un salon et deux autres chambres, avec la possibilité d'en aménager quatre selon vos besoins.    À l'extérieur, la masia est située sur un terrain spectaculaire de 2120 m , avec des annexes d'environ 100 m  adaptables à différents usages. Elle dispose également d'une cour magnifique, parfaite pour prendre un verre tout en profitant de la tranquillité. Orientée plein sud, vous profiterez de la lumière naturelle toute la journée.    Pour les amoureux de la nature, l'emplacement est idéal, juste en face du Massif des Gavarres, parfait pour la randonnée, le cyclisme et les aventures en montagne. De plus, elle est proche des écoles, de la gare, des supermarchés et de tous les services essentiels.Possibilité d'augmenter la constructibilité.    ]]></AnuncioFR>
-    <SloganFR><![CDATA[Masia unique du XVIIIe siècle à Celrà, près de Gérone, la Costa Brava et Les Gavarres]]></SloganFR>
-    <ReferenciaCatastral/>
-    <Latitud>42.0265148</Latitud>
-    <Longitud>2.8840751</Longitud>
-    <ContratoExclusividad>1</ContratoExclusividad>
-    <FechaFinExclusiva>2024-11-26</FechaFinExclusiva>
-    <ObraNueva>No</ObraNueva>
-    <Apialia/>
-    <Bancario>0</Bancario>
-    <Visibilidad>2</Visibilidad>
-    <Caracteristicas>
-      <Caracteristica>
-        <Descripcion>Año construcción</Descripcion>
-        <Valor>1860</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Estado conservación</Descripcion>
-        <Valor>Necesita reforma</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de baños</Descripcion>
-        <Valor>2</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Nº de dormitorios</Descripcion>
-        <Valor>10</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Dormitorios dobles</Descripcion>
-        <Valor>10</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Zona ajardinada</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Observaciones</Descripcion>
-        <Valor> </Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Ubicación local</Descripcion>
-        <Valor>A pie de calle</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parcela (m2)</Descripcion>
-        <Valor>2120.00</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Calefacción</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Parking</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Soleado</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Vistas</Descripcion>
-        <Valor>Si</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Indice de referencia de precios de alquiler</Descripcion>
-        <Valor>No disponible</Valor>
-      </Caracteristica>
-      <Caracteristica>
-        <Descripcion>Importe de la renta del último contrato de arrenda</Descripcion>
-        <Valor/>
-      </Caracteristica>
-    </Caracteristicas>
-    <Imagenes>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_fd098aebc666f22f9c93348a4bc28899.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_7755aaf35e9e6f450ec5b4223115894b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_c777ba73cc2fe528518dbb820cf5e933.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_3ad0453f0c79b8121781f6108b5eb53d.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_c2d68ee331ffa14efc8d7232929c504e.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_ffbb8fd8f04f1a9f7d157e99d8b4b4e6.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_ebf3fdc99677facc196cf1b49951579e.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_3ca6860c092f7729ccf797d2418abc32.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_74ab3300a600b4e6de39b40a0ab7aecc.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_0b6f0b783550a979f767c84dcc124842.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_58d3d1774fe5e82a49fbf7e59cdc964b.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_b6bf6ca320aec53a813980e7e6dd136a.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_26b1200d211c57d58c05e3ea9025627c.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_6afb5cebc6f6add7203250466122734d.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_635b60f163d903955e2cf7cfd93e93f8.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_edb502a1ec4e80d968ae6fbe269828d9.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_b5b44ffef467799e36d358bafa805f36.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_f74868b9daee2b2c6fcf07c8e7cfdc93.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_59060d24a0da25d1a818eb7515688403.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_4a172ddc2dfc0727d0df801d35f53b30.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_99feb0b662ab3a4aa421736cd30ed357.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_bcf68e804c47549abfd2ed6638e10e59.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_97882e90a1ddaefa9b10430412b7f605.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_fde8241dbde3e1227329ffc2cd5844b4.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_17e5fe1165110dbedfda41a894e9bdbb.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_a82e4160547dd4e665ba209f02b9c2c7.jpg</url>
-      </foto>
-      <foto>
-        <Nombre/>
-        <url>http://imagenes.ghestia.cat/images/ghestia/files/properties/images35/354253/images/354253_86ba993b935ebbb771ba158511d32fa3.jpg</url>
-      </foto>
-    </Imagenes>
-    <Destacado/>
-    <Superdestacado/>
-    <Imagenes_Certificado/>
-  </inmueble>
-  <inmueble>
     <IdFicha>inmo_02814_344821</IdFicha>
     <IdAgencia>inmo_02814</IdAgencia>
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA46</Referencia>
     <FechaAlta>2024-01-31</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -2251,7 +2031,7 @@
     <TipoGenerico>Casa</TipoGenerico>
     <Referencia>VA91</Referencia>
     <FechaAlta>2023-05-29</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Unifamiliar adosada</TipoEspecifico>
@@ -2445,7 +2225,7 @@
     <TipoGenerico>Piso</TipoGenerico>
     <Referencia>VA92</Referencia>
     <FechaAlta>2021-08-10</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Apartamento</TipoEspecifico>
@@ -2643,7 +2423,7 @@
     <TipoGenerico>Suelo</TipoGenerico>
     <Referencia>050</Referencia>
     <FechaAlta>2017-01-21</FechaAlta>
-    <FechaModificacion>2025-06-13</FechaModificacion>
+    <FechaModificacion>2025-06-14</FechaModificacion>
     <Estado>Disponible</Estado>
     <SubEstado/>
     <TipoEspecifico>Suelo urbano</TipoEspecifico>
